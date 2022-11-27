@@ -4,6 +4,7 @@ highlighter: shiki
 css: unocss
 lineNumbers: true
 colorSchema: dark
+title: 虚拟现实与数字孪生
 ---
 
 # 虚拟现实与数字孪生
@@ -24,6 +25,10 @@ Virtual Reality and Digital Twins.
   </div>
 </div>
 
+<!--
+今天由我来讲一下《虚拟现实与数字孪生》有关的知识分享还有与我们公司的一些项目结合，产生的一些想法
+-->
+
 ---
 src: '../../reuse/intro.md'
 ---
@@ -34,29 +39,45 @@ layout: intro
 
 # 什么是虚拟现实？
 
----
-layout: image
-
-# the image source
-image: https://img.js.design/assets/img/637cd9498f66b414f2ed2564.png#1f8637af5f05f393dbff2c12be2f0cdb
-
----
+<!--
+那很多人其实已经知道了虚拟现实，英文就叫VR，Virtual Reality。VR眼镜，VR设备特别是在游戏领域。但不看表面看本质，它其实就是一块戴在眼镜上的显示器。显示器上呈现出3D内容，让你近似感觉在虚拟的现实世界一样。
+-->
 
 ---
 layout: image
-
-# the image source
-image: https://img.js.design/assets/img/637cd978234a79bb071b0d1c.png#dc8f881e016443cc653e4273571de242
-
+image: >-
+  https://img.js.design/assets/img/637cd9498f66b414f2ed2564.png#1f8637af5f05f393dbff2c12be2f0cdb
 ---
+
+
+
+<!--
+就像以前windows的3D迷宫屏幕保护程序
+-->
 
 ---
 layout: image
+image: >-
+  https://img.js.design/assets/img/637cd978234a79bb071b0d1c.png#dc8f881e016443cc653e4273571de242
+---
 
-# the image source
-image: https://img.js.design/assets/img/637cd9b2e84aeeab1bf7dc92.png#c36e1b0ac10874ee20640bc3b53a45f5
+
+
+<!--
+3D的FPS游戏，都是在2D屏幕上模拟3D的效果，这种演进很好的说明了我们有这样的需求，希望画出来的世界更加逼近真实世界
+-->
 
 ---
+layout: image
+image: >-
+  https://img.js.design/assets/img/637cd9b2e84aeeab1bf7dc92.png#c36e1b0ac10874ee20640bc3b53a45f5
+---
+
+
+
+<!--
+同时我也相信，未来也会有类似《头号玩家》电影中的虚拟设备的出现。这都反映了信息的传递正在一步步的变化与变革
+-->
 
 ---
 layout: center
@@ -85,6 +106,10 @@ layout: center
 
 - 到了现代，5G已经全面展开商用，VR，AR，MR，XR，数字孪生，数字人，元宇宙...
 
+<!--
+从最初的声音，到文字，到通过电磁技术来更远的传播信息的载体，比如文字，图片，声音，到现在的视频。5G，6G等通信技术的发展，势必带来VR等一些新新技术的扩散与迭代。除了VR，也介绍一下其他正在推进的显示技术
+-->
+
 ---
 layout: quote
 ---
@@ -94,10 +119,15 @@ layout: quote
 
 ---
 layout: image
-
-image: https://img.alicdn.com/imgextra/i4/2207690525542/O1CN01y0ZBv01qoHnBKKugv_!!2207690525542.jpg
+image: >-
+  https://img.alicdn.com/imgextra/i4/2207690525542/O1CN01y0ZBv01qoHnBKKugv_!!2207690525542.jpg
 ---
 
+
+
+<!--
+看世界杯
+-->
 
 ---
 layout: quote
@@ -118,14 +148,24 @@ layout: quote
 ---
 
 # 混合现实MR
-在增强现实和虚拟现实之间转换的体验形成了混合现实 
+在增强现实和虚拟现实之间转换的体验形成了混合现实
+
 
 ---
 layout: image
-
-image: https://cdn.microsoftstore.com.cn/media/catalog/product/cache/7abce94ad89cfb8ca19b9f2425335e01/b/u/buybox_banner_0_pc_2.jpg
+image: >-
+  https://cdn.microsoftstore.com.cn/media/catalog/product/cache/7abce94ad89cfb8ca19b9f2425335e01/b/u/buybox_banner_0_pc_2.jpg
 ---
 
+
+
+<!--
+微软的MR眼镜，有了交互感
+-->
+
+---
+layout: quote
+---
 
 # 扩展现实XR
 人类交互方式的终极形态
@@ -190,6 +230,10 @@ layout: quote
 <img src="https://img.js.design/assets/img/6381dc0d4d2016ae967beb22.jpeg#eac91d736501b0a1915180b3c72785fd" />
 </div>
 
+<!--
+报名，学习，上课，练习，考试，就像大部分在线教育app一样，但取证最重要的环节，实践，在真实环境下操作的环境并没有，现在目前只有线下的练习与操作
+-->
+
 ---
 layout: quote
 ---
@@ -200,6 +244,10 @@ layout: quote
 <img class="h-200px" src="https://img.js.design/assets/img/637f6a77e72d9870541110ed.png#eb28aa37f619541c0f39ae997d97fedc"/>
 <img class="h-200px" src="https://img.js.design/assets/img/637f6af932fd15d93da7a7c0.png#73275a5e04ddbee4fdd41e6f1e803042"/>
 </div>
+
+<!--
+如果将VR技术带入其中，学员可以戴着设备，真实的体验每一项操作，我认为体验感会提高不少
+-->
 
 ---
 layout: quote
@@ -219,7 +267,9 @@ layout: quote
 <img class="h-200px" src="https://img.js.design/assets/img/6381de925663cae5a80c30a0.png#556522a8d410a88d85e3581975dfc264"/>
 </div>
 
-
+<!--
+其实这次评选中也提出，“宜支持与虚拟现实等新技术进行交互”，加上政策导向，也佐证了这一点，国家也是在支持与努力推荐虚拟技术在工业上的发展
+-->
 
 ---
 layout: intro
@@ -227,6 +277,9 @@ layout: intro
 
 # 什么是数字孪生？
 
+<!--
+刚刚的虚拟技术与现在讲的数字孪生其实都与3D技术离不开关系
+-->
 
 ---
 layout: two-cols

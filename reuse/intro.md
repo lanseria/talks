@@ -1,5 +1,6 @@
 ---
-layout: 'intro'
+layout: intro
+title: 张超
 ---
 
 # 张超
@@ -26,3 +27,7 @@ layout: 'intro'
 <div flex="~ gap2">
 
 </div>
+
+<!--
+首先先自我介绍一下，我是来自软件事业部的前端开发工程师
+-->
