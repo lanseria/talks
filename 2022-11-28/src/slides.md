@@ -640,10 +640,22 @@ layout: statement
 # 1. 你觉得未来的显示方式有哪些？
 
 ---
+layout: section
+---
+
+VR,AR,MR,XR,等等
+
+---
 layout: statement
 ---
 
 # 2. GIS影像目前有哪几家？
+
+---
+layout: section
+---
+
+百度,必应,天地图,谷歌,高德等等
 
 ---
 layout: statement
@@ -652,7 +664,19 @@ layout: statement
 # 3. 常用的 GIS 坐标系有哪几种？
 
 ---
+layout: section
+---
+
+WSG84,GCJ02,BD09等等
+
+---
 layout: statement
 ---
 
 # 4. 数字孪生有哪些应用？
+
+---
+layout: section
+---
+
+信号基站选址,机器人调试,管道建设,自动驾驶模拟训练等等
