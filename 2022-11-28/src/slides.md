@@ -588,7 +588,7 @@ layout: quote
 
 # 结合虚拟现实与数字孪生
 
-<div class="grid grid-cols-2">
+<div class="grid grid-cols-2 grid-rows-2 gap-2">
 <img class="w-400px h-200px" src="https://ccdn.goodq.top/caches/49ba5ac80d26c3c8efc2aad117e60f70/aHR0cHM6Ly93d3cuY2hhbmdoZXZyLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjIvMDkvZTRiODAwYzFiOGJiNGE2MWYxMDA5ODMzY2RkOGQyMTktMzAweDIwMC5qcGc_p_p100_p_3D.jpg"/>
 <img class="w-400px h-200px" src="https://ccdn.goodq.top/caches/49ba5ac80d26c3c8efc2aad117e60f70/aHR0cHM6Ly93d3cuY2hhbmdoZXZyLmNvbS9xZnktY29udGVudC91cGxvYWRzLzIwMjIvMDkvMzA3OWFmMzIzNWJmOWM4ODQ4M2VlNmNlNzE2YjdmMzktMzAweDIwMC5wbmc_p_p100_p_3D.png"/>
 <img class="w-400px h-200px" src="https://pic2.zhimg.com/80/v2-39f4dd1a3960bb37dd652abe146638a1_720w.webp"/>
@@ -640,10 +640,10 @@ layout: statement
 # 1. 你觉得未来的显示方式有哪些？
 
 ---
-layout: section
+layout: center
 ---
 
-VR,AR,MR,XR,等等
+# VR,AR,MR,XR,等等
 
 ---
 layout: statement
@@ -652,10 +652,10 @@ layout: statement
 # 2. GIS影像目前有哪几家？
 
 ---
-layout: section
+layout: center
 ---
 
-百度,必应,天地图,谷歌,高德等等
+# 百度,必应,天地图,谷歌,高德等等
 
 ---
 layout: statement
@@ -664,10 +664,10 @@ layout: statement
 # 3. 常用的 GIS 坐标系有哪几种？
 
 ---
-layout: section
+layout: center
 ---
 
-WSG84,GCJ02,BD09等等
+# WSG84,GCJ02,BD09等等
 
 ---
 layout: statement
@@ -676,7 +676,7 @@ layout: statement
 # 4. 数字孪生有哪些应用？
 
 ---
-layout: section
+layout: center
 ---
 
-信号基站选址,机器人调试,管道建设,自动驾驶模拟训练等等
+# 信号基站选址,机器人调试,管道建设,自动驾驶模拟训练等等
