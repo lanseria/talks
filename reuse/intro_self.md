@@ -3,10 +3,10 @@ layout: intro
 title: 张超
 ---
 
-# 张超
+# 爱吃包子的超
 
 <div class="leading-8 opacity-80">
-赵吉庆部长带领下，软件事业部的成员<br>
+业务全栈程序员<br>
 从事前端工程师<br>
 目前研究 GIS 与视觉效果方面技术<br>
 </div>
@@ -19,7 +19,7 @@ title: 张超
   <div i-ri-bilibili-line op50 ma text-xl/>
   <div><a href="https://space.bilibili.com/8487409" target="_blank">爱吃包子的超</a></div>
   <div i-ri-mail-line op50 ma text-xl/>
-  <div><a href="mailto:zhangchao@csafety.cn" target="_blank">zhangchao@csafety.cn</a></div>
+  <div><a href="mailto:564265135@qq.com" target="_blank">564265135@qq.com</a></div>
 </div>
 
 <img src="https://wx.qlogo.cn/mmhead/Q3auHgzwzM7GOwhv9UcDveIfficaoywicZQojy3lRNfR3tr1PQUXZ7QQ/0" rounded-full w-40 abs-tr mt-16 mr-12/>
