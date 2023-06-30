@@ -4,18 +4,7 @@ Slides &amp; code for my talks
 
 ###### 2022
 
-- [en] [Patterns in VueUse](./2022-10-16) - Vue Fes Japan
-- [en] [Vite, the on-demand DX](./2022-10-11) - ViteConf
-- [en] [Introduction to Vitest](./2022-01-26) - Vue.js Nation
+- [zh] [数字孪生与虚拟现实](./2022-11-28) - 数字孪生与虚拟现实
+- [zh] [远程办公](./2022-12-17) - 远程办公
+- [zh] [2023年上半年工作报告](./2023-06-30) - 2023年上半年工作报告
 
-###### 2021
-
-- [en] [New ways to Vue](./2021-10-20) - Vue London
-- [zh] [New ways to Vue](./2021-10-17) - {Laravel x Vue} Conf Taiwan
-- [zh] [可组合的 Vue](./2021-05-22) - VueConf China
-- [en] [Composable Vue](./2021-04-29) - VueDay
-- [en] [Develop with Vite](./2021-03-28) - Vue Beijing
-
-###### 2020
-
-- [zh] [`import { reactive } from 'vue'`](./2020-09-26) - 滨江前端沙龙
