@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2022/patterns-vueuse/ --out ../../dist/2022/patterns-vueuse",
-    "export": "slidev export --output ../2022-10-16-vue-fes-japan-en.pdf"
+    "build": "slidev build --base /2022/virtual-reality-and-digital-twins/ --out ../../dist/2022/virtual-reality-and-digital-twins",
+    "export": "slidev export --output ../2022-11-28-virtual-reality-and-digital-twins.pdf"
   }
 }
