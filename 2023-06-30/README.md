@@ -1,7 +1,7 @@
 # 2023年上半年工作报告
 
 2023-06-30
-[2023年上半年工作报告](https://vuefes.jp/2022/)
+[2023年上半年工作报告](https://lanseria-talks.netlify.app/2023/work-report-half-year-2023/)
 
 
 ## 工作回顾/工作成果/反思改进
