@@ -29,9 +29,6 @@ Work Report for the First Half of 2023
 大家好，我是张超，很荣幸能够在这里向大家报告我在2023年上半年的工作情况。
 -->
 
----
-src: '../../reuse/intro.md'
----
 
 ---
 layout: center
@@ -97,11 +94,18 @@ scale: 0.6
 ---
 
 ---
-layout: iframe
-url: https://js.design/v?i=IJFBat&p=RChsi6BWGm&f=b6801c88-3d9e-4e32-8a0e-c2c17bafdd22
-scale: 0.6
+layout: center
+class: text-center
 ---
 
+## 微信小程序租户
+
+<div class="grid grid-cols-4 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/64a4deeb50d1e04bd2d5e181.png#0f01d8d880a39914bb6b41c6aa77fd34"/>
+  <img src="https://img.js.design/assets/img/64a4dc9a078714c2685a0adb.png#d906808e6b0ea70370245cff9ead83d4"/>
+  <img src="https://img.js.design/assets/img/64a4dce27073f71b30c4845b.png#a091d6f2b400542ad84a6a9a49250264"/>
+  <img src="https://img.js.design/assets/img/64a4dd4486f8776a41bcc15f.png#95fb634883b5f2a8bbbe8d6f8b786cae"/>
+</div>
 
 ---
 layout: center
@@ -153,11 +157,18 @@ url: https://vqc.zhonganhse.com/login
 scale: 0.6
 ---
 
+
+
 ---
-layout: iframe
-url: https://js.design/v?i=ASp05A&p=7kT5XWgYMJ&f=_M573fQqdngZYBcjcg4oV
-scale: 0.6
+layout: center
+class: text-center
 ---
+
+## 航运/码头开通会员权益介绍
+
+<div class="grid grid-cols-1 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/64a4f5d555f0c4424ddaa381.png#3f59604c0f1de3f9c598be59bd76a822"/>
+</div>
 
 ---
 layout: quote
@@ -171,22 +182,29 @@ layout: quote
 
 
 ---
-layout: iframe
-url: https://js.design/v?i=ebKIFv&p=H8OYNWneYL&f=l1KYEf8zcEI83Gvb-fXxp
-scale: 0.6
+layout: center
+class: text-center
 ---
 
----
-layout: iframe
-url: https://js.design/v?i=ebKIFv&p=H8OYNWneYL&f=4ZZghDOcdHDxbrLmg0TCy
-scale: 0.6
----
+## 主界面
+
+<div class="grid grid-cols-2 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/645468416cf81c0f70e5e9ce.png#76e7a829d5882b9ff46260a47c6c48e4"/>
+  <img src="https://img.js.design/assets/img/6454689c73e42e973834a94f.png#8cff4caf5ef9b125391e731c135e8857"/>
+</div>
 
 ---
-layout: iframe
-url: https://js.design/v?i=ebKIFv&p=H8OYNWneYL&f=VhYE3DcN5MLnLv8SneJTh
-scale: 0.6
+layout: center
+class: text-center
 ---
+
+## 报警日志/图表历史查看
+
+<div class="grid grid-cols-2 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/6454686760ff107878d28c26.jpg#a30c2b72e7897887737e8e4a239f22c1"/>
+  <img src="https://img.js.design/assets/img/645468c56cf81c0f70e65b08.png#20eb08863d5dbc8d06ddb17ecbf26a2a"/>
+</div>
+
 ---
 layout: quote
 ---
@@ -197,29 +215,31 @@ layout: quote
 - KR2 完成开发了新的一套油品储运生产作业管理系统，替代原本的旧系统
 - KR3 7月前后，完成重点功能的上线与运行，通过安全检查整改工作
 
----
-layout: iframe
-url: https://js.design/v?i=kYjINw&p=fgq1PGjTdt&f=UDPvA8RXajJLl8TWKOH7n
-scale: 0.6
----
 
 ---
-layout: iframe
-url: https://js.design/v?i=kYjINw&p=fgq1PGjTdt&f=FKI6suQQbfbgxDnUyA9jC
-scale: 0.6
+layout: center
+class: text-center
 ---
 
----
-layout: iframe
-url: https://js.design/v?i=kYjINw&p=fgq1PGjTdt&f=FgS4HZPb90SJk2xTYhqOZ
-scale: 0.6
----
+## 登录页面/大屏页面
+
+<div class="grid grid-cols-2 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/64a4f360fabe62ff7e57a4a7.png#0f5bee0b574e45cb76183e500c804f6c"/>
+  <img src="https://img.js.design/assets/img/64a4f3d7c652e6634c537d93.png#20c5f7347f76729c9ec384b87f883cb7"/>
+</div>
 
 ---
-layout: iframe
-url: https://js.design/v?i=kYjINw&p=MqbXrNXC_z&f=Axr-IaQwNFKuL1NobdYhh
-scale: 0.6
+layout: center
+class: text-center
 ---
+
+## 作业管理/权限设计
+
+<div class="grid grid-cols-2 gap-4" items-center my4>
+  <img src="https://img.js.design/assets/img/64a4f42041079b3f6a6fb8bb.png#1358d122e716c5377643602cb3b561bd"/>
+  <img src="https://img.js.design/assets/img/64a4f4c6c652e6634c538e05.png#665ce44f2afa90e521e8d4c4d2dc3b8c"/>
+</div>
+
 
 ---
 layout: intro
@@ -286,10 +306,11 @@ layout: intro
 layout: quote
 ---
 
-# O1 推进VQC航运公司付费功能，推进用户量与提升用户体验度​
+# O1 推进VQC航运公司付费功能，提升用户量与用户体验度​
 
 - KR1 完成微信支付功能与支付宝支付功能扩大航运企业支付渠道​
-- KR2 持续监控用户使用量与体验程度​
+- KR2 持续记录用户使用量
+- KR3 通过调研改进项目中的问题，提升PC端的使用体验
 
 <!--
 
@@ -299,9 +320,9 @@ layout: quote
 layout: quote
 ---
 
-# O2 推进油品储运项目开发，与外部公司接口连通与正式发布
+# O2 推进油品储运项目开发，打通外部接口
 
-- KR1 与甲方达成项目的调试开发与试运行
+- KR1 与甲方达成项目的调试开发与测试/试运行
 - KR2 持续与外部接口调试，做好网络波动的准备
 
 <!--
