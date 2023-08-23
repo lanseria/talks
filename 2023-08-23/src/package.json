@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/work-report-half-year-2023/ --out ../../dist/2023/work-report-half-year-2023",
+    "export": "slidev export --output ../2023-07-06-work-report-half-year-2023.pdf"
+  }
+}
