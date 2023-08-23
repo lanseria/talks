@@ -1,15 +1,17 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.11.0",
+  "packageManager": "pnpm@7.33.6",
   "scripts": {
-    "build": "rimraf dist && pnpm -r run build"
+    "build": "rimraf dist && pnpm -r run build",
+    "up": "taze -I"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.84",
-    "@slidev/cli": "^0.36.11",
+    "@iconify/json": "^2.2.105",
+    "@slidev/cli": "^0.42.9",
     "@slidev/theme-default": "^0.21.2",
-    "playwright-chromium": "^1.35.1",
-    "pnpm": "^7.33.2",
-    "rimraf": "^3.0.2"
+    "playwright-chromium": "^1.37.1",
+    "pnpm": "^8.6.12",
+    "rimraf": "^5.0.1",
+    "taze": "^0.11.2"
   }
 }
