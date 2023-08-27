@@ -1,15 +1,16 @@
 {
   "private": true,
-  "packageManager": "pnpm@7.33.6",
+  "packageManager": "pnpm@8.6.12",
   "scripts": {
     "build": "rimraf dist && pnpm -r run build",
     "up": "taze -I"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.105",
+    "@iconify/json": "^2.2.106",
     "@slidev/cli": "^0.42.9",
     "@slidev/theme-default": "^0.21.2",
     "playwright-chromium": "^1.37.1",
+    "@vitejs/plugin-vue": "4.3.1",
     "pnpm": "^8.6.12",
     "rimraf": "^5.0.1",
     "taze": "^0.11.2"
