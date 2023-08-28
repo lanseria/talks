@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/rocket-collection/ --out ../../dist/2023/rocket-collection",
+    "export": "slidev export --output ../2023-07-06-rocket-collection.pdf"
+  }
+}
