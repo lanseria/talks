@@ -56,6 +56,20 @@ UP主 爱吃包子的超
 
 
 ---
+layout: image-right
+image: /zoom.jpg
+---
+
+# Zoom Earth
+
+- 网址 https://zoom.earth/
+- 提供了高分辨率的卫星云图/向日葵/美国宇航局
+- 台风/热带低压编号/雷达/降雨/风速/温度/湿度/气压
+- 提供了移动端以及台风预报
+- 动画简洁美观
+
+
+---
 layout: iframe-right
 url: https://embed.windy.com/embed2.html?lat=29.800&lon=121.740&detailLat=29.800&detailLon=121.740&width=650&height=450&zoom=8&level=surface&overlay=rain&product=gfs&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1
 ---
@@ -82,7 +96,7 @@ layout: iframe-right
 url: https://typhoon.slt.zj.gov.cn/
 ---
 
-# 国内各家台风网
+# 中国台风网
 
 - 网址 https://typhoon.slt.zj.gov.cn/
 - 中文的台风名称
@@ -94,7 +108,7 @@ layout: image-right
 image: /rsapp.jpg
 ---
 
-# 国家卫星气象中心
+# 中国卫星气象中心
 
 - 网址 http://rsapp.nsmc.org.cn/
 - 中文的数据描述/专属中国区
@@ -108,6 +122,7 @@ image: /rammb.jpg
 # R站 RAMMB/CIRA SLIDER
 
 - 网址 https://rammb-slider.cira.colostate.edu/
+- 科罗拉多州立大学大气研究合作研究所
 - 韩国/日本/美国2颗/欧洲2颗
 - 极地拼接
 
