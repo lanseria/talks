@@ -147,6 +147,7 @@ image: /japan.png
 
 # 日本向日葵8
 
+- 网址 https://himawari8.nict.go.jp/
 - 即时性强/可以在Zoom Earth看到
 - 对目标台风有特殊标注
 - 每天都有视频在线下载与查看
