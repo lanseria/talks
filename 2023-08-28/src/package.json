@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2023/rocket-collection/ --out ../../dist/2023/rocket-collection",
-    "export": "slidev export --output ../2023-07-06-rocket-collection.pdf"
+    "build": "slidev build --base /2023/satellite-cloud-image/ --out ../../dist/2023/satellite-cloud-image",
+    "export": "slidev export --output ../2023-08-28-satellite-cloud-image.pdf"
   }
 }
