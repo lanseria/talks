@@ -1,11 +1,10 @@
 [build.environment]
-  NPM_FLAGS = "--prefix=/dev/null"
+  NODE_OPTIONS = "--max-old-space-size=32768"
   NODE_VERSION = "18"
-  PLAYWRIGHT_BROWSERS_PATH = "0"
 
 [build]
   publish = "dist"
-  command = "npx pnpm i --store=node_modules/.pnpm-store && npx pnpm run build"
+  command = "pnpm build"
 
 [[redirects]]
   from = "/2022/telecommuting/*"
