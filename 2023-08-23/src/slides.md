@@ -48,7 +48,7 @@ https://enjqkboeqf.feishu.cn/base/Cr4ObOBTgaCbp2sWRyFc4r1wngh
 
 - 类似百科的数据库
 
-![](baike.png)
+![](/baike.png)
 
 
 ---
