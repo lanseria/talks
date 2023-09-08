@@ -1,0 +1,9 @@
+{
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /2023/pangu-compare/ --out ../../dist/2023/pangu-compare",
+    "export": "slidev export --output ../2023-09-08-pangu-compare.pdf"
+  }
+}
