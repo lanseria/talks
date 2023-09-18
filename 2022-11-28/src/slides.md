@@ -631,11 +631,6 @@ layout: statement
 layout: statement
 ---
 
-# Q&A
-
----
-layout: statement
----
 
 # 1. 你觉得未来的显示方式有哪些？
 
