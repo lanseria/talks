@@ -1,9 +1,9 @@
 {
-  "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "slidev build --base /2023/technological-change/ --out ../../dist/2023/technological-change",
     "dev": "slidev",
-    "build": "slidev build --base /2023/template/ --out ../../dist/2023/template",
-    "export": "slidev export --output ../2023-07-06-template.pdf"
-  }
+    "export": "slidev export --output ../2023-09-20-technological-change.pdf"
+  },
+  "version": "0.0.0"
 }
