@@ -5,12 +5,12 @@
     "up": "taze major -I"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.151",
-    "@slidev/cli": "^0.44.0",
+    "@iconify/json": "^2.2.163",
+    "@slidev/cli": "^0.46.1",
     "@slidev/theme-default": "^0.21.2",
-    "@vitejs/plugin-vue": "^4.5.1",
-    "pnpm": "^8.11.0",
+    "@vitejs/plugin-vue": "^5.0.1",
+    "pnpm": "^8.13.1",
     "rimraf": "^5.0.5",
-    "taze": "^0.13.0"
+    "taze": "^0.13.1"
   }
 }
