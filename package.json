@@ -1,16 +1,14 @@
 {
   "private": true,
+  "packageManager": "pnpm@9.7.1",
   "scripts": {
-    "build": "rimraf dist && pnpm -r run build",
-    "up": "taze major -I"
+    "build": "rimraf dist && pnpm -r run build"
   },
   "devDependencies": {
-    "@iconify/json": "^2.2.163",
-    "@slidev/cli": "^0.46.1",
-    "@slidev/theme-default": "^0.21.2",
-    "@vitejs/plugin-vue": "^5.0.1",
-    "pnpm": "^8.13.1",
-    "rimraf": "^5.0.5",
-    "taze": "^0.13.1"
+    "@iconify/json": "^2.2.239",
+    "@slidev/cli": "^0.49.27",
+    "@slidev/theme-default": "^0.25.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "rimraf": "^5.0.10"
   }
 }
