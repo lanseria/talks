@@ -1,35 +1,40 @@
 ---
 highlighter: shiki
 css: unocss
-colorSchema: dark
+colorSchema: light
 transition: fade-out
 mdc: true
-layout: center
+layout: cover
 glowSeed: 4
 lang: zh-CN
-title: 2024年终总结
-monacoTypesIgnorePackages:
-  - '@antfu/install-pkg'
-  - '@clack/prompts'
-  - '@typescript-eslint/*'
-  - 'eslint-plugin-*'
-  - '*-eslint-parser'
-  - 'find-up'
-  - 'parse-*'
-  - 'globals'
-  - 'pkg-types'
-  - 'mlly'
-  - 'local-pkg'
-  - 'yargs'
-  - 'fast-glob'
-  - 'debug'
-  - 'globby'
-  - 'estraverse'
-  - 'pathe'
-  - 'acorn'
-  - 'acorn-*'
-  - 'pico*'
-  - 'eslint-visitor-keys'
+title: 员工个人2024年年终述职工作
 ---
 
-![](/af-logo-animated.svg){.w-30.mt--10.mb-5}
+# 员工个人2024年年终述职工作
+
+演讲人张超
+
+---
+layout: statement
+---
+
+# 主要内容
+
+- 个人全年度工作
+- 绩效对标
+- 重点工作
+- 工作亮点
+- 工作不足及改进计划
+- 下半年工作计划
+---
+layout: statement
+---
+
+# 个人全年度工作
+
+- 个人全年度工作
+- 绩效对标
+- 重点工作
+- 工作亮点
+- 工作不足及改进计划
+- 下半年工作计划
