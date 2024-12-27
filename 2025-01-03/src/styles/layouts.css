@@ -58,12 +58,15 @@
 .slidev-layout.statement {
   @apply text-left grid h-full;
   h1 {
-    @apply text-3xl font-700 flex items-center ml-2px;
+    @apply text-4xl font-700 flex items-center ml-2px;
       &::before {
         content: '';
         background-image: url('/h1.png');
         @apply absolute block w-50px h-40px left--0px bg-no-repeat bg-contain;
       }
+  }
+  li {
+    @apply text-2xl;
   }
 }
 .slidev-layout.quote {
