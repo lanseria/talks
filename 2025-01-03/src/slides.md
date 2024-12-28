@@ -62,17 +62,32 @@ layout: statement
 - 工作不足及改进计划
 - 2025 年工作计划
 
+<!--
+...
+
+-->
+
 ---
 layout: intro
 ---
 
 # 个人全年度工作
 
+<!--
+...
+
+-->
+
 ---
-layout: full
+layout: default
 ---
 
-<Timeline />
+<Timeline class="absolute top-0 left-0 right-0 bottom-0"/>
+
+<!--
+...
+
+-->
 
 ---
 layout: intro
@@ -80,39 +95,83 @@ layout: intro
 
 # 绩效对标
 
+<!--
+...
+
+-->
+
 ---
 layout: intro
 ---
 
 # 重点工作
 
+<!--
+...
+
+-->
+
 ---
-layout: full
+layout: statement
 ---
 
 <h1 flex="~ col">
 <div mt1 forward:delay-300 ml10 flex="~ col" relative>
-  <span flex="~ gap-2 items-center" text-hex-8080f2>
-    <div i-logos-eslint />
-    教育培训平台
+  <span flex="~ gap-2 items-center">
+    <div i-logos-medusa-icon />
+    <div>承接 qPaas 教育培训平台</div>
   </span>
 </div>
 </h1>
+<div class="w-full grid grid-cols-2 gap-6 place-items-center mt-20">
+  <div font-hand text-5xl class="text-teal-500 flex items-center justify-center" v-click>四川中烟</div>
+  <div font-hand text-5xl class="text-lime-500 flex items-center justify-center" v-after>三棵树</div>
+  <div font-hand text-5xl class="text-blue-500 flex items-center justify-center" v-click>中远海运</div>
+  <div font-hand text-5xl class="text-orange-500 flex items-center justify-center" v-click>河南骏化承包商</div>
+  <div font-hand text-5xl class="text-purple-500 flex items-center justify-center" v-click>宁波鼎实大榭</div>
+</div>
 
-<ul>
-  <li>
-    <span text-teal font-bold v-click>中烟</span>
-  </li>
-  <li>
-    <span text-lime font-bold v-click>三棵树</span>
-  </li>
-  <li>
-    <span text-lime font-bold v-click>中远海运</span>
-  </li>
-  <li>
-    <span text-lime font-bold v-click>河南骏化</span>
-  </li>
-  <li>
-    <span text-lime font-bold v-click>鼎实大榭</span>
-  </li>
-</ul>
+<!--
+...
+花费了许多工时, 但说实话里面还是有很多问题
+[click]
+从7月开始，四川中烟与三棵树都是和产品部的何益挺一同完成的
+[click]
+期间有修复中远海运的问题
+[click]
+10月，使用这套代码中的相关方用在了马世永的（河南骏化）上
+[click]
+12月，继续使用在了路良辰（鼎实大榭）
+-->
+
+
+---
+layout: center
+glow: bottom
+---
+
+<div flex="~ col items-center justify-center w-full">
+
+<h2 flex="~ col" text-center>
+<div text-center flex="~ col gap-2" transition duration-500 :class="$clicks < 2 ? 'translate-y-40' : ''">
+  <span
+    flex="~ gap-2 items-center justify-center"
+    text-hex-8080f2 transition duration-500 text-1.5em
+    :class="$clicks < 1 ? 'scale-150 translate-y' : ''"
+  >
+    <div i-logos-medusa-icon />
+    qPaas 教育培训平台
+  </span>
+  <span v-click op75 forward:delay-400 text-2xl>就像</span>
+</div>
+</h2>
+
+<img src="/4d02e8dd-56cb-4e2d-957c-4bce6f4c216a.webp" v-click mt4 w-60 rounded-lg shadow forward:delay-400 />
+</div>
+
+<!--
+承接 qPaas 教育培训平台
+
+[click] 就像是维修一辆老旧的二手车，既费时又费力，而且可能还需要不断地修补。
+-->
+
