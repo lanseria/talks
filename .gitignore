@@ -3,4 +3,5 @@ node_modules
 *-export*
 dist
 .DS_Store
-index.html
+**/public/assets/fonts
+.slidev

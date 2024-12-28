@@ -222,8 +222,8 @@ onMounted(() => {
   // Create a Timeline
   const timeline = new Timeline(el.value, null, {
     stack: true,
-    height: 920,
-    width: 1700,
+    height: 1080,
+    width: 1920,
     horizontalScroll: false,
     verticalScroll: false,
     zoomable: false,
