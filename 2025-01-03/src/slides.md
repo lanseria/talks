@@ -166,12 +166,277 @@ glow: bottom
 </div>
 </h2>
 
-<img src="/4d02e8dd-56cb-4e2d-957c-4bce6f4c216a.webp" v-click mt4 w-60 rounded-lg shadow forward:delay-400 />
+<img src="/1.webp" v-click mt4 w-60 rounded-lg shadow forward:delay-400 />
 </div>
 
 <!--
 承接 qPaas 教育培训平台
-
-[click] 就像是维修一辆老旧的二手车，既费时又费力，而且可能还需要不断地修补。
+[click] 就像
+[click] 是维修一辆老旧的二手车，既费时又费力，而且可能还需要不断地修补。
 -->
 
+---
+layout: statement
+---
+
+<h1 flex="~ col">
+<div mt1 forward:delay-300 ml10 flex="~ col" relative>
+  <span flex="~ gap-2 items-center">
+    <div i-logos-docker />
+    <div>项目的开发与维护</div>
+  </span>
+</div>
+</h1>
+<div class="w-full grid grid-cols-2 gap-6 place-items-center mt-20">
+  <div text-4xl class="text-teal-500 flex items-center justify-center" v-click>《培训空间》</div>
+  <div text-4xl class="text-lime-500 flex items-center justify-center" v-after>《取证小助手》</div>
+  <div text-4xl class="text-blue-500 flex items-center justify-center" v-click>《VQC》</div>
+  <div text-4xl class="text-orange-500 flex items-center justify-center" v-click>兴中考勤/环保/油品储运</div>
+</div>
+
+<!--
+...
+项目的开发与维护
+[click]
+《培训空间》是由何益挺为项目经理与产品设计，今年 3 月完成的，后续与《取证小助手》一起维护，比如HW行动。优先级较低
+[click]
+《VQC》是由夏静驰为项目经理与产品设计，今年也新增了不少功能。比如3月门户网站，7月VIP企业专属功能，10，11，12月航运专属站点
+[click]
+兴中考勤/环保是兴中额外衍生项目，今年上半年完成与油品储运也一起，由阮晨光负责，处于运维阶段
+-->
+
+
+
+---
+layout: center
+glow: bottom
+---
+
+<div flex="~ col items-center justify-center w-full">
+
+<h2 flex="~ col" text-center>
+<div text-center flex="~ col gap-2" transition duration-500 :class="$clicks < 2 ? 'translate-y-40' : ''">
+  <span
+    flex="~ gap-2 items-center justify-center"
+    text-blue transition duration-500 text-1.5em
+    :class="$clicks < 1 ? 'scale-150 translate-y' : ''"
+  >
+    <div i-logos-docker-icon />
+    自主项目开发与运维
+  </span>
+  <span v-click op75 forward:delay-400 text-2xl>就像</span>
+</div>
+</h2>
+
+<img src="/2.webp" v-click mt4 w-60 rounded-lg shadow forward:delay-400 />
+</div>
+
+<!--
+自主项目开发与运维
+[click] 就像
+[click]
+养育一棵果树。树是自己种的，根基还算扎实，但果实可能不够大、不够甜，需要不断修剪枝叶、施肥和精心呵护。虽然比起维修一辆老旧的二手车轻松些，但仍需要时间和耐心才能收获更好的果实。
+-->
+
+---
+layout: intro
+---
+
+# 工作亮点
+
+<!--
+...
+工作亮点
+-->
+
+---
+class: "grid grid-cols-[1fr_1fr] p0 h-full"
+clicks: 1
+glow: left
+---
+
+
+<div p4 flex="~ col gap-1 items-center justify-center" transition duration-500 :class="$clicks >= 1 ? '' : 'translate-x-65'">
+
+<div text-2xl>《中安惟新门户网站》</div>
+<div mt-4 />
+
+<Repo name="antfu/eslint-config" /> <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
+
+</div>
+
+<div
+  bg-hex-5552 p8 border="l main" transition duration-500
+  :class="$clicks >= 1 ? '' : 'translate-x-100%'"
+>
+<div scale-70 origin-left-top w-160 mb--100 mr--40>
+
+
+# 中安惟新门户网站
+
+<div mt-6 />
+
+<div flex items-center gap-2>
+<img w-300px src="/csafety.png">
+<img w-300px src="/csafety2.png">
+</div>
+
+<div mt-6 />
+
+## 亮点
+
+<div mt-2 />
+
+- **快速开发与初期架构** <sup>借助简单轻量的 SQLite 数据库，快速启动与迭代</sup>  
+- **平滑升级数据库** <sup>12 月份从 SQLite 升级至 MySQL，满足更高的数据复杂度需求</sup>  
+- **高效全栈开发** <sup>使用 Nuxt.js 构建，全栈开发简单高效</sup>  
+- **适配 SSR 的门户网站** <sup>Nuxt.js 自带 SSR 功能，适合构建 Landing Page 等门户型网站</sup>  
+- **未来发展方向**  
+  - 升级 UI 样式为现代模板  
+  - 提升移动端适配，优化交互动画  
+
+</div>
+</div>
+
+<!--
+...
+5月完成，12月升级数据库架构
+-->
+
+
+---
+class: "grid grid-cols-[1fr_1fr] p0 h-full"
+clicks: 1
+glow: left
+---
+
+
+<div p4 flex="~ col gap-1 items-center justify-center" transition duration-500 :class="$clicks >= 1 ? '' : 'translate-x-65'">
+
+<div text-2xl>《中化东方的无人泵房》</div>
+<div mt-4 />
+
+<Repo name="antfu/eslint-config" /> <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.5.1</span>
+
+</div>
+
+<div
+  bg-hex-5552 p8 border="l main" transition duration-500
+  :class="$clicks >= 1 ? '' : 'translate-x-100%'"
+>
+<div scale-70 origin-left-top w-160 mb--100 mr--40>
+
+
+# 中化东方的无人泵房
+
+<div mt-6 />
+
+<div flex items-center gap-2>
+<img w-600px src="/zhdf.png">
+</div>
+
+<div mt-6 />
+
+## 亮点
+
+<div mt-2 />
+
+- **继承成熟经验** <sup>基于门户网站项目经验，继续使用 Nuxt.js 作为全栈开发框架</sup>  
+- **可靠的数据库支持** <sup>采用开源的 PostgreSQL 数据库，结合 Drizzle ORM，实现高效数据管理</sup>  
+- **集成视频监控功能** <sup>沿用兴中无人泵房的 go2rtc 视频监控软件，确保视频监控可靠性</sup>  
+- **高效实时通信** <sup>利用 SSE（Server-Sent Events）实现数据的单向实时通信</sup>  
+
+</div>
+</div>
+
+<!--
+...
+8月开发，11月到场部署
+-->
+
+---
+
+# 《飞书》云文档
+
+<div text-gray flex="~ items-center gap-1" v-click>
+例子： <div i-icon-park-solid-lark-one inline-block /> 多维表格
+</div>
+
+<div grid="~ cols-2 gap-4" h="80%">
+<div
+  v-click="1"
+  flex="~ col gap-2 items-center justify-center"
+  transition duration-500
+  :class="$clicks < 2 ? 'scale-130 translate-x-55' : ''"
+>
+  <img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/18de1aadd3d2487983383b28f849756e~tplv-jbbdkfciu3-png:0:0.png" w-90 rounded-lg shadow border="~ main" />
+  <a href="https://www.feishu.cn/product/docs" text-sm>www.feishu.cn/product/docs</a>
+</div>
+
+
+
+<div flex="~ col items-center justify-center" forward:delay-500 pb-10 v-click>
+
+## 进一步激发创意，促进沟通与协作
+
+简洁的文字格式和丰富的内容模块，让你与团队专注于内容而非形式，进一步激发创意。在文档中实时协同，让沟通与协作变得顺畅。同时把团队的经验、思考沉淀为企业知识资产。
+
+</div>
+</div>
+
+<!--
+...
+
+[click] 
+-->
+
+---
+layout: image
+
+# the image source
+image: /lark.png
+backgroundSize: contain
+---
+
+---
+layout: image
+
+# the image source
+image: /lark1.png
+backgroundSize: contain
+---
+---
+
+# 熟练运用 AI
+
+<div text-gray flex="~ items-center gap-1" v-click>
+例子： <div i-icon-park-solid-lark-one inline-block /> 编码
+</div>
+
+<div grid="~ cols-2 gap-4" h="80%">
+<div
+  v-click="1"
+  flex="~ col gap-2 items-center justify-center"
+  transition duration-500
+  :class="$clicks < 2 ? 'scale-130 translate-x-55' : ''"
+>
+  <img src="/cursor.png" w-90 rounded-lg shadow border="~ main" />
+  <a href="https://www.cursor.com/" text-sm>www.cursor.com</a>
+</div>
+
+
+
+<div flex="~ col items-center justify-center" forward:delay-500 pb-10 v-click>
+
+## AI 编码与文本，革新工作方式
+
+简洁的代码结构和智能生成，让你与团队专注于逻辑而非重复工作，进一步提升开发效率。
+
+</div>
+</div>
+
+<!--
+...
+
+[click] 
+-->
