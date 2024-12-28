@@ -172,7 +172,7 @@ onMounted(() => {
     },
     {
       id: id++,
-      content: '《应急救援员》(停摆)',
+      content: '《应急救援员》（停摆）',
       group: 11,
       start: '2024-09-01',
       className: 'px2 rounded-l-lg! bg-red:20! text-red! border-red:50! border-dashed! border-r-none!',
@@ -222,8 +222,8 @@ onMounted(() => {
   // Create a Timeline
   const timeline = new Timeline(el.value, null, {
     stack: true,
-    height: 960,
-    width: 1800,
+    height: 920,
+    width: 1700,
     horizontalScroll: false,
     verticalScroll: false,
     zoomable: false,
@@ -247,9 +247,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <div v-click mb-3 flex="~ col">
-    <div scale-50 origin-left-top relative mb--42>
-      <div ref="el" absolute h-350px w-1800px />
+  <div mb-3 flex="~ col">
+    <div scale-50 origin-left-top relative>
+      <div ref="el" absolute h-920px w-1700px />
     </div>
   </div>
 </template>
@@ -265,10 +265,4 @@ onMounted(() => {
   opacity: 0.8;
 }
 
-.vis-grid,
-.vis-label,
-.vis-group,
-.vis-panel {
-  border-color: #333 !important;
-}
 </style>
