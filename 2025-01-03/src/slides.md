@@ -60,7 +60,7 @@ layout: statement
 - 重点工作
 - 工作亮点
 - 工作不足及改进计划
-- 下半年工作计划
+- 2025 年工作计划
 
 ---
 layout: intro
@@ -73,3 +73,46 @@ layout: full
 ---
 
 <Timeline />
+
+---
+layout: intro
+---
+
+# 绩效对标
+
+---
+layout: intro
+---
+
+# 重点工作
+
+---
+layout: full
+---
+
+<h1 flex="~ col">
+<div mt1 forward:delay-300 ml10 flex="~ col" relative>
+  <span flex="~ gap-2 items-center" text-hex-8080f2>
+    <div i-logos-eslint />
+    教育培训平台
+  </span>
+</div>
+</h1>
+
+<ul>
+  <li>
+    <span text-teal font-bold v-click>中烟</span>
+  </li>
+  <li>
+    <span text-lime font-bold v-click>三棵树</span>
+  </li>
+  <li>
+    <span text-lime font-bold v-click>中远海运</span>
+  </li>
+  <li>
+    <span text-lime font-bold v-click>河南骏化</span>
+  </li>
+  <li>
+    <span text-lime font-bold v-click>鼎实大榭</span>
+  </li>
+</ul>
