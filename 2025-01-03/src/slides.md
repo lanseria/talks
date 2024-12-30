@@ -187,7 +187,7 @@ layout: statement
 <h1 flex="~ col">
 <div mt1 forward:delay-300 ml10 flex="~ col" relative>
   <span flex="~ gap-2 items-center">
-    <div i-logos-docker />
+    <div i-logos-docker-icon />
     <div>项目的开发与维护</div>
   </span>
 </div>
