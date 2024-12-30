@@ -53,7 +53,7 @@ onMounted(() => {
       start: start,
       end: '2024-07-01',
       type: 'range',
-      className: 'px2 rounded-lg! bg-purple:20! text-purple! border-purple:50!',
+      className: 'px2 rounded-lg! bg-sky:20! text-sky! border-sky:50!',
     },
     {
       id: id++,
