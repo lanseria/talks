@@ -261,7 +261,7 @@ glow: left
 <div text-2xl>《中安惟新门户网站》</div>
 <div mt-4 />
 
-s<span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
+<span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
 
 </div>
 
@@ -440,3 +440,95 @@ backgroundSize: contain
 
 [click] 
 -->
+
+---
+layout: intro
+---
+
+# 工作不足与改进
+
+<!--
+...
+工作不足与改进
+-->
+
+---
+layout: statement
+---
+
+<h1 flex="~ col">
+<div mt1 forward:delay-300 ml10 flex="~ col" relative>
+  <span flex="~ gap-2 items-center">
+    <div i-logos-daisyui-icon />
+    <div>复杂项目的产品设计力</div>
+  </span>
+</div>
+</h1>
+<div mt-3/>
+
+- 用户需求理解不足
+  - 用户调研深度不够，导致需求来源单一或片面，对目标用户的核心痛点理解不足。
+- 信息架构混乱
+  - 在模块划分和层级设计时未充分考虑复杂性，导致用户在操作路径中迷失或逻辑不连贯。
+  - 定期开展用户可用性测试，根据反馈优化信息架构。
+- 需求优先级管理不当
+  - 在需求决策时过于迎合短期目标，忽视了系统长期发展和技术债务的积累。
+  - 设置明确的版本迭代目标，区分必须实现和可延期的功能。
+- 跨部门沟通障碍
+  - 创建跨部门协作文档模板，确保每个需求包含背景、目标、具体功能描述等关键信息。
+<!--
+...
+
+-->
+
+
+---
+layout: statement
+---
+
+<h1 flex="~ col">
+<div mt1 forward:delay-300 ml10 flex="~ col" relative>
+  <span flex="~ gap-2 items-center">
+    <div i-logos-medusa-icon />
+    <div>qPaas项目的开发</div>
+  </span>
+</div>
+</h1>
+<div mt-3/>
+
+在qPaas项目的开发过程中，我们发现以下不足之处：
+
+#### 1. **技术负担较重，开发效率受限**  
+   qPaas项目在技术架构和代码基础上存在一定的历史遗留问题，这些问题使得新功能的开发和现有功能的维护变得复杂且耗时。
+
+#### 2. **文档与知识传递不够完善**  
+   由于项目复杂性较高，部分功能和模块的知识传递不足，容易导致开发人员在问题定位和修复时花费较多时间。
+
+
+#### 3. **需求变更影响开发稳定性**  
+   需求频繁调整或功能扩展可能导致开发过程中的返工情况，进一步加剧了对老旧系统的负担。
+
+通过上述措施，我们希望能够从根本上改善qPaas项目开发的痛点，让团队在面对“维修老旧车辆”般的挑战时，不再是疲于应对，而是能够有序、高效地推动项目的健康发展。
+<!--
+...
+
+-->
+
+---
+layout: intro
+---
+
+# 2025年工作计划
+
+<!--
+...
+2025年工作计划
+-->
+---
+layout: statement
+---
+
+# 2025年工作计划
+
+- 《海上清舱作业系统》顺利完成
+- 开发、协助其他项目的开发
