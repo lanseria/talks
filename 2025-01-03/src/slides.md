@@ -25,7 +25,7 @@ class: pl-30
 
 <div class="[&>*]:important-leading-10 opacity-80">
 
-了解使用框架 Vite, Vue, Nuxt, Nitro <br/>
+了解使用框架 Vite, Vue, Nuxt, Nitro 等 Js 技术框架<br/>
 了解使用数据库 Postgresql, Sqlite, Mysql <br/>
 AI 使用者<br/>
 AI 对话使用过 ChatGPT, GPT4o, Kimi, 豆包，Grok，Claude-3.5-Sonnet <br/>
@@ -34,7 +34,7 @@ AI 文成图，图生视频，音乐 <br/>
 </div>
 
 <div my-10 w-min flex="~ gap-1" items-center justify-center>
-  <div i-ri-github-line op50 ma text-xl/>
+  <div i-ri-github-line op50 ma text-xl />
   <div><a href="https://github.com/lanseria" target="_blank" class="border-none! font-300">lanseria</a></div>
   <div i-ri-bilibili-line op50 ma text-xl ml4/>
   <div><a href="https://space.bilibili.com/8487409" target="_blank" class="border-none! font-300" ws-nowrap>爱吃包子的超</a></div>
@@ -123,7 +123,6 @@ layout: statement
 <h1 flex="~ col">
 <div mt1 forward:delay-300 ml10 flex="~ col" relative>
   <span flex="~ gap-2 items-center">
-    <div i-logos-medusa-icon />
     <div>承接 qPaas 教育培训平台</div>
   </span>
 </div>
@@ -149,7 +148,6 @@ layout: statement
 12月，继续使用在了路良辰（鼎实大榭）
 -->
 
-
 ---
 layout: center
 glow: bottom
@@ -164,7 +162,6 @@ glow: bottom
     text-hex-8080f2 transition duration-500 text-1.5em
     :class="$clicks < 1 ? 'scale-150 translate-y' : ''"
   >
-    <div i-logos-medusa-icon />
     qPaas 教育培训平台
   </span>
   <span v-click op75 forward:delay-400 text-2xl>就像</span>
@@ -282,7 +279,7 @@ glow: left
 <div mt-6 />
 
 <div flex items-center gap-2>
-<img w-300px src="/csafety.png">
+<img w-300px src="/csafety.jpg">
 <img w-300px src="/csafety2.png">
 </div>
 
@@ -315,7 +312,6 @@ clicks: 1
 glow: left
 ---
 
-
 <div p4 flex="~ col gap-1 items-center justify-center" transition duration-500 :class="$clicks >= 1 ? '' : 'translate-x-65'">
 
 <div text-2xl>《中化东方的无人泵房》</div>
@@ -337,7 +333,8 @@ glow: left
 <div mt-6 />
 
 <div flex items-center gap-2>
-<img w-600px src="/zhdf.png">
+<img w-300px src="/zhdf.jpg">
+<img w-300px src="/zhdf1.jpg">
 </div>
 
 <div mt-6 />
@@ -361,38 +358,79 @@ glow: left
 
 ---
 
-# 《飞书》云文档
+# 熟练使用先进 OA 系统
 
-<div text-gray flex="~ items-center gap-1" v-click>
-例子： <div i-icon-park-solid-lark-one inline-block /> 多维表格
+<!-- https://x.com/mattwensing/status/1552136584224509954 -->
+<!-- https://fortune.com/longform/amazon-web-services-ceo-adam-selipsky-cloud-computing/ -->
+
+<div grid="~ cols-2 gap-8" pt6>
+
+<div v-click="1" bg-lime:10 border="~ lime/50 rounded-lg">
+  <div flex="~ items-center gap-2" bg-lime:10 px4 py2 rounded>
+<img w-20px h-20px src="https://sf3-scmcdn-cn.feishucdn.com/obj/tos-cn-v-826391/oQCVAmQlDDKAm9HQU4ybBel8fnLwvpIHOl12Mg" />
+ 多维表格</div>
+
+  <div ml2 p2 text-lime5>
+  <v-clicks :at="2">
+
+  - 好协作：实现多人编辑实时同步、批注讨论，历史记录一键溯源
+  - 个性化：提供丰富的字段、仪表盘等能力
+  - 自动化：无需代码即可快速同步项目进展
+  </v-clicks>
+  </div>
 </div>
 
-<div grid="~ cols-2 gap-4" h="80%">
-<div
-  v-click="1"
-  flex="~ col gap-2 items-center justify-center"
-  transition duration-500
-  :class="$clicks < 2 ? 'scale-130 translate-x-55' : ''"
->
-  <img src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/18de1aadd3d2487983383b28f849756e~tplv-jbbdkfciu3-png:0:0.png" w-90 rounded-lg shadow border="~ main" />
-  <a href="https://www.feishu.cn/product/docs" text-sm>www.feishu.cn/product/docs</a>
+<div v-click="5" bg-gray:10 border="~ gray/50 rounded-lg">
+  <div flex="~ items-center gap-2" bg-gray:10 px4 py2 rounded><img w-20px h-20px src="https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png" />豆包 AI</div>
+
+  <div ml2 p2 text-gray5>
+  <v-clicks :at="6">
+
+  - AI 搜索：实时资讯，丰富信源，整合搜索
+  - AI 阅读：论文课件，财报合同，翻译总结
+  - 图像生成：自定风格，搜集灵感，复制同款
+  </v-clicks>
+  </div>
 </div>
 
+<div v-click="9" bg-orange:10 border="~ orange/50 rounded-lg">
+  <div flex="~ items-center gap-2" bg-orange:10 px4 py2 rounded>
+<img w-20px h-20px src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image" />
+飞行社</div>
 
+  <div ml2 p2 text-orange5>
+  <v-clicks :at="10">
 
-<div flex="~ col items-center justify-center" forward:delay-500 pb-10 v-click>
+  - 知识：丰富的社区支持
+  - 课程：大量官方精选
+  - 模板：涵盖 AIGC 等工作管理等类型的飞书模板
 
-## 进一步激发创意，促进沟通与协作
-
-简洁的文字格式和丰富的内容模块，让你与团队专注于内容而非形式，进一步激发创意。在文档中实时协同，让沟通与协作变得顺畅。同时把团队的经验、思考沉淀为企业知识资产。
-
+  </v-clicks>
+  </div>
 </div>
+
+<div v-click="14" bg-pink:10 border="~ pink/50 rounded-lg">
+  <div flex="~ items-center gap-2" bg-pink:10 px4 py2 rounded>
+<img bg-black rounded w-20px h-20px src="https://js.design/static/media/js.638082e9e19161d42f2bc2eb803cee11.svg" />
+ 即时设计</div>
+
+  <div ml2 p2 text-pink5>
+  <v-clicks :at="15">
+
+  - 实时协同，提升各角色工作流中的效率
+  - 多种主流文件格式迁移，让你进得来出得去
+  - AI设计纪元：打破传统设计界限，无限释放设计灵感
+
+  </v-clicks>
+  </div>
+</div>
+
 </div>
 
 <!--
 ...
 
-[click] 
+[click]
 -->
 
 ---
@@ -425,7 +463,7 @@ backgroundSize: contain
   transition duration-500
   :class="$clicks < 2 ? 'scale-130 translate-x-55' : ''"
 >
-  <img src="/cursor.png" w-90 rounded-lg shadow border="~ main" />
+  <img src="/cursor.jpg" w-90 rounded-lg shadow border="~ main" />
   <a href="https://www.cursor.com/" text-sm>www.cursor.com</a>
 </div>
 
@@ -464,7 +502,6 @@ layout: statement
 <h1 flex="~ col">
 <div mt1 forward:delay-300 ml10 flex="~ col" relative>
   <span flex="~ gap-2 items-center">
-    <div i-logos-daisyui-icon />
     <div>复杂项目的产品设计力</div>
   </span>
 </div>
@@ -496,7 +533,6 @@ layout: statement
 <h1 flex="~ col">
 <div mt1 forward:delay-300 ml10 flex="~ col" relative>
   <span flex="~ gap-2 items-center">
-    <div i-logos-medusa-icon />
     <div>qPaas项目的开发</div>
   </span>
 </div>
@@ -533,10 +569,23 @@ layout: intro
 layout: statement
 ---
 
-# 2025年工作计划
+---
 
-- 《海上清舱作业系统》顺利完成
-- 开发、协助其他项目的开发
+<div grid="~ cols-2 gap-10" mt4>
+
+<div>
+<div op50 font-serif italic mb--1>Part I</div>
+<h2><span op75>Port Clean System</span><br>港航清舱系统</h2>
+<img src="/pcs.jpg" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+</div>
+
+<div>
+<div op50 font-serif italic mb--1>Part II</div>
+<h2><span op75>Develop Others</span><br>开发、协助其他项目的开发</h2>
+<img src="/tcssm.jpg" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+</div>
+
+</div>
 
 
 ---
