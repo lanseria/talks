@@ -249,7 +249,7 @@ onMounted(() => {
 <template>
   <div mb-3 flex="~ col">
     <div scale-50 origin-left-top relative>
-      <div ref="el" absolute h-920px w-1700px v-click/>
+      <div ref="el" absolute h-920px w-1700px/>
     </div>
   </div>
 </template>

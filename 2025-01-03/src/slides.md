@@ -12,7 +12,7 @@ title: 员工个人2024年年终述职工作
 
 # 员工个人2024年年终述职工作
 
-演讲人张超
+演讲人：张超
 
 ---
 layout: intro
@@ -27,14 +27,14 @@ class: pl-30
 
 了解使用框架 Vite, Vue, Nuxt, Nitro <br/>
 了解使用数据库 Postgresql, Sqlite, Mysql <br/>
-AI使用者<br/>
-AI对话使用过 ChatGPT, GPT4o, Kimi, 豆包，Grok，Claude-3.5-Sonnet <br/>
-AI文成图，图生视频，音乐 <br/>
+AI 使用者<br/>
+AI 对话使用过 ChatGPT, GPT4o, Kimi, 豆包，Grok，Claude-3.5-Sonnet <br/>
+AI 文成图，图生视频，音乐 <br/>
 
 </div>
 
 <div my-10 w-min flex="~ gap-1" items-center justify-center>
-  <div i-ri-github-line op50 ma text-xl ml4/>
+  <div i-ri-github-line op50 ma text-xl/>
   <div><a href="https://github.com/lanseria" target="_blank" class="border-none! font-300">lanseria</a></div>
   <div i-ri-bilibili-line op50 ma text-xl ml4/>
   <div><a href="https://space.bilibili.com/8487409" target="_blank" class="border-none! font-300" ws-nowrap>爱吃包子的超</a></div>
@@ -44,7 +44,6 @@ AI文成图，图生视频，音乐 <br/>
 
 <!--
 ...
-
 -->
 
 ---
@@ -53,7 +52,7 @@ layout: statement
 
 # 主要内容
 
-<div class="h-20px w-full" />
+<div mt-5 />
 
 - 个人全年度工作
 - 绩效对标
@@ -64,7 +63,6 @@ layout: statement
 
 <!--
 ...
-
 -->
 
 ---
@@ -82,11 +80,10 @@ layout: intro
 layout: default
 ---
 
-<Timeline class="absolute top-0 left-0 right-0 bottom-0"/>
+<Timeline class="absolute top-0 left-0 right-0 bottom-0" v-click/>
 
 <!--
 ...
-
 -->
 
 ---
@@ -95,9 +92,17 @@ layout: intro
 
 # 绩效对标
 
+| 考核内容             | 比重  | 自评  |
+|----------------------|-------|-------|
+| 售前对接金额         | 10%   | 全年完成与正在开发 20 个项目 |
+| 开发执行率（进度）   | 40%   | 平均超前15% |
+| 开发质量             | 25%   | bug较少 |
+| 其他月度任务执行     | 15%   | 完成 |
+| 培训工作             | 10%   | 完成《eslint介绍与使用》培训 |
+|  个人常规工作 |   |  完成
+
 <!--
 ...
-
 -->
 
 ---
@@ -466,21 +471,23 @@ layout: statement
 </h1>
 <div mt-3/>
 
-- 用户需求理解不足
-  - 用户调研深度不够，导致需求来源单一或片面，对目标用户的核心痛点理解不足。
-- 信息架构混乱
-  - 在模块划分和层级设计时未充分考虑复杂性，导致用户在操作路径中迷失或逻辑不连贯。
-  - 定期开展用户可用性测试，根据反馈优化信息架构。
-- 需求优先级管理不当
-  - 在需求决策时过于迎合短期目标，忽视了系统长期发展和技术债务的积累。
-  - 设置明确的版本迭代目标，区分必须实现和可延期的功能。
-- 跨部门沟通障碍
-  - 创建跨部门协作文档模板，确保每个需求包含背景、目标、具体功能描述等关键信息。
+#### 1. 用户需求理解不足
+用户调研深度不够，导致需求来源单一或片面，对目标用户的核心痛点理解不足。
+
+#### 2. 信息架构混乱
+在模块划分和层级设计时未充分考虑复杂性，导致用户在操作路径中迷失或逻辑不连贯。
+定期开展用户可用性测试，根据反馈优化信息架构。
+
+#### 3. 需求优先级管理不当
+在需求决策时过于迎合短期目标，忽视了系统长期发展和技术债务的积累。
+设置明确的版本迭代目标，区分必须实现和可延期的功能。
+
+#### 4. 跨部门沟通障碍
+创建跨部门协作文档模板，确保每个需求包含背景、目标、具体功能描述等关键信息。
+
 <!--
 ...
-
 -->
-
 
 ---
 layout: statement
@@ -496,8 +503,6 @@ layout: statement
 </h1>
 <div mt-3/>
 
-在qPaas项目的开发过程中，我们发现以下不足之处：
-
 #### 1. **技术负担较重，开发效率受限**  
    qPaas项目在技术架构和代码基础上存在一定的历史遗留问题，这些问题使得新功能的开发和现有功能的维护变得复杂且耗时。
 
@@ -509,9 +514,9 @@ layout: statement
    需求频繁调整或功能扩展可能导致开发过程中的返工情况，进一步加剧了对老旧系统的负担。
 
 通过上述措施，我们希望能够从根本上改善qPaas项目开发的痛点，让团队在面对“维修老旧车辆”般的挑战时，不再是疲于应对，而是能够有序、高效地推动项目的健康发展。
+
 <!--
 ...
-
 -->
 
 ---
@@ -532,3 +537,15 @@ layout: statement
 
 - 《海上清舱作业系统》顺利完成
 - 开发、协助其他项目的开发
+
+
+---
+layout: intro
+class: text-center pb-5
+glowX: 50
+glowY: 120
+---
+
+# 谢谢
+
+幻灯片在 [https://github.com/lanseria/talks](https://lanseria-talks.netlify.app/2025/work-end)
