@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2023/template/ --out ../../dist/2023/template",
-    "export": "slidev export --output ../2023-07-06-template.pdf"
+    "build": "slidev build --base /2024/work-middle/ --out ../../dist/2024/work-middle",
+    "export": "slidev export --output ../2024-08-28-work-middle.pdf"
   }
 }

@@ -261,7 +261,7 @@ glow: left
 <div text-2xl>《中安惟新门户网站》</div>
 <div mt-4 />
 
-<Repo name="antfu/eslint-config" /> <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
+s<span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
 
 </div>
 
@@ -316,7 +316,7 @@ glow: left
 <div text-2xl>《中化东方的无人泵房》</div>
 <div mt-4 />
 
-<Repo name="antfu/eslint-config" /> <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.5.1</span>
+<span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.5.1</span>
 
 </div>
 

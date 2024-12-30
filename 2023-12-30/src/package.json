@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2023/template/ --out ../../dist/2023/template",
-    "export": "slidev export --output ../2023-07-06-template.pdf"
+    "build": "slidev build --base /2023/electricity-bill-stats/ --out ../../dist/2023/electricity-bill-stats",
+    "export": "slidev export --output ../2023-12-30-electricity-bill-stats.pdf"
   }
 }

@@ -20,3 +20,15 @@ Slides &amp; code for my talks
 - [zh] [盘点一下目前各国的固体火箭](./2023-09-18) - 盘点一下目前各国的固体火箭PPT https://lanseria-talks.netlify.app/2023/solid-rocket-compare
 
 - [zh] [如今的数码科技圈是不是在变革呢？](./2023-09-20) - 如今的数码科技圈是不是在变革呢？PPT https://lanseria-talks.netlify.app/2023/technological-change
+
+- [zh] [家庭电费如何统计并可视化](./2023-12-30) - 家庭电费如何统计并可视化 PPT https://lanseria-talks.netlify.app/2023/electricity-bill-stats
+
+###### 2024
+
+- [zh] [国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？](./2024-01-22) - 国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？ https://lanseria-talks.netlify.app/2024/VTVL
+
+- [zh] [2024年上半年工作报告](./2023-08-28) - 2024年上半年工作报告 https://lanseria-talks.netlify.app/2024/work-middle
+
+###### 2025
+
+- [zh] [2024年工作报告](./2025-01-01) - 2024年工作报告 https://lanseria-talks.netlify.app/2025/work-end
