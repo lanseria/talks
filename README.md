@@ -2,10 +2,16 @@
 
 Slides &amp; code for my talks
 
-###### 2022
+###### 2025
 
-- [zh] [数字孪生与虚拟现实](./2022-11-28) - 数字孪生与虚拟现实
-- [zh] [远程办公](./2022-12-17) - 远程办公
+- [zh] [2024年工作报告](./2025-01-01) - 2024年工作报告 https://lanseria-talks.netlify.app/2025/work-end
+
+###### 2024
+
+- [zh] [国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？](./2024-01-22) - 国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？ https://lanseria-talks.netlify.app/2024/VTVL
+
+- [zh] [2024年上半年工作报告](./2023-08-28) - 2024年上半年工作报告 https://lanseria-talks.netlify.app/2024/work-middle
+
 
 ###### 2023
 
@@ -23,12 +29,8 @@ Slides &amp; code for my talks
 
 - [zh] [家庭电费如何统计并可视化](./2023-12-30) - 家庭电费如何统计并可视化 PPT https://lanseria-talks.netlify.app/2023/electricity-bill-stats
 
-###### 2024
 
-- [zh] [国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？](./2024-01-22) - 国内6家民营火箭发射VTVL已完成初次测试，大概还有多少次测试才能首发呢？ https://lanseria-talks.netlify.app/2024/VTVL
+###### 2022
 
-- [zh] [2024年上半年工作报告](./2023-08-28) - 2024年上半年工作报告 https://lanseria-talks.netlify.app/2024/work-middle
-
-###### 2025
-
-- [zh] [2024年工作报告](./2025-01-01) - 2024年工作报告 https://lanseria-talks.netlify.app/2025/work-end
+- [zh] [数字孪生与虚拟现实](./2022-11-28) - 数字孪生与虚拟现实
+- [zh] [远程办公](./2022-12-17) - 远程办公
