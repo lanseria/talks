@@ -8,18 +8,63 @@ NODE_VERSION = "20"
 PLAYWRIGHT_BROWSERS_PATH = "0"
 
 [[redirects]]
-  from = "/2022/telecommuting/*"
-  to = "/2022/telecommuting/index.html"
-  status = 200
+from = "/2022/telecommuting/*"
+to = "/2022/telecommuting/index.html"
+status = 200
 
 
 [[redirects]]
-  from = "/2022/virtual-reality-and-digital-twins/*"
-  to = "/2022/virtual-reality-and-digital-twins/index.html"
-  status = 200
+from = "/2022/virtual-reality-and-digital-twins/*"
+to = "/2022/virtual-reality-and-digital-twins/index.html"
+status = 200
 
 
 [[redirects]]
-  from = "/2023/work-report-half-year-2023/*"
-  to = "/2023/work-report-half-year-2023/index.html"
-  status = 200
+from = "/2023/work-report-half-year-2023/*"
+to = "/2023/work-report-half-year-2023/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/satellite-cloud-image/*"
+to = "/2023/satellite-cloud-image/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/pangu-compare/*"
+to = "/2023/pangu-compare/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/solid-rocket-compare/*"
+to = "/2023/solid-rocket-compare/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/technological-change/*"
+to = "/2023/technological-change/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/cold-wave-05/*"
+to = "/2023/cold-wave-05/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/electricity-bill-stats/*"
+to = "/2023/electricity-bill-stats/index.html"
+status = 200
+
+[[redirects]]
+from = "/2024/VTVL/*"
+to = "/2024/VTVL/index.html"
+status = 200
+
+[[redirects]]
+from = "/2024/work-middle/*"
+to = "/2024/work-middle/index.html"
+status = 200
+
+[[redirects]]
+from = "/2025/work-end/*"
+to = "/2025/work-end/index.html"
+status = 200
