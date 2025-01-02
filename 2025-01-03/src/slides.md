@@ -15,7 +15,7 @@ title: 员工个人2024年年终述职工作
 演讲人：张超
 
 <!--
-大家好，现在由我来汇报以下自己的2024年的年终述职报告。
+大家好，现在由我来汇报一下自己的2024年的年终述职报告。
 -->
 
 ---
@@ -94,15 +94,15 @@ layout: default
 <Timeline class="absolute top-0 left-0 right-0 bottom-0" v-click/>
 
 <!--
-可以看到项目分布比较均匀，整体进展顺利。
-可以看到一些有趣的现象
-比如上年年主要集中于产品部的培训空间
-下半年主要时间花在了qPaas教育平台上
-然后我用颜色区分了每个项目的类型
-比如紫色是qPaas相关项目
-蓝色是自主研发项目
-深蓝表示几乎是我自己靠全栈，开发的那些稍微不太复杂的项目，当然里面有很多次迭代
-红色是指我这里停止或者临时性或者暂停的项目
+可以看到项目分布较为均匀，
+整体进展顺利。
+观察发现，上半年重点集中在产品部的培训空间，
+下半年则主要投入qPaas教育平台。
+我用颜色区分了项目类型：
+紫色代表qPaas相关项目，
+蓝色为自主研发项目，
+深蓝表示全栈项目（包含多次迭代），
+红色则代表已停止或临时暂停的项目。
 -->
 
 ---
@@ -121,10 +121,10 @@ layout: intro
 |  个人常规工作 |   |  及时处理问题
 
 <!--
-绩效对标上
-我大致估摸着是这样的评价
-可能不太准确
-但我对某些项目的细节把控还是挺到位的
+在绩效对标上，
+我的评价大致如此，
+或许不够精确，
+但对某些项目的细节把控还是相当到位的。
 -->
 
 ---
@@ -150,11 +150,31 @@ layout: statement
 </h1>
 <div class="flex flex-col items-center w-full gap-40px">
 <div class="flex-none w-full grid grid-cols-5 gap-6 place-items-center mt-20">
-  <div font-hand text-3xl class="text-teal-500 flex items-center justify-center" v-click>四川中烟</div>
-  <div font-hand text-3xl class="text-lime-500 flex items-center justify-center" v-after>三棵树</div>
-  <div font-hand text-3xl class="text-blue-500 flex items-center justify-center" v-click>中远海运</div>
-  <div font-hand text-3xl class="text-orange-500 flex items-center justify-center" v-click>河南骏化</div>
-  <div font-hand text-3xl class="text-purple-500 flex items-center justify-center" v-click>鼎实大榭</div>
+  <div font-hand text-3xl
+    v-motion
+    :initial="{ opacity: 0 }"
+    :enter="{opacity: 1, transition: { delay: 0, duration: 400 } }" 
+     class="text-teal-500 flex items-center justify-center">四川中烟</div>
+  <div font-hand text-3xl
+    v-motion
+    :initial="{ opacity: 0}"
+    :enter="{opacity: 1, transition: { delay: 400, duration: 400 } }" 
+    class="text-lime-500 flex items-center justify-center">三棵树</div>
+  <div font-hand text-3xl
+    v-motion
+    :initial="{ opacity: 0}"
+    :enter="{opacity: 1, transition: { delay: 800, duration: 400 } }" 
+     class="text-blue-500 flex items-center justify-center">中远海运</div>
+  <div font-hand text-3xl
+    v-motion
+    :initial="{ opacity: 0}"
+    :enter="{opacity: 1, transition: { delay: 1200, duration: 400 } }" 
+   class="text-orange-500 flex items-center justify-center">河南骏化</div>
+  <div font-hand text-3xl
+    v-motion
+    :initial="{ opacity: 0}"
+    :enter="{opacity: 1, transition: { delay: 1600, duration: 400 } }"
+      class="text-purple-500 flex items-center justify-center">鼎实大榭</div>
 </div>
 <div class="flex-1 relative w-full flex gap-40px items-center justify-center">
   <img src="/qpaas.jpg" class="shadow w-300px">
@@ -414,63 +434,63 @@ C端，分表？
 
 <div grid="~ cols-2 gap-8" pt6>
 
-<div v-click="1" bg-lime:10 border="~ lime/50 rounded-lg">
+<div v-click bg-lime:10 border="~ lime/50 rounded-lg">
   <div flex="~ items-center gap-2" bg-lime:10 px4 py2 rounded>
 <img w-20px h-20px src="https://sf3-scmcdn-cn.feishucdn.com/obj/tos-cn-v-826391/oQCVAmQlDDKAm9HQU4ybBel8fnLwvpIHOl12Mg" />
  多维表格</div>
 
   <div ml2 p2 text-lime5>
-  <v-clicks :at="2">
+  <v-after>
 
   - 好协作：实现多人编辑实时同步、批注讨论，历史记录一键溯源
   - 个性化：提供丰富的字段、仪表盘等能力
   - 自动化：无需代码即可快速同步项目进展
-  </v-clicks>
+  </v-after>
   </div>
 </div>
 
-<div v-click="5" bg-gray:10 border="~ gray/50 rounded-lg">
+<div v-click bg-gray:10 border="~ gray/50 rounded-lg">
   <div flex="~ items-center gap-2" bg-gray:10 px4 py2 rounded><img w-20px h-20px src="https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/samantha/logo-icon-white-bg.png" />豆包 AI</div>
 
   <div ml2 p2 text-gray5>
-  <v-clicks :at="6">
+  <v-after>
 
   - AI 搜索：实时资讯，丰富信源，整合搜索
   - AI 阅读：论文课件，财报合同，翻译总结
   - 图像生成：自定风格，搜集灵感，复制同款
-  </v-clicks>
+  </v-after>
   </div>
 </div>
 
-<div v-click="9" bg-orange:10 border="~ orange/50 rounded-lg">
+<div v-click bg-orange:10 border="~ orange/50 rounded-lg">
   <div flex="~ items-center gap-2" bg-orange:10 px4 py2 rounded>
 <img w-20px h-20px src="https://p1-hera.feishucdn.com/tos-cn-i-jbbdkfciu3/84a9f036fe2b44f99b899fff4beeb963~tplv-jbbdkfciu3-image:0:0.image" />
 飞行社</div>
 
   <div ml2 p2 text-orange5>
-  <v-clicks :at="10">
+  <v-after>
 
   - 知识：丰富的社区支持
   - 课程：大量官方精选
   - 模板：涵盖 AIGC 等工作管理等类型的飞书模板
 
-  </v-clicks>
+  </v-after>
   </div>
 </div>
 
-<div v-click="14" bg-pink:10 border="~ pink/50 rounded-lg">
+<div v-click bg-pink:10 border="~ pink/50 rounded-lg">
   <div flex="~ items-center gap-2" bg-pink:10 px4 py2 rounded>
 <img bg-black rounded w-20px h-20px src="https://js.design/static/media/js.638082e9e19161d42f2bc2eb803cee11.svg" />
  即时设计</div>
 
   <div ml2 p2 text-pink5>
-  <v-clicks :at="15">
+  <v-after>
 
   - 实时协同，提升各角色工作流中的效率
   - 多种主流文件格式迁移，让你进得来出得去
   - AI设计纪元：打破传统设计界限，无限释放设计灵感
 
-  </v-clicks>
+  </v-after>
   </div>
 </div>
 
@@ -656,6 +676,10 @@ layout: intro
 
 </div>
 
+<!--
+1. 继续完成海上清舱系统
+2. 继续开发维护其他项目的开发
+-->
 
 ---
 layout: intro
@@ -667,3 +691,7 @@ glowY: 120
 # 谢谢
 
 幻灯片在 [https://github.com/lanseria/talks](https://lanseria-talks.netlify.app/2025/work-end)
+
+<!--
+谢谢大家
+-->
