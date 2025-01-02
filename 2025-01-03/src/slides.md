@@ -96,10 +96,10 @@ layout: intro
 |----------------------|-------|-------|
 | 售前对接金额         | 10%   | 全年完成与正在开发 20 个项目 |
 | 开发执行率（进度）   | 40%   | 平均超前15% |
-| 开发质量             | 25%   | bug较少 |
-| 其他月度任务执行     | 15%   | 完成 |
+| 开发质量             | 25%   | 需求整理得当，bug解决快速 |
+| 其他月度任务执行     | 15%   | 按时保质保量完成 |
 | 培训工作             | 10%   | 完成《eslint介绍与使用》培训 |
-|  个人常规工作 |   |  完成
+|  个人常规工作 |   |  及时处理问题
 
 <!--
 ...
@@ -127,12 +127,18 @@ layout: statement
   </span>
 </div>
 </h1>
-<div class="w-full grid grid-cols-2 gap-6 place-items-center mt-20">
-  <div font-hand text-5xl class="text-teal-500 flex items-center justify-center" v-click>四川中烟</div>
-  <div font-hand text-5xl class="text-lime-500 flex items-center justify-center" v-after>三棵树</div>
-  <div font-hand text-5xl class="text-blue-500 flex items-center justify-center" v-click>中远海运</div>
-  <div font-hand text-5xl class="text-orange-500 flex items-center justify-center" v-click>河南骏化承包商</div>
-  <div font-hand text-5xl class="text-purple-500 flex items-center justify-center" v-click>宁波鼎实大榭</div>
+<div class="flex flex-col items-center w-full gap-40px">
+<div class="flex-none w-full grid grid-cols-5 gap-6 place-items-center mt-20">
+  <div font-hand text-3xl class="text-teal-500 flex items-center justify-center" v-click>四川中烟</div>
+  <div font-hand text-3xl class="text-lime-500 flex items-center justify-center" v-after>三棵树</div>
+  <div font-hand text-3xl class="text-blue-500 flex items-center justify-center" v-click>中远海运</div>
+  <div font-hand text-3xl class="text-orange-500 flex items-center justify-center" v-click>河南骏化</div>
+  <div font-hand text-3xl class="text-purple-500 flex items-center justify-center" v-click>鼎实大榭</div>
+</div>
+<div class="flex-1 relative w-full flex gap-40px items-center justify-center">
+  <img src="/qpaas.jpg" class="shadow w-300px">
+  <img src="/qpaas1.jpg" class="shadow w-300px">
+</div>
 </div>
 
 <!--
@@ -164,7 +170,7 @@ glow: bottom
   >
     qPaas 教育培训平台
   </span>
-  <span v-click op75 forward:delay-400 text-2xl>就像</span>
+  <span v-click op75 forward:delay-400 text-2xl>总结</span>
 </div>
 </h2>
 
@@ -189,13 +195,21 @@ layout: statement
   </span>
 </div>
 </h1>
-<div class="w-full grid grid-cols-2 gap-6 place-items-center mt-20">
-  <div text-4xl class="text-teal-500 flex items-center justify-center" v-click>《培训空间》</div>
-  <div text-4xl class="text-lime-500 flex items-center justify-center" v-after>《取证小助手》</div>
-  <div text-4xl class="text-blue-500 flex items-center justify-center" v-click>《VQC》</div>
-  <div text-4xl class="text-orange-500 flex items-center justify-center" v-click>兴中考勤/环保/油品储运</div>
+<div class="flex flex-col items-center w-full gap-40px">
+<div class="flex-none w-full grid grid-cols-5 gap-6 place-items-center mt-20">
+  <div text-2xl class="text-teal-500 flex items-center justify-center" v-click>培训空间/取证小助手</div>
+  <div text-2xl class="text-lime-500 flex items-center justify-center" v-click>中化东方储罐泵房</div>
+  <div text-2xl class="text-blue-500 flex items-center justify-center" v-click>到港船舶质量控制公共服务平台VQC</div>
+  <div text-2xl class="text-orange-500 flex items-center justify-center" v-click>兴中考勤/环保/油品储运</div>
+  <div text-2xl class="text-purple-500 flex items-center justify-center" v-click>海上清舱/受限空间</div>
 </div>
-
+<div class="flex-1 relative w-full flex gap-40px items-center justify-center">
+  <img src="/tp.jpg" class="shadow w-200px">
+  <img src="/zhdf.jpg" class="shadow w-200px">
+  <img src="/vqc.jpg" class="shadow w-200px">
+  <img src="/pcs.jpg" class="shadow w-200px">
+</div>
+</div>
 <!--
 ...
 项目的开发与维护
@@ -226,7 +240,7 @@ glow: bottom
     <div i-logos-docker-icon />
     自主项目开发与运维
   </span>
-  <span v-click op75 forward:delay-400 text-2xl>就像</span>
+  <span v-click op75 forward:delay-400 text-2xl>总结</span>
 </div>
 </h2>
 
@@ -264,6 +278,7 @@ glow: left
 <div mt-4 />
 
 <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.2.0</span>
+<span flex="~ inline gap-0.5 items-center" ml-2 text-orange bg-orange:15 px1 rounded text-xs><div i-carbon-layers text="[0.8em]" />全栈</span>
 
 </div>
 
@@ -274,7 +289,7 @@ glow: left
 <div scale-70 origin-left-top w-160 mb--100 mr--40>
 
 
-# 中安惟新门户网站
+# 门户网站
 
 <div mt-6 />
 
@@ -318,6 +333,7 @@ glow: left
 <div mt-4 />
 
 <span flex="~ inline gap-0.5 items-center" text-blue bg-blue:15 px1 rounded text-xs><div i-carbon-tag text="[0.8em]" /> 1.5.1</span>
+<span flex="~ inline gap-0.5 items-center" ml-2 text-orange bg-orange:15 px1 rounded text-xs><div i-carbon-layers text="[0.8em]" />全栈</span>
 
 </div>
 
@@ -358,7 +374,7 @@ glow: left
 
 ---
 
-# 熟练使用先进 OA 系统
+# 熟练使用先进工具
 
 <!-- https://x.com/mattwensing/status/1552136584224509954 -->
 <!-- https://fortune.com/longform/amazon-web-services-ceo-adam-selipsky-cloud-computing/ -->
@@ -434,20 +450,23 @@ glow: left
 -->
 
 ---
-layout: image
 
-# the image source
-image: /lark.png
-backgroundSize: contain
----
+<div grid="~ cols-2 gap-10" mt4>
 
----
-layout: image
+<div>
+<div op50 font-serif italic mb--1>需求/Bug</div>
+<h2><span op75>Port Clean System</span><br>港航清舱系统</h2>
+<img src="/lark.png" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+</div>
 
-# the image source
-image: /lark1.png
-backgroundSize: contain
----
+<div>
+<div op50 font-serif italic mb--1>仪表盘</div>
+<h2><span op75>Port Clean System</span><br>港航清舱系统</h2>
+<img src="/lark1.png" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+</div>
+
+</div>
+
 ---
 
 # 熟练运用 AI
@@ -565,9 +584,6 @@ layout: intro
 ...
 2025年工作计划
 -->
----
-layout: statement
----
 
 ---
 
