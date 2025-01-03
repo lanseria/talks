@@ -32,7 +32,7 @@ class: pl-30
 了解使用框架 Vite, Vue, Nuxt, Nitro 等 Js 技术框架<br/>
 了解使用数据库 Postgresql, Sqlite, Mysql <br/>
 AI 使用者<br/>
-AI 对话使用过 ChatGPT, GPT4o, Kimi, 豆包，Grok，Claude-3.5-Sonnet <br/>
+AI 对话使用过 DeepSeek, GPT4o, Kimi, 豆包，Grok，Claude-3.5-Sonnet <br/>
 AI 文成图，图生视频，音乐 <br/>
 
 </div>
