@@ -529,7 +529,9 @@ background: https://cover.sli.dev/
 如果觉得这个项目对你有帮助，或者你喜欢这个分享
 
 <div class="text-6xl mt-8 animate-bounce">
-👍🪙⭐
+<mdi-like class="text-blue-500" />
+<tabler-coin-yen-filled class="text-orange-500" />
+<mdi-star class="text-yellow-500" />
 </div>
 
 <div class="text-2xl mt-4">
