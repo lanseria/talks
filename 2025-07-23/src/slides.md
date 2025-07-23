@@ -6,7 +6,7 @@ titleTemplate: '%s - GeoScraper'
 info: |
   一个为开发者打造的地理瓦片下载与管理平台。
   Bilibili 技术分享。
-author: '你的 B 站昵称'
+author: '爱吃包子的超'
 lineNumbers: true # 代码块显示行号
 drawings:
   persist: false
@@ -248,20 +248,21 @@ const fetchOptions: any = {
 
 GeoScraper 提供了一套完整的 **校验 -> 修复** 闭环工作流。
 
-```mermaid
-graph TD
+```mermaid {scale: 0.6}
+graph LR
     A[任务完成] --> B{启动文件校验};
-    B --> C{发现 100 个缺失瓦片};
+    B --> C{发现缺失瓦片};
+    B --> H[文件完整!];
     C --> D[进入地图查看器];
     D --> E{高亮显示缺失瓦片};
     E --> F[一键重新下载];
-    F --> G[任务自动修复!];
-    C --> H[<br>太棒了!<br>文件完整]
+    F --> G[任务自动修复! 🎉];
 ```
 
 <div class="text-sm mt-4 text-gray-500">
 这解决了海量小文件下载后，最头疼的“完整性”问题。
 </div>
+
 
 ---
 
@@ -302,30 +303,36 @@ graph TD
 
 
 ---
+layout: two-cols-header
+---
 
 # 部署？Docker 帮你搞定！
 
 项目提供了优化的 `Dockerfile`，采用**多阶段构建**。
 
-<div class="grid grid-cols-2 gap-8">
-<pre class="text-sm">
-  ```Dockerfile
-  FROM node:22 AS build-stage
-  WORKDIR /app
-  COPY .npmrc package.json ... ./
-  RUN pnpm install --frozen-lockfile
-  COPY . .
-  RUN pnpm build
-  FROM node:22-slim AS production-stage
-  WORKDIR /app
-  COPY --from=build-stage /app/.output ./.output
-  EXPOSE 3000
-  CMD ["node", ".output/server/index.mjs"]
-  ```
-</pre>
+::left::
 
-<div class="space-y-4">
-<h3 class="font-bold text-lg">多阶段构建的优势</h3>
+```dockerfile
+# ---- Stage 1: Build ----
+FROM node:22 AS build-stage
+WORKDIR /app
+COPY .npmrc package.json ... ./
+RUN pnpm install --frozen-lockfile
+COPY . .
+RUN pnpm build
+
+# ---- Stage 2: Production ----
+FROM node:22-slim AS production-stage
+WORKDIR /app
+# 只复制编译好的产物
+COPY --from=build-stage /app/.output ./.output
+EXPOSE 3000
+CMD ["node", ".output/server/index.mjs"]
+```
+
+::right::
+
+<div class="ml-4 space-y-4">
 
 <div class="p-3 border rounded-lg">
 <h4 class="font-bold">✅ 最终镜像小</h4>
@@ -343,7 +350,7 @@ graph TD
 </div>
 
 </div>
-</div>
+
 
 ---
 layout: center
