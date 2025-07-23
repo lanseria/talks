@@ -17,10 +17,19 @@ fonts:
   mono: 'Fira Code'
 ---
 
-# GeoScraper: 我把地图下载做成了一个开源项目！
+<!-- Slide 1: 修改后的开场，更具吸引力 -->
+<div class="text-center">
+  <h1 class="text-6xl font-bold">想用离线谷歌地图？</h1>
+  <h2 class="text-4xl mt-4">我做了个开源项目：GeoScraper</h2>
+</div>
 
-<div class="pt-12">
+<div class="pt-12 text-center">
   <span class="px-2 py-1 rounded bg-blue-50 text-blue-500">一个为开发者打造的地理瓦片下载与管理平台</span>
+</div>
+
+<div class="abs-b left-0 right-0 p-4 text-center text-xs text-gray-400">
+  <carbon:warning-alt class="inline-block"/>
+  <span class="ml-1">本项目仅供学习交流，请勿用于商业用途，数据版权归原服务商所有，使用后果自负。</span>
 </div>
 
 <div class="abs-br m-6 flex gap-2">
@@ -129,7 +138,57 @@ layout: center
 -->
 
 ---
+layout: center
+class: text-center
+---
 
+# 下载地图，数据量有多“夸张”？
+
+### 以 **舟山群岛** 为例，估算下载谷歌卫星图的数据量
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
+<div v-click class="p-4 border rounded-lg">
+  <h4 class="font-bold text-lg">Zoom 16</h4>
+  <p class="text-2xl font-mono mt-2">92,208</p>
+  <p class="text-sm text-gray-500"><carbon-image-copy class="inline-block" /> 瓦片</p>
+  <p class="text-2xl font-mono mt-2">2.64 GB</p>
+  <p class="text-sm text-gray-500"><carbon-data-base class="inline-block" /> 磁盘占用</p>
+</div>
+<div v-click class="p-4 border rounded-lg">
+  <h4 class="font-bold text-lg">Zoom 17</h4>
+  <p class="text-2xl font-mono mt-2">366,934</p>
+  <p class="text-sm text-gray-500"><carbon-image-copy class="inline-block" /> 瓦片</p>
+  <p class="text-2xl font-mono mt-2">10.50 GB</p>
+  <p class="text-sm text-gray-500"><carbon-data-base class="inline-block" /> 磁盘占用</p>
+</div>
+<div v-click class="p-4 border rounded-lg">
+  <h4 class="font-bold text-lg">Zoom 18</h4>
+  <p class="text-2xl font-mono mt-2">1,463,946</p>
+  <p class="text-sm text-gray-500"><carbon-image-copy class="inline-block" /> 瓦片</p>
+  <p class="text-2xl font-mono mt-2">41.88 GB</p>
+  <p class="text-sm text-gray-500"><carbon-data-base class="inline-block" /> 磁盘占用</p>
+</div>
+<div v-click class="p-4 border rounded-lg bg-red-50 dark:bg-red-900/50">
+  <h4 class="font-bold text-lg">Zoom 19</h4>
+  <p class="text-2xl font-mono mt-2">5,853,620</p>
+  <p class="text-sm text-gray-500"><carbon-image-copy class="inline-block" /> 瓦片</p>
+  <p class="text-2xl font-mono mt-2">167.47 GB</p>
+  <p class="text-sm text-gray-500"><carbon-data-base class="inline-block" /> 磁盘占用</p>
+</div>
+</div>
+
+<div v-click class="mt-6 text-xl">
+人工下载？<span class="text-red-500 font-bold">基本不可能！</span> 这就是 GeoScraper 的价值所在。
+</div>
+
+<!-- 
+用这个具体例子，能让观众直观地感受到这个工具要解决的问题规模有多大。
+Zoom 级别每增加一级，数据量大约会翻 4 倍，这是非常惊人的。
+-->
+
+---
+layout: center
+---
 # 魔法揭秘：如何实现“实时”更新？
 
 答案是：**Server-Sent Events (SSE) + Redis**
@@ -169,7 +228,7 @@ sequenceDiagram
 -->
 
 ---
-layout: two-cols
+layout: two-cols-header
 ---
 
 # 项目技术架构
@@ -243,12 +302,13 @@ const fetchOptions: any = {
 -->
 
 ---
-
+layout: center
+---
 # 下载完了就结束了？还没！
 
 GeoScraper 提供了一套完整的 **校验 -> 修复** 闭环工作流。
 
-```mermaid {scale: 0.6}
+```mermaid {scale: 0.5}
 graph LR
     A[任务完成] --> B{启动文件校验};
     B --> C{发现缺失瓦片};
@@ -265,7 +325,8 @@ graph LR
 
 
 ---
-
+layout: center
+---
 # 地图查看器：眼见为实
 
 内置的查看器，不仅能预览，还能做更多。
@@ -384,6 +445,11 @@ github.com/lanseria/geoscraper
   <li>使用 BullMQ 优化后台队列</li>
 </ul>
 </div>
+</div>
+
+<div class="p-4 mt-6 rounded-lg bg-orange-50 dark:bg-orange-900/50 text-orange-800 dark:text-orange-300">
+  <h4 class="font-bold flex items-center"><carbon-warning-alt class="mr-2" />当前状态</h4>
+  <p class="text-sm mt-1">目前功能还不算非常完善，纯属个人试验和兴趣驱动。今后有空、有动力了会继续更新。欢迎大家提 PR 一起建设！</p>
 </div>
 
 ---
