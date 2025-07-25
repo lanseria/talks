@@ -5,7 +5,10 @@ Slides &amp; code for my talks
 ###### 2025
 
 - [zh] [2024年工作报告](./2025-01-01) - 2024年工作报告 https://lanseria-talks.netlify.app/2025/work-end
+
 - [zh] [GeoScraper: 我把地图下载做成了一个开源项目！](./2025-07-23) - GeoScraper: 我把地图下载做成了一个开源项目！ https://lanseria-talks.netlify.app/2025/geoscraper
+
+- [zh] [FundInvestmentAssistant: 我把地图下载做成了一个开源项目！](./2025-07-23) - FundInvestmentAssistant: 我把地图下载做成了一个开源项目！ https://lanseria-talks.netlify.app/2025/fund-investment-assistant
 
 ###### 2024
 

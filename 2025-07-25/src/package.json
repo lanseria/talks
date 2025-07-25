@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2023/template/ --out ../../dist/2023/template",
-    "export": "slidev export --output ../2023-07-06-template.pdf"
+    "build": "slidev build --base /2025/fund-investment-assistant/ --out ../../dist/2025/fund-investment-assistant",
+    "export": "slidev export --output ../2025-07-25-fund-investment-assistant.pdf"
   }
 }
