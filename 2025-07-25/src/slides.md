@@ -95,6 +95,7 @@ layout: center
 ---
 layout: center
 class: text-center
+glowOpacity: 0.1
 ---
 
 # ✨ 项目功能一览
@@ -134,18 +135,18 @@ class: text-center
 
 ---
 layout: default
+glowOpacity: 0.1
+glow: top
 ---
 
 # 核心仪表盘
 
 <img src="/demo/dashboard.png" class="rounded-lg shadow-lg mt-4" />
 
-<!-- 请将你的项目截图放在 public/demo/dashboard.png -->
-
-<div v-click class="absolute top-40 left-10 p-2 bg-black/60 rounded text-white text-sm">清晰的表格布局</div>
-<div v-click class="absolute top-28 right-10 p-2 bg-black/60 rounded text-white text-sm">SSE 实时估值更新 🟢</div>
-<div v-click class="absolute bottom-20 right-80 p-2 bg-black/60 rounded text-white text-sm">自定义排序</div>
-<div v-click class="absolute bottom-10 left-40 p-2 bg-black/60 rounded text-white text-sm">策略信号 Tag</div>
+<div v-click class="absolute top-100 left-30 p-2 bg-black/60 rounded text-white text-sm">清晰的表格布局</div>
+<div v-click class="absolute top-45 right-30 p-2 bg-black/60 rounded text-white text-sm">SSE 实时估值更新 🟢</div>
+<div v-click class="absolute top-52 left-100 p-2 bg-black/60 rounded text-white text-sm">自定义排序</div>
+<div v-click class="absolute bottom-5 left-100 p-2 bg-black/60 rounded text-white text-sm">策略信号 Tag</div>
 
 ---
 layout: default
@@ -157,10 +158,10 @@ layout: default
 
 <!-- 请将你的项目截图放在 public/demo/fund-detail.png -->
 
-<div v-click class="absolute top-25 left-10 p-2 bg-black/60 rounded text-white text-sm">ECharts 驱动</div>
-<div v-click class="absolute top-50 right-10 p-2 bg-black/60 rounded text-white text-sm">买(B)/卖(S)信号标记</div>
-<div v-click class="absolute bottom-20 left-40 p-2 bg-black/60 rounded text-white text-sm">动态时间范围选择</div>
-<div v-click class="absolute top-80 right-20 p-2 bg-black/60 rounded text-white text-sm">支持多种策略图表</div>
+<div v-click class="absolute top-60 left-30 p-2 bg-black/60 rounded text-white text-sm">ECharts 驱动</div>
+<div v-click class="absolute top-50 right-30 p-2 bg-black/60 rounded text-white text-sm">买(B)/卖(S)信号标记</div>
+<div v-click class="absolute bottom-20 left-30 p-2 bg-black/60 rounded text-white text-sm">动态时间范围选择</div>
+<div v-click class="absolute top-80 right-30 p-2 bg-black/60 rounded text-white text-sm">支持多种策略图表</div>
 
 ---
 layout: default
