@@ -2,6 +2,8 @@
 
 Slides &amp; code for my talks
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50b2182f-ef78-4da2-b09c-4c5690d5bba9/deploy-status)](https://app.netlify.com/projects/lanseria-talks/deploys)
+
 ###### 2025
 
 - [zh] [2024年工作报告](./2025-01-01) - 2024年工作报告 https://lanseria-talks.netlify.app/2025/work-end
