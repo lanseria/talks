@@ -1,10 +1,11 @@
 packages:
   - '*/src'
+
 catalog:
-  '@antfu/eslint-config': ^4.18.0
+  '@antfu/eslint-config': ^5.0.0
   '@eslint/config-inspector': ^1.1.0
-  '@iconify/collections': ^1.0.570
-  '@iconify/json': ^2.2.360
+  '@iconify/collections': ^1.0.572
+  '@iconify/json': ^2.2.362
   '@slidev/cli': ^52.0.0
   '@slidev/client': ^52.0.0
   '@slidev/theme-default': ^0.25.0
@@ -28,8 +29,8 @@ catalog:
   taze: ^19.1.0
   typescript: ^5.8.3
   unocss: ^66.3.3
-  vis-data: ^8.0.1
-  vis-network: ^10.0.1
-  vis-timeline: ^8.1.1
+  vis-data: ^7.1.10
+  vis-network: ^9.1.13
+  vis-timeline: ^7.7.4
   vue-router: ^4.5.1
-  vue-tsc: ^3.0.3
+  vue-tsc: ^3.0.4
