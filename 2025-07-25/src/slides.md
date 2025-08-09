@@ -20,13 +20,18 @@ title: 基金投资助手 - 用 Nuxt 打造你的全栈投资看板
   </p>
 </div>
 
-<!-- 这是封底信息，会显示在右下角 -->
 <div abs-br mx-10 my-11 flex="~ col gap-2 items-end" text-left op75>
   <span>Bilibili @爱吃包子的超</span>
-  <a href="https://github.com/lanseria/fund-nuxt-app" target="_blank" class="text-sm border-none! font-300">
-    github.com/lanseria/fund-nuxt-app
+  <a href="https://github.com/lanseria/fund-investment-assistant" target="_blank" class="text-sm border-none! font-300">
+    github.com/lanseria/fund-investment-assistant
   </a>
 </div>
+
+<!--
+哈喽大家好，我是爱吃包子的超。
+今天非常高兴能在这里和大家分享我最近做的一个开源项目——基金投资助手。
+简单来说，它是一个你可以自己部署、完全掌控的全栈基金投资看板。如果你和我一样，既是投资者，也是个喜欢折腾技术的开发者，那么相信今天的内容你一定会感兴趣。
+-->
 
 ---
 layout: intro
@@ -43,7 +48,6 @@ class: pl-30
 
 </div>
 
-<!-- [修改] 修复了图标和文字的对齐问题，并微调了样式 -->
 <div my-10 flex="~ gap-8" items-center>
   <a href="https://github.com/lanseria" target="_blank" class="flex items-center gap-2 border-none! font-300">
     <div i-ri-github-line op50 text-2xl />
@@ -55,8 +59,13 @@ class: pl-30
   </a>
 </div>
 
-<!-- 替换成你的头像 -->
 <img src="https://avatars.githubusercontent.com/u/14802764?v=4" absolute top-36 right-30 w-40 rounded-full />
+
+<!--
+在正式开始之前，请允许我简单介绍一下自己。
+我是一名全栈开发者，也是 Vue、Nuxt 和 TypeScript 的忠实爱好者。平时最大的乐趣就是把一些想法通过代码实现出来，并且热衷于参与和分享各种开源项目。
+大家可以在 Bilibili 和 GitHub 上通过“爱吃包子的超”或者“lanseria”找到我。我会在这些平台分享一些技术和项目心得，欢迎大家关注和交流。
+-->
 
 ---
 layout: center
@@ -91,6 +100,16 @@ layout: center
 </p>
 </div>
 </div>
+
+<!--
+好，那我们回到正题。我当初为什么要做这么一个项目呢？主要有三个痛点。
+(点击，出现第一项)
+首先，手动记账太麻烦了。在座的各位可能也有过类似的经历，用 Excel 或者一些记账软件来记录每一笔基金的买入和卖出。这个过程不仅非常繁琐，容易出错，而且最大的问题是，它无法让我直观地看到实时的收益情况。每天的涨跌，我还是得打开另外的软件去看。
+(点击，出现第二项)
+其次，官方的 App 太臃肿了。不管是支付宝还是天天基金，打开应用，迎面而来的就是各种广告、理财推荐和信息流，信息过载非常严重。有时候，我真的只是想安安静静地看一眼我的持仓，只想关注我自己的那几只基金，而不是被各种信息轰炸。我想要一个纯粹、干净、只属于我的投资看板。
+(点击，出现第三项)
+最后，也是对我个人而言最重要的一个原因——我想自己实践技术。我一直想用 Nuxt 3 来完整地构建一个全栈项目，把前端、后端 API、数据库、定时任务，甚至是用户认证这些环节全部串联起来。这对我来说是一个绝佳的练手机会，也是一个能解决自己实际问题的有趣挑战。
+-->
 
 ---
 layout: center
@@ -133,6 +152,17 @@ glowOpacity: 0.1
   </div>
 </div>
 
+<!--
+基于这些痛点，我开发了“基金投资助手”，它主要包含了这些核心功能：
+(逐个点击，介绍功能)
+清晰的仪表盘：一打开应用，你就能看到所有持仓的总资产、总盈亏，以及一个清晰的持仓列表，所有关键信息一目了然。
+交互式图表：我们为每只基金都提供了基于 ECharts 的深度分析图表，包括历史净值、MA 均线，甚至还有一些策略信号的展示。
+持仓管理：当然，你可以非常方便地通过一个美观的模态框来增加、删除或者修改你的基金持仓记录。
+主题切换：为了满足不同的审美，项目内置了亮色和暗色模式，并且支持多种主题色，让界面更好看。
+数据备份：你的数据完全由你掌控。我们支持通过 JSON 文件一键导入和导出所有的持仓数据，方便迁移和备份。
+收益率排行：最后，我还做了一个好玩的功能，一个匿名化的用户收益率排行榜，可以看看社区里的大佬们表现如何，激励一下自己。
+-->
+
 ---
 layout: default
 glowOpacity: 0.1
@@ -148,6 +178,19 @@ glow: top
 <div v-click class="absolute top-52 left-100 p-2 bg-black/60 rounded text-white text-sm">自定义排序</div>
 <div v-click class="absolute bottom-5 left-100 p-2 bg-black/60 rounded text-white text-sm">策略信号 Tag</div>
 
+<!--
+我们先来看一下项目的核心界面——仪表盘。
+这就是你登录后看到的第一个页面。
+(点击，出现第一个标注)
+整个布局非常清晰，采用了大家最熟悉的表格形式，展示了基金代码、名称、持有份额、成本价、当前净值、日涨跌幅以及各项盈亏数据。
+(点击，出现第二个标注)
+大家请注意看“今日估算”这一列，它后面有一个绿色的小圆点。这代表数据是实时更新的。在交易日的交易时段，后端会定时去拉取最新的基金估值，然后通过 SSE (Server-Sent Events) 技术实时推送到前端，你不需要刷新页面，就能看到收益的跳动。
+(点击，出现第三个标注)
+我们还支持了非常方便的自定义排序功能，你可以点击表头，按持仓市值、累计收益率等任意你关心的指标进行排序。
+(点击，出现第四个标注)
+最后，表格末尾这个小小的 Tag，比如“MA”，是我们的策略信号。它会根据你设置的投资策略，给你一些简单的提示。
+-->
+
 ---
 layout: default
 ---
@@ -156,12 +199,23 @@ layout: default
 
 <img src="/demo/fund-detail.png" class="rounded-lg shadow-lg mt-4" />
 
-<!-- 请将你的项目截图放在 public/demo/fund-detail.png -->
 
 <div v-click class="absolute top-60 left-30 p-2 bg-black/60 rounded text-white text-sm">ECharts 驱动</div>
 <div v-click class="absolute top-50 right-30 p-2 bg-black/60 rounded text-white text-sm">买(B)/卖(S)信号标记</div>
 <div v-click class="absolute bottom-20 left-30 p-2 bg-black/60 rounded text-white text-sm">动态时间范围选择</div>
 <div v-click class="absolute top-80 right-30 p-2 bg-black/60 rounded text-white text-sm">支持多种策略图表</div>
+
+<!--
+当你点击仪表盘上的任意一只基金，就会进入到这个深度策略分析页面。
+(点击，出现第一个标注)
+这个交互式的图表是基于强大的 ECharts 库来驱动的，提供了非常流畅的缩放和拖拽体验。
+(点击，出现第二个标注)
+大家可以看到图上有一些 B点 和 S点 的标记。这是我内置的一些简单交易策略，比如均线策略，计算出的理论**买入（Buy）和卖出（Sell）**信号。这可以为我们的投资决策提供一些数据参考。
+(点击，出现第三个标注)
+底部有一个动态时间范围选择器，你可以方便地查看最近一个月、三个月，或者任意自定义时间范围内的基金走势。
+(点击，出现第四个标注)
+当然，除了基础的K线和均线，我们还支持切换多种不同的策略图表，比如布林带、MACD等等，来满足更专业的分析需求。
+-->
 
 ---
 layout: default
@@ -184,6 +238,16 @@ layout: default
   <div i-carbon-color-palette mr-2 />
   <span>还支持自定义主题色哦！</span>
 </div>
+
+<!--
+作为一个颜控，我认为应用的颜值也非常重要。
+(点击，出现亮色模式)
+所以，项目默认提供了一套清爽的亮色模式。
+(点击，出现暗色模式)
+同时也为喜欢在夜间使用的朋友们准备了现在非常流行的暗色模式。一键切换，非常丝滑。
+(点击，出现底部提示)
+不仅如此！为了满足个性化需求，我们还内置了多种主题色。你可以选择你最喜欢的颜色，比如骚气的紫色、沉稳的蓝色，让这个看板真正成为你自己的专属工具。
+-->
 
 ---
 layout: center
@@ -235,6 +299,16 @@ layout: center
   </div>
 </div>
 
+<!--
+聊完了功能，我们再深入到“船舱”底下，看看这个项目都用了哪些技术，也就是大家常说的“技术栈”。
+(点击，出现前端部分)
+首先是前端。整个项目是基于 Nuxt 3 这个全栈框架构建的，它的底层当然是 Vue 3。样式方面，我选择了原子化的 UnoCSS，写起来非常高效。状态管理则用了官方推荐的 Pinia，而图表就是刚才提到的 ECharts。
+(点击，出现后端部分)
+再来看后端。这部分完全由 Nuxt 的服务器引擎 Nitro 来驱动。数据库我选择了开源且强大的 PostgreSQL，并通过 Drizzle 这个 TypeScript ORM 来进行交互，它的类型安全做得非常棒。缓存方面，我用了 Redis 来存储一些临时数据和 Session。用户认证则采用了更现代、更安全的 PASETO Token方案。而数据的定时同步，则依赖 Nitro 内置的定时任务功能。
+(点击，出现开发部署部分)
+最后，在开发和部署方面。本地开发由 Vite 驱动，速度飞快。包管理用的是 pnpm。为了保证代码质量，我用了 Anthony Fu 大佬的 ESLint 配置。而最终的部署，我把它全部容器化了，通过 Docker 可以一键启动，非常方便。
+-->
+
 ---
 layout: default
 ---
@@ -284,6 +358,17 @@ Nuxt 3 提供了强大的**前后端同构**能力，所有代码都在一个仓
   从用户界面到数据库操作，<span class="text-lime-400 font-bold">一套TS，全部搞定！</span>
 </div>
 
+<!--
+刚才的技术栈里，大家可能注意到了，前端和后端的核心都是 Nuxt。这正是 Nuxt 3 最强大的能力之一：前后端同构。
+(点击，出现架构图)
+我们可以看一下这个简单的架构图。
+从左到右，用户的请求从浏览器发出，首先到达我们的 Nuxt 3 应用。
+在这个 Nuxt 应用内部，它其实分成了两部分：一部分是大家熟悉的 Vue 组件、Pinia 状态管理等，负责渲染用户界面；另一部分则是运行在服务器端的 Nitro 后端，它负责处理 API 请求、执行定时任务、和数据库交互等。
+Nitro 后端再进一步和我们的**数据库（PostgreSQL）以及缓存（Redis）**进行通信，完成数据的增删改查。
+(点击，出现结论)
+这种架构最大的好处是什么呢？就是从用户界面到数据库操作，**一套 TypeScript，全部搞定！**你不需要再维护一个前端项目和一个后端项目，所有的代码都在一个仓库里，共享类型定义，开发体验极度舒适。
+-->
+
 ---
 layout: default
 ---
@@ -332,6 +417,16 @@ const userHoldings = await db.query.holdings.findMany({
 ```
 </div>
 </div>
+
+<!--
+在后端技术选型中，我特别想和大家分享两个让我觉得体验非常棒的亮点。第一个就是 Drizzle ORM。
+如果你用过其他的 ORM，可能会被复杂的配置和不确定的返回类型所困扰。但 Drizzle 真正做到了完全的类型安全。
+(指向左侧代码)
+我们看左边，这是定义数据表结构的代码。我们用 TypeScript 的方式来定义 users 表和 holdings 表，每个字段的类型、是否为空、是否是外键都一清二楚。
+(指向右侧代码)
+神奇的地方在右边。当我们去查询数据时，比如这里我们查询某个用户的所有持仓，并且通过 with 关键字声明，要把它关联的 fund 信息也一起查出来。
+Drizzle 会自动分析你的查询语句，然后推断出返回结果的 TypeScript 类型！你甚至不需要手动去写 interface 或 type。这意味着你在写后续的业务逻辑时，所有的字段和类型都会有智能提示，并且在编译时就会检查错误，这极大地提升了代码的健壮性。
+-->
 
 ---
 layout: default
@@ -401,6 +496,15 @@ export default defineTask({
 </div>
 </div>
 
+<!--
+第二个后端亮点，是 Nitro 内置的定时任务功能。
+对于我们这个项目来说，定时任务是至关重要的，比如我们需要每天收盘后同步基金的历史净值，在交易时段内分钟级地同步实时估值。
+(指向左侧代码)
+在 Nuxt 中实现这个需求非常简单。我们只需要在 nuxt.config.ts 这个配置文件里，进行一些声明。这里的语法和 Linux 的 crontab 完全一样，你可以指定任务在何时执行。比如 0 2 * * * 就代表每天凌晨2点执行。然后把它和你定义的任务名称关联起来，比如 fund:syncHistory。
+(指向右侧代码)
+具体的任务逻辑，我们写在 server/tasks 目录下。比如这个同步估值的任务，它会导出一个 defineTask 对象。在 run 方法里，我们调用核心的业务逻辑，比如这里的 syncAllFundsEstimates。
+最妙的是，当任务执行完毕，成功获取到新数据后，我们通过一个全局的事件总线 emitter，发出了一个 holdings:updated 的事件。这个事件，就是接下来我们要讲的前端实时更新的关键。
+-->
 
 ---
 layout: default
@@ -470,6 +574,18 @@ watch(sseData, (newData) => {
 当定时任务更新数据后，后端 `emit` 事件，前端 `watch` 自动响应，UI 无缝刷新！
 </div>
 
+<!--
+好，刚才我们说到，后端定时任务在更新完数据后，会发出一个事件。那前端是如何接收到这个通知并更新界面的呢？这里我们就用到了 SSE，也就是服务器发送事件。
+相比 WebSocket，SSE 更轻量，非常适合这种从服务器到客户端的单向数据流场景。
+(指向左侧代码)
+我们先看后端的实现。我们创建了一个 /api/sse/holdings 的路由。当有客户端连接时，它会创建一个事件流。然后，它就开始监听我们刚才提到的那个 holdings:updated 事件。一旦事件被触发，它就会立刻调用 sendUpdate 函数，把最新的持仓数据通过这个事件流 push 给前端。
+(指向右侧代码)
+再来看前端的实现，就更加优雅了。我借助了 @vueuse/core 这个强大的工具库，它提供了一个 useEventSource 组合式函数。
+我们只需要把后端的 SSE 地址传给它，它就会自动建立连接。然后，我们用一个 watch 来监听 sseData 的变化。一旦后端推送了新的数据过来，watch 就会被触发，我们在这里解析 JSON 数据，然后调用 Pinia store 的 action 来更新全局状态。
+(点击，出现底部文字)
+这样一来，一个完整的实时更新链路就形成了：**后端定时任务更新数据库 -> 触发事件 -> SSE 推送给前端 -> 前端 watch 自动响应 -> UI 无缝刷新！**整个过程用户是无感的，体验非常流畅。
+-->
+
 ---
 layout: center
 ---
@@ -483,7 +599,7 @@ layout: center
     <h3 class="font-bold text-lg mb-1">1. 开发模式</h3>
     <p class="text-sm opacity-70 mb-2">克隆项目，安装依赖，启动开发服务器。</p>
     <code class="block whitespace-pre-wrap p-3 rounded bg-gray-800 text-sm">
-      git clone https://github.com/lanseria/fund-nuxt-app.git
+      git clone https://github.com/lanseria/fund-investment-assistant.git
       <br>
       pnpm install
       <br>
@@ -506,6 +622,15 @@ layout: center
   </div>
 </div>
 
+<!--
+聊了这么多技术细节，相信有些朋友已经跃跃欲试，想把它部署起来自己玩玩了。
+别担心，整个过程非常简单，因为我已经把它完全 Docker 化了。
+(点击，出现开发模式)
+如果你想在本地进行二次开发，或者只是想看看源码，那么只需要三步：git clone 克隆项目，pnpm install 安装依赖，然后 pnpm run dev 就能把开发服务器跑起来了。
+(点击，出现 Docker 部署)
+但我更推荐的方式是直接用 Docker 部署。这只需要两行命令。第一行，docker build，把项目打包成一个镜像。第二行，docker run，直接把这个应用容器跑起来。你只需要提前配置好数据库地址之类的环境变量，就可以在自己的服务器上拥有一个专属的基金投资助手了！
+-->
+
 ---
 layout: intro
 class: text-center pb-5
@@ -517,13 +642,11 @@ class: text-center pb-5
   项目已在 GitHub 开源，欢迎 <span class="text-yellow-300">Star</span> & <span class="text-lime-300">Fork</span>！
 </div>
 
-<!-- [修改] 修复了图标和文字的对齐问题，并微调了样式 -->
 <div my-10 flex="~ gap-8" items-center justify-center>
-  <a href="https://github.com/lanseria/fund-nuxt-app" target="_blank" class="flex items-center gap-2 border-none! font-300">
+  <a href="https://github.com/lanseria/fund-investment-assistant" target="_blank" class="flex items-center gap-2 border-none! font-300">
     <div i-ri-github-line op50 text-2xl />
-    <span text-lg>github.com/lanseria/fund-nuxt-app</span>
+    <span text-lg>github.com/lanseria/fund-investment-assistant</span>
   </a>
-  <!-- 友情提示：记得把这里的B站ID换成你自己的 -->
   <a href="https://space.bilibili.com/8487409" target="_blank" class="flex items-center gap-2 border-none! font-300">
     <div i-ri-bilibili-line op50 text-2xl/>
     <span text-lg ws-nowrap>@爱吃包子的超</span>
@@ -533,3 +656,11 @@ class: text-center pb-5
 <div class="opacity-70 text-sm">
   期待与大家在评论区和 GitHub 上交流！
 </div>
+
+<!--
+好的，那么我今天的分享就到这里。非常感谢大家的观看！
+这个项目承载了我对于技术的热情和解决实际问题的思考。
+它目前已经在 GitHub 上完全开源，如果你觉得它对你有一点点的启发或者帮助，或者你觉得这个项目有点意思，都非常欢迎你给我一个 Star 和 Fork！你的支持是我继续完善它的最大动力。
+大家可以通过屏幕上的链接访问项目主页，也可以在 Bilibili 找到我。
+再次感谢大家的时间，期待在评论区和 GitHub 上与大家交流！谢谢！
+-->
