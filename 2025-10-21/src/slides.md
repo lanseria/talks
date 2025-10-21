@@ -1,6 +1,7 @@
 ---
 # 封面页
 layout: 'cover'
+transition: 'fade'
 glowOpacity: 0.25
 glowSeed: 'digital-future-rebuild'
 ---
@@ -69,20 +70,22 @@ glow: 'left'
       </li>
       <li v-after class="flex items-start gap-3">
         <div i-carbon-user-avatar-frail text-2xl text-red-400 mt-1.5></div>
-        <span class="font-bold">我们不是数据的主人，而是平台的<b class="text-red-400">“数据佃农”</b>。</span>
+        <!-- 修改点在这里 -->
+        <span class="font-bold">我们不是数据的主人，而是平台的<b class="text-red-400">“数据的‘打工人’”</b>。</span>
       </li>
     </ul>
   </div>
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full object-cover" src="/demo/1.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: cyberpunk art style, a person is chained to a giant, monolithic server tower with a social media logo on it, their personal data glowing and flowing from them into the tower, surrounding them are other isolated towers representing different apps, dark, oppressive, neon blue and red highlights -->
   </div>
 </div>
 
 <!--
-第一个病症，是“数据孤岛”。想一想，你的个人信息存在多少个不同的企业服务器里？你的联系人列表，分散在微信、钉钉和各种办公软件中。我们的聊天记录，被牢牢地锁在某一个APP里，我们不是数据的拥有者，更像是平台的“数据佃农”。
+第一个病症，是“数据孤岛”。想一想，你的个人信息存在多少个不同的企业服务器里？你的联系人列表，分散在微信、钉钉和各种办公软件中。我们的聊天记录，被牢牢地锁在某一个APP里，我们不是数据的拥有者，更像是平台的“数据的‘打工人’”。
 -->
 
 ---
@@ -94,7 +97,8 @@ glow: 'right'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/2.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: editorial cartoon style, a Swiss Army knife that is comically oversized and bloated, with dozens of useless and confusing gadgets sticking out, such as a tiny video screen, a social media button, and a food delivery icon, on the main blade is written "Payment App", satirical, colorful, cluttered -->
   </div>
   
@@ -121,9 +125,8 @@ glow: 'right'
 <!--
 第二个病症，是应用的“恶性内卷”。一个支付软件想让你刷短视频；一个地图软件也开始推送信息流。一些公共服务APP本应简单高效，却设计得极其难用。这种无休止的“内卷”，消耗着开发资源，也消耗着我们的耐心。
 -->
-
 ---
-# 病症三：底层创新缺失
+# 病症三：创新生态的失衡
 glowOpacity: 0.15
 glow: 'left'
 ---
@@ -131,32 +134,33 @@ glow: 'left'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧文本内容 -->
   <div class="text-slate-300 leading-8">
-    <h1 class="!text-4xl text-white mb-6">病症三: 底层创新缺失</h1>
+    <h1 class="!text-4xl text-white mb-6">病症三: 创新生态的失衡</h1>
     <ul class="space-y-4">
       <li v-after class="flex items-start gap-3">
-        <div i-carbon-direction-loop-left text-2xl text-yellow-400 mt-1.5></div>
-        <span>大公司的聪明才智，都用在如何<b class="text-yellow-300">“圈住”</b>用户。</span>
+        <div i-carbon-magnet text-2xl text-yellow-400 mt-1.5></div>
+        <span><b class="text-yellow-300">商业模式的“引力”：</b>巨头们热衷于构建封闭生态，而非创造开放的公共价值工具。</span>
       </li>
       <li v-after class="flex items-start gap-3">
-        <div i-carbon-tool-box text-2xl text-yellow-400 mt-1.5></div>
-        <span>我们缺少优秀的国产<b class="text-yellow-300">专业软件</b>：飞行追踪、地震可视化、气象卫星图应用...</span>
+        <div i-carbon-binoculars text-2xl text-yellow-400 mt-1.5></div>
+        <span><b class="text-yellow-300">一个尖锐的问题：</b>为什么我们缺少 Flightradar24、Zoom.earth 这样服务于细分领域爱好者的“数据乐园”？</span>
       </li>
       <li v-after class="flex items-start gap-3">
-        <div i-carbon-not-available text-2xl text-red-400 mt-1.5></div>
-        <span class="font-bold">核心需求被忽视，只能求助于<b class="text-red-400">国外产品</b>。</span>
+        <div i-carbon-flow text-2xl text-red-400 mt-1.5></div>
+        <span class="font-bold">结果是<b class="text-red-400">“才智的错配”</b>：顶尖人才涌向“流量”生意，而非解决真实、具体问题的创造。</span>
       </li>
     </ul>
   </div>
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
-    <!-- IMAGE PROMPT: digital art, a vast, barren desert representing 'Professional Software', with a few small, struggling oases, in the distance, a massive, walled city overflowing with neon signs for 'Social Media' and 'Short Videos' consumes all the resources and attention, symbolic, high contrast, cinematic lighting -->
+    <img class="rounded-lg w-full h-full" src="/demo/3.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
+    <!-- IMAGE PROMPT: digital art, a vast, barren desert representing 'Niche & Public Value Tools', with a few small, struggling oases. In the distance, a massive, walled city overflowing with neon signs for 'Social Media' and 'Short Videos' has giant vacuum tubes sucking all the water and resources (representing talent and investment) from the desert. Symbolic, high contrast, cinematic lighting. -->
   </div>
 </div>
 
 <!--
-第三个病症，是底层创新的缺失。当大公司都在“卷”短视频时，我们真正需要的专业软件却乏善可陈。我们缺少优秀的国产飞行追踪、地震信息可视化工具。我们的聪明才智，似乎都用在了如何更好地“圈住”用户，而不是如何更好地“服务”用户。
+第三个病症，我们来谈谈创新生态的失衡。当大公司都在“卷”短视频、“卷”社交功能时，我们不禁要问：为什么那些真正服务于细分领域爱好者、数据透明的网站，比如 Flightradar24 或 Zoom.earth，在我们的环境中却难以诞生？我们的聪明才智，似乎都流向了如何更好地“圈住”用户的流量生意，而不是去创造能服务用户、提供公共价值的工具。
 -->
 
 ---
@@ -177,7 +181,8 @@ glow: 'top'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/4.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: futuristic infographic, a central, glowing digital ID card with a fingerprint icon, from which clean, secure data streams connect to various service icons (bank, hospital, government, utility), everything is orderly and encrypted, minimalist, holographic blue and white on a dark background -->
   </div>
 
@@ -233,7 +238,8 @@ glow: 'bottom'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/5.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: minimalist illustration, a wide, shared river representing the 'Open Protocol', various beautifully designed boats with different brand logos (representing apps) are sailing on it, a person can easily jump from one boat to another, carrying their luggage (data) with them, clean, bright, vector style -->
   </div>
 </div>
@@ -270,7 +276,8 @@ glow: 'left'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/6.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: fantasy art, a well-tended magical garden, where many unique, glowing plants of different shapes and sizes ('small & beautiful' apps) grow freely, a gentle gardener (representing regulation) is trimming away thorny, invasive weeds (ads and bloatware), serene, beautiful, golden hour lighting -->
   </div>
 </div>
@@ -288,7 +295,8 @@ glow: 'right'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/7.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: 3D illustration, a clean, modern digital vending machine interface, users can select individual items like '1 Song', '10 Mins of Video', '1 Article', and pay with small, glowing tokens, emphasizes precision and fairness, user-friendly, soft pastel colors -->
   </div>
   
@@ -330,7 +338,8 @@ glow: 'center'
     来释放更大的<b class="text-lime-300">创新自由</b>。
   </p>
   <div v-click class="w-2/3 h-60% mt-8 bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <div i-carbon-image-search text-4xl op30></div>
+    <img class="rounded-lg w-full h-full" src="/demo/8.jpg">
+    <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: epic wide shot, a vast, clean, glowing digital highway at night representing a solid infrastructure, on which thousands of unique, creative, and diverse vehicles (apps) are driving smoothly and fast, symbolizing unleashed innovation, futuristic, cinematic, blue and orange tones -->
   </div>
   <p v-click class="mt-8 text-slate-300 text-xl">
