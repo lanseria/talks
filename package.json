@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.18.3",
+  "packageManager": "pnpm@10.27.0",
   "scripts": {
     "build": "rimraf dist && pnpm -r run build",
     "dev": "esno scripts/picker.ts dev --open",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
-    "@eslint-react/eslint-plugin": "^2.2.2",
+    "@eslint-react/eslint-plugin": "^2.4.0",
     "@eslint/config-inspector": "catalog:",
     "@iconify/collections": "catalog:",
     "@iconify/json": "catalog:",
@@ -25,8 +25,8 @@
     "chroma-js": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
-    "eslint-plugin-react-hooks": "^7.0.0",
-    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.26",
     "esno": "catalog:",
     "execa": "catalog:",
     "fast-glob": "catalog:",
