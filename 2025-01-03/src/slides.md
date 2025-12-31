@@ -150,27 +150,27 @@ layout: statement
 </h1>
 <div class="flex flex-col items-center w-full gap-40px">
 <div class="flex-none w-full grid grid-cols-5 gap-6 place-items-center mt-20">
-  <div font-hand text-3xl
+  <div text-3xl
     v-motion
     :initial="{ opacity: 0 }"
     :enter="{opacity: 1, transition: { delay: 0, duration: 400 } }" 
      class="text-teal-500 flex items-center justify-center">四川中烟</div>
-  <div font-hand text-3xl
+  <div text-3xl
     v-motion
     :initial="{ opacity: 0}"
     :enter="{opacity: 1, transition: { delay: 400, duration: 400 } }" 
     class="text-lime-500 flex items-center justify-center">三棵树</div>
-  <div font-hand text-3xl
+  <div text-3xl
     v-motion
     :initial="{ opacity: 0}"
     :enter="{opacity: 1, transition: { delay: 800, duration: 400 } }" 
      class="text-blue-500 flex items-center justify-center">中远海运</div>
-  <div font-hand text-3xl
+  <div text-3xl
     v-motion
     :initial="{ opacity: 0}"
     :enter="{opacity: 1, transition: { delay: 1200, duration: 400 } }" 
    class="text-orange-500 flex items-center justify-center">河南骏化</div>
-  <div font-hand text-3xl
+  <div text-3xl
     v-motion
     :initial="{ opacity: 0}"
     :enter="{opacity: 1, transition: { delay: 1600, duration: 400 } }"
