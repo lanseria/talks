@@ -6,7 +6,7 @@ Slides &amp; code for my talks
 
 ###### 2026
 
-- [zh] [2025年工作报告](./2026-01-04) - 2024年工作报告 https://lanseria-talks.netlify.app/2026/work-end
+- [zh] [2025年工作报告](./2026-01-04) - 2025年工作报告 https://lanseria-talks.netlify.app/2026/work-end
 
 
 ###### 2025
