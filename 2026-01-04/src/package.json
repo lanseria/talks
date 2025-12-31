@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "kill -9 $(lsof -ti:7777) && npx @eslint/config-inspector --config=eslint.demo.config.ts --no-open & slidev",
-    "build": "slidev build --base /2025/work-end/ --out ../../dist/2025/work-end",
-    "export": "slidev export --per-slide --output ../2025-01-03-work-end-zh.pdf"
+    "build": "slidev build --base /2026/work-end/ --out ../../dist/2026/work-end",
+    "export": "slidev export --per-slide --output ../2026-01-04-work-end-zh.pdf"
   },
   "devDependencies": {
     "@antfu/eslint-config": "catalog:",
