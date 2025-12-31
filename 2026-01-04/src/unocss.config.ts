@@ -1,5 +1,4 @@
 import config from '@slidev/client/uno.config'
-import { createLocalFontProcessor } from '@unocss/preset-web-fonts/local'
 import { mergeConfigs, presetWebFonts } from 'unocss'
 
 export default mergeConfigs([
@@ -15,9 +14,7 @@ export default mergeConfigs([
           sans: 'Noto Sans SC',
           strong: 'Rubik Iso',
           fast: 'Ubuntu',
-          hand: 'Ma Shan Zheng',
         },
-        processors: createLocalFontProcessor(),
       }),
     ],
   },
