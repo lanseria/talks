@@ -15,7 +15,7 @@ Slides &amp; code for my talks
 
 - [zh] [GeoScraper: 我把地图下载做成了一个开源项目！](./2025-07-23) - GeoScraper: 我把地图下载做成了一个开源项目！ https://lanseria-talks.netlify.app/2025/geoscraper
 
-- [zh] [FundInvestmentAssistant: 我把地图下载做成了一个开源项目！](./2025-07-23) - FundInvestmentAssistant: 我把地图下载做成了一个开源项目！ https://lanseria-talks.netlify.app/2025/fund-investment-assistant
+- [zh] [FundInvestmentAssistant: 基金助手](./2025-07-23) - FundInvestmentAssistant: 基金助手 https://lanseria-talks.netlify.app/2025/fund-investment-assistant
 
 - [zh] [Our Digital Future: 我们的数字未来](./2025-07-23) - Our Digital Future: 我们的数字未来 https://lanseria-talks.netlify.app/2025/our-digital-future
 
