@@ -6,3 +6,4 @@ dist
 **/public/assets/fonts
 .slidev
 ai/project_context.txt
+**.pptx
