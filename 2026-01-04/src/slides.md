@@ -4,6 +4,7 @@ css: unocss
 transition: fade-out
 mdc: true
 layout: cover
+colorSchema: dark
 glowSeed: 2025
 glowOpacity: 0.4
 lang: zh-CN
@@ -23,6 +24,7 @@ title: 员工个人2025年年终述职工作
 <!--
 大家好，现在由我来汇报一下自己的2025年的年终述职报告。
 今年是技术跨度很大的一年，从低代码平台到原生移动端，再到物联网无人机，我都有了深入的涉猎。
+此外，我主导开发了海上清舱作业系统，实现了从0到1的安防智能化与数据可视化闭环。
 -->
 
 ---
@@ -124,58 +126,85 @@ layout: default
 
 # 2025 工作时间轴
 
-<div class="relative mt-10 h-[400px] w-full flex items-center justify-between px-10">
-  <!-- 中间的时间轴线 -->
-  <div class="absolute top-1/2 left-10 right-10 h-1 bg-gradient-to-r from-blue-500/20 via-purple-500_50 to-teal-500/20 rounded-full"></div>
-
-  <!-- 节点 1: 3月 -->
-  <div v-click class="relative flex flex-col items-center group">
-    <div class="absolute bottom-8 w-60 text-center opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
-      <div class="text-purple-300 font-bold">舟山海翼低空无人机</div>
-      <div class="text-xs text-slate-400">Go + Vue3 全栈开发</div>
+<!-- 容器：固定高度，确保定位基准一致 -->
+<div class="relative mt-16 h-[320px] w-full px-4">
+  
+  <!-- 1. 中间的时间轴线 (绝对垂直居中) -->
+  <div class="absolute top-1/2 left-6 right-6 h-1 bg-gradient-to-r from-blue-500/20 via-purple-500/50 to-teal-500/20 rounded-full -translate-y-1/2 z-0"></div>
+  <!-- 节点容器层：覆盖在轴线上 -->
+  <div class="relative h-full w-full flex justify-between items-center">
+    <!-- 节点 1: 3月 (下方显示) -->
+    <div class="relative h-full w-40 group">
+      <!-- 圆点：绝对居中 -->
+      <div class="absolute top-1/2 left-1/2 w-4 h-4 bg-purple-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_20px_rgba(168,85,247,0.8)]"></div>
+      <!-- 下方内容区域 -->
+      <div class="absolute top-1/2 left-0 right-0 pt-6 flex flex-col items-center">
+        <!-- 连线 -->
+        <div class="absolute top-0 h-6 w-0.5 bg-purple-500/30"></div>
+        <!-- 文字 -->
+        <div class="text-slate-300 font-mono text-sm mb-1">03月</div>
+        <div class="text-purple-300 font-bold text-lg leading-tight text-center">海翼无人机</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">Go + IoT 探索</div>
+      </div>
     </div>
-    <div class="w-4 h-4 bg-purple-500 rounded-full border-4 border-slate-900 z-10 shadow-[0_0_20px_rgba(168,85,247,0.8)]"></div>
-    <div class="mt-4 text-slate-300 font-mono">03月</div>
-  </div>
-
-  <!-- 节点 2: 6-7月 -->
-  <div v-click class="relative flex flex-col items-center group">
-    <div class="absolute top-8 w-60 text-center opacity-0 group-hover:opacity-100 transition duration-500 -translate-y-2 group-hover:translate-y-0">
-      <div class="text-blue-300 font-bold">兴中智慧关务 & 森森报警</div>
-      <div class="text-xs text-slate-400">多项目并发交付</div>
+    <!-- 节点 2: 6月 (上方显示) -->
+    <div class="relative h-full w-40 group">
+      <!-- 圆点 -->
+      <div class="absolute top-1/2 left-1/2 w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_20px_rgba(59,130,246,0.8)]"></div>
+      <!-- 上方内容区域 -->
+      <div class="absolute bottom-1/2 left-0 right-0 pb-6 flex flex-col items-center justify-end">
+        <div class="text-blue-300 font-bold text-lg leading-tight text-center">兴中智慧关务</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">多项目并发</div>
+        <div class="text-slate-300 font-mono text-sm mt-1">06月</div>
+        <!-- 连线 -->
+        <div class="absolute bottom-0 h-6 w-0.5 bg-blue-500/30"></div>
+      </div>
     </div>
-    <div class="w-4 h-4 bg-blue-500 rounded-full border-4 border-slate-900 z-10 shadow-[0_0_20px_rgba(59,130,246,0.8)]"></div>
-    <div class="mt-4 text-slate-300 font-mono">06月</div>
-  </div>
-
-  <!-- 节点 3: 8月 -->
-  <div v-click class="relative flex flex-col items-center group">
-    <div class="absolute bottom-8 w-60 text-center opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
-      <div class="text-teal-300 font-bold">物流港 3.0 (LEGO)</div>
-      <div class="text-xs text-slate-400">非常规作业票系统</div>
+    <!-- 节点 3: 8月 (下方显示) -->
+    <div class="relative h-full w-40 group">
+      <!-- 圆点 (稍微大一点) -->
+      <div class="absolute top-1/2 left-1/2 w-6 h-6 bg-teal-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_30px_rgba(20,184,166,1)] animate-pulse"></div> 
+      <!-- 下方内容 -->
+      <div class="absolute top-1/2 left-0 right-0 pt-6 flex flex-col items-center">
+        <div class="absolute top-0 h-6 w-0.5 bg-teal-500/30"></div>
+        <div class="text-slate-300 font-mono text-sm mb-1">08月</div>
+        <div class="text-teal-300 font-bold text-lg leading-tight text-center">物流港 3.0</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">LEGO 攻坚</div>
+      </div>
     </div>
-    <div class="w-6 h-6 bg-teal-500 rounded-full border-4 border-slate-900 z-10 shadow-[0_0_30px_rgba(20,184,166,1)] animate-pulse"></div>
-    <div class="mt-4 text-slate-300 font-mono">08月</div>
-  </div>
-
-  <!-- 节点 4: 10月 -->
-  <div v-click class="relative flex flex-col items-center group">
-    <div class="absolute top-8 w-60 text-center opacity-0 group-hover:opacity-100 transition duration-500 -translate-y-2 group-hover:translate-y-0">
-      <div class="text-orange-300 font-bold">人员定位加密</div>
-      <div class="text-xs text-slate-400">集团侧安全验证对接</div>
+    <!-- 节点 4: 10月 (上方显示) -->
+    <div class="relative h-full w-40 group">
+      <div class="absolute top-1/2 left-1/2 w-4 h-4 bg-orange-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_20px_rgba(249,115,22,0.8)]"></div>
+      <!-- 上方内容 -->
+      <div class="absolute bottom-1/2 left-0 right-0 pb-6 flex flex-col items-center justify-end">
+        <div class="text-orange-300 font-bold text-lg leading-tight text-center">人员定位加密</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">安全验证对接</div>
+        <div class="text-slate-300 font-mono text-sm mt-1">10月</div>
+        <div class="absolute bottom-0 h-6 w-0.5 bg-orange-500/30"></div>
+      </div>
     </div>
-    <div class="w-4 h-4 bg-orange-500 rounded-full border-4 border-slate-900 z-10 shadow-[0_0_20px_rgba(249,115,22,0.8)]"></div>
-    <div class="mt-4 text-slate-300 font-mono">10月</div>
-  </div>
-
-  <!-- 节点 5: 12月 -->
-  <div v-click class="relative flex flex-col items-center group">
-    <div class="absolute bottom-8 w-60 text-center opacity-0 group-hover:opacity-100 transition duration-500 translate-y-2 group-hover:translate-y-0">
-      <div class="text-lime-300 font-bold">油品储运升级</div>
-      <div class="text-xs text-slate-400">H5/iOS/Android 原生重构</div>
+    <!-- 节点 5: 11月 (下方显示) -->
+    <div class="relative h-full w-40 group">
+      <div class="absolute top-1/2 left-1/2 w-4 h-4 bg-cyan-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_25px_rgba(6,182,212,0.8)]"></div>
+      <!-- 下方内容 -->
+      <div class="absolute top-1/2 left-0 right-0 pt-6 flex flex-col items-center">
+        <div class="absolute top-0 h-6 w-0.5 bg-cyan-500/30"></div>
+        <div class="text-slate-300 font-mono text-sm mb-1">11月</div>
+        <div class="text-cyan-300 font-bold text-lg leading-tight text-center">海上清舱</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">安防视讯闭环</div>
+      </div>
     </div>
-    <div class="w-4 h-4 bg-lime-500 rounded-full border-4 border-slate-900 z-10 shadow-[0_0_20px_rgba(132,204,22,0.8)]"></div>
-    <div class="mt-4 text-slate-300 font-mono">12月</div>
+    <!-- 节点 6: 12月 (上方显示) -->
+    <div class="relative h-full w-40 group">
+      <div class="absolute top-1/2 left-1/2 w-4 h-4 bg-lime-500 rounded-full border-4 border-slate-900 -translate-x-1/2 -translate-y-1/2 z-10 shadow-[0_0_20px_rgba(132,204,22,0.8)]"></div>
+      <!-- 上方内容 -->
+      <div class="absolute bottom-1/2 left-0 right-0 pb-6 flex flex-col items-center justify-end">
+        <div class="text-lime-300 font-bold text-lg leading-tight text-center">油品储运升级</div>
+        <div class="text-xs text-slate-400 mt-1 text-center">App 原生重构</div>
+        <div class="text-slate-300 font-mono text-sm mt-1">12月</div>
+        <div class="absolute bottom-0 h-6 w-0.5 bg-lime-500/30"></div>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -275,9 +304,10 @@ glowSeed: 1
     </div>
   </div>
   
-  <div class="relative h-60 bg-gradient-to-br from-blue-900/30 to-slate-900 rounded-lg border border-blue-500/30 flex items-center justify-center">
-    <div i-carbon-application-web text-6xl text-blue-500_50 />
+  <div class="relative h-60 rounded-lg border border-blue-500/30 flex items-center justify-center">
+    <!-- <div i-carbon-application-web text-6xl text-blue-500_50 /> -->
     <!-- IMAGE PROMPT: isometric view of a complex digital dashboard interface with modular blocks connecting like lego pieces, futuristic blue glowing lines, dark background, data flow visualization -->
+    <img src="/2025-wlg3.webp" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover" />
   </div>
 </div>
 
@@ -353,9 +383,10 @@ glowSeed: 2
 ## 原生化重构 (H5 / iOS / Android)
 
 <div grid="~ cols-2 gap-8" mt-8 items-center>
-  <div class="relative h-60 bg-gradient-to-br from-lime-900/30 to-slate-900 rounded-lg border border-lime-500/30 flex items-center justify-center">
-    <div i-carbon-mobile text-6xl text-lime-500_50 />
+  <div class="relative h-60 rounded-lg border border-lime-500/30 flex items-center justify-center">
+    <!-- <div i-carbon-mobile text-6xl text-lime-500_50 /> -->
      <!-- IMAGE PROMPT: sleek mobile phone mockup showing an industrial oil management app, split screen showing code editor with kotlin and swift logos, green tech accents -->
+     <img src="/2025-ostm.webp" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover" />
   </div>
 
   <div class="text-slate-300 leading-relaxed">
@@ -460,9 +491,8 @@ glowSeed: 3
     </div>
   </div>
   
-  <div class="relative h-60 bg-gradient-to-br from-purple-900/30 to-slate-900 rounded-lg border border-purple-500/30 flex items-center justify-center">
-    <div i-carbon-drone text-6xl text-purple-500_50 />
-    <!-- IMAGE PROMPT: futuristic drone flying over a port, overlay of digital telemetry data, purple and neon aesthetic, schematic style -->
+  <div class="relative h-60 rounded-lg border border-purple-500/30 flex items-center justify-center">
+    <img src="/2025-drone.webp" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover" />
   </div>
 </div>
 
@@ -500,6 +530,96 @@ glowSeed: 3
         <span class="text-purple-300 font-bold">解决方案：</span> 集成 <b>go2rtc</b> 流媒体服务器，成功打通无人机摄像头的实时推流与前端低延迟播放。
       </div>
     </div>
+  </div>
+</div>
+
+---
+glowSeed: 4
+---
+
+# 4. 海上清舱作业系统
+## 业务闭环与智能化安防 (前端)
+
+<div grid="~ cols-2 gap-8" mt-8 items-center>
+  <div class="relative h-60 bg-gradient-to-br from-cyan-900/30 to-slate-900 rounded-lg border border-cyan-500/30 flex items-center justify-center overflow-hidden">
+    <!-- 背景装饰 -->
+    <div class="absolute inset-0 bg-[url(https://source.unsplash.com/collection/190727/800x600)] opacity-10 mix-blend-overlay"></div>
+    <div class="z-10 text-center">
+      <img src="/2025-pcs.webp" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover" />
+    </div>
+  </div>
+
+  <div class="text-slate-300 leading-relaxed">
+    <div class="flex items-center gap-2 mb-4 text-cyan-400">
+      <div i-carbon-calendar />
+      <span>2024.11 - 2025.11 (0 to 1)</span>
+    </div>
+    <p>
+      历时一年，实现从需求分析到完整交付的<b>业务闭环</b>。针对油泥、油污水处理等核心业务进行深度定制，打造了集作业管控与安全监测于一体的综合平台。
+    </p>
+    <div class="mt-5 grid grid-cols-2 gap-y-2 text-sm">
+      <div class="flex items-center gap-2">
+         <div i-carbon-identification text-cyan-400 />
+         <span>AI 人脸核验进场</span>
+      </div>
+      <div class="flex items-center gap-2">
+         <div i-carbon-video-filled text-cyan-400 />
+         <span>工业摄像头集成</span>
+      </div>
+      <div class="flex items-center gap-2">
+         <div i-carbon-data-vis-4 text-cyan-400 />
+         <span>OpsMonitor 数据大屏</span>
+      </div>
+      <div class="flex items-center gap-2">
+         <div i-carbon-checkbox-checked text-cyan-400 />
+         <span>代码质量深度重构</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+---
+glowSeed: 4
+---
+
+# 4. 海上清舱作业系统
+## 核心成果与技术亮点
+
+<div class="mt-8 grid grid-cols-3 gap-5">
+  <!-- 亮点 1 -->
+  <div v-click class="bg-slate-800/50 p-5 rounded-xl border-t-2 border-cyan-500 hover:bg-slate-800 transition duration-300">
+    <div class="flex justify-between items-start mb-3">
+      <div i-carbon-security text-3xl text-cyan-400 />
+      <span class="text-xs bg-cyan-900/50 text-cyan-200 px-2 py-0.5 rounded">Security</span>
+    </div>
+    <h3 class="text-slate-200 font-bold mb-2">安防智能化集成</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      打通硬件壁垒，集成<b>AI人脸识别</b>终端与现场<b>工业摄像头</b>。确保“人防+技防”双重落地，作业现场安全风险实时可控。
+    </p>
+  </div>
+
+  <!-- 亮点 2 -->
+  <div v-click class="bg-slate-800/50 p-5 rounded-xl border-t-2 border-blue-500 hover:bg-slate-800 transition duration-300">
+    <div class="flex justify-between items-start mb-3">
+      <div i-carbon-dashboard text-3xl text-blue-400 />
+      <span class="text-xs bg-blue-900/50 text-blue-200 px-2 py-0.5 rounded">Visualization</span>
+    </div>
+    <h3 class="text-slate-200 font-bold mb-2">OpsMonitor 大屏</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      开发运营数据可视化中心。将复杂的油泥、油污水处理数据实时渲染，为管理层提供决策依据，实现<b>数据驱动运营</b>。
+    </p>
+  </div>
+
+  <!-- 亮点 3 -->
+  <div v-click class="bg-slate-800/50 p-5 rounded-xl border-t-2 border-teal-500 hover:bg-slate-800 transition duration-300">
+    <div class="flex justify-between items-start mb-3">
+      <div i-carbon-clean text-3xl text-teal-400 />
+      <span class="text-xs bg-teal-900/50 text-teal-200 px-2 py-0.5 rounded">Stability</span>
+    </div>
+    <h3 class="text-slate-200 font-bold mb-2">工程化深度定制</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      针对特种作业流程（清舱/化验）进行组件级定制。通过持续迭代，显著提升了系统稳定性，Bug 率随版本更新呈<b>指数级下降</b>。
+    </p>
   </div>
 </div>
 
@@ -607,7 +727,7 @@ glowY: 120
   <p class="text-lg">拥抱变化，持续进化</p>
 </div>
 
-<div class="absolute bottom-10 w-full text-center text-slate-500 text-sm">
+<div class="absolute left-1/2 translate-x--1/2 bottom-10 text-slate-500 text-sm">
   幻灯片源码: <a href="https://github.com/lanseria/talks" target="_blank" class="border-b border-slate-600 hover:text-white transition">github.com/lanseria/talks</a>
 </div>
 
