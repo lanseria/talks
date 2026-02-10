@@ -7,3 +7,4 @@ dist
 .slidev
 ai/project_context.txt
 **.pptx
+.claude
