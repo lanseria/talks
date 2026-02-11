@@ -1,280 +1,297 @@
 ---
+layout: cover
+glowOpacity: 0.25
+glowSeed: 'future-protocol'
 highlighter: shiki
 css: unocss
-transition: slide-left
-mdc: true
-layout: cover
-colorSchema: dark
-glowSeed: 2026
-glowOpacity: 0.5
-lang: zh-CN
-title: 下一代通讯协议构想
 ---
 
-# 协议与应用分离
-## Protocol & Application Separation
-
-<div class="text-white mt-4 text-xl font-light">
-打破围墙花园 · 数据本地优先 · 国家基建主导
+<!-- 背景图片层：放在最底层 -->
+<div class="absolute inset-0 z-0">
+  <img src="/1.jpg" class="w-full h-full object-cover opacity-60" />
+  <!-- 渐变遮罩，确保文字可读 -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
 </div>
 
-<div class="absolute bottom-20">
-  <span class="font-bold text-lg text-slate-400">面向未来的 00/10 后开发者启示录</span>
+<!-- 内容层：添加 z-10 确保在图片之上 -->
+<div class="z-10 relative h-full flex flex-col justify-center">
+  <h1 class="text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-white mb-4">
+    打破“围墙花园”
+  </h1>
+  <h2 class="text-3xl text-slate-300 font-light tracking-wide">
+    致未来开发者的下一代通讯协议构想
+  </h2>
+  
+  <div class="absolute bottom-10 left-0 w-full text-center op80 text-sm font-mono tracking-widest text-teal-100">
+    <span class="mr-6">DATA SOVEREIGNTY</span>
+    <span class="mr-6">LOCAL-FIRST</span>
+    <span>DECENTRALIZED</span>
+  </div>
 </div>
 
 <!--
-大家好。今天我想和大家探讨一个关于未来的构想。
-现在的互联网被巨头割裂成了一个个孤岛，我们想提出一种新的架构：
-让通讯回归基础设施，让数据回归用户本体。
-这是一个给未来 10 后开发者的创业蓝图。
+大家好。今天我想和大家聊一个稍微沉重但又充满希望的话题——我们如何打破互联网的“围墙花园”。
+我们将探讨一种全新的通讯架构，旨在将数据主权交还给用户。
 -->
 
 ---
-layout: default
+glowOpacity: 0.15
+glow: 'right'
+---
+
+# 困境：我们被困住了
+
+<div grid="~ cols-2 gap-12" class="w-full h-full items-center pt-4">
+  <div class="text-slate-300 leading-8">
+    <p class="text-xl mb-6">
+      回顾过去二十年，互联网虽然连接了全人类，但也制造了无数孤岛。
+    </p>
+    <ul class="space-y-4">
+      <li class="flex items-start gap-3">
+        <div i-carbon-fragment text-red-400 text-2xl mt-1 />
+        <div>
+          <b class="text-slate-100">生态割裂:</b> 
+          <span class="op80">微信无法发消息给钉钉，WhatsApp 连不通 Telegram。</span>
+        </div>
+      </li>
+      <li class="flex items-start gap-3">
+        <div i-carbon-locked text-red-400 text-2xl mt-1 />
+        <div>
+          <b class="text-slate-100">丧失主权:</b> 
+          <span class="op80">我们的“数字人生”被锁定在巨头的服务器里。</span>
+        </div>
+      </li>
+      <li class="flex items-start gap-3">
+        <div i-carbon-warning text-red-400 text-2xl mt-1 />
+        <div>
+          <b class="text-slate-100">随时归零:</b> 
+          <span class="op80">一旦封号或平台倒闭，记忆瞬间灰飞烟灭。</span>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 找到原本右侧的 div，替换为以下代码 -->
+  <div class="relative w-full h-80 rounded-xl overflow-hidden border border-white/20 shadow-[0_0_20px_rgba(0,0,0,0.5)] group">
+    <!-- 图片 -->
+    <img src="/2.jpg" class="absolute inset-0 w-full h-full object-cover transition duration-700 group-hover:scale-105" />
+    
+    <!-- 内部光效叠加（可选，增加科技感） -->
+    <div class="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-transparent pointer-events-none"></div>
+  </div>
+</div>
+
+<!--
+现在的互联网被割裂成了一个个孤岛。
+更可怕的是，承载我们记忆、情感和商业价值的聊天记录，并不属于我们。
+一旦账号被封禁，或者平台倒闭，这些记忆将瞬间消失。这不应该是互联网的终局。
+-->
+
+---
+glowOpacity: 0.1
+---
+
+# 核心架构：二元分离
+
+<div class="mt-8 text-center mb-12">
+  <p class="text-xl text-slate-300">
+    未来的理想架构，应当将 <span class="text-teal-400 font-bold">传输</span> 与 <span class="text-purple-400 font-bold">应用</span> 彻底剥离。
+  </p>
+</div>
+
+<div grid="~ cols-2 gap-8" class="px-4">
+  <!-- 左侧：传输层 -->
+  <div v-click class="border border-teal-500/30 bg-teal-500/5 rounded-xl p-6 relative overflow-hidden">
+    <div class="absolute top-0 right-0 p-4 op10">
+      <div i-carbon-delivery text-8xl text-teal-400 />
+    </div>
+    <h3 class="text-2xl font-bold text-teal-300 mb-4 flex items-center gap-2">
+      <div i-carbon-earth-filled /> 传输层 (公有制)
+    </h3>
+    <p class="text-sm text-slate-400 mb-4 uppercase tracking-widest">National Infrastructure</p>
+    <ul class="text-slate-300 space-y-2 text-sm">
+      <li>• 像<b>“邮局”</b>一样的国家基建</li>
+      <li>• 负责路由、鉴权与监管</li>
+      <li>• <b>即送即焚</b>，不存储数据</li>
+      <li>• 互联互通，无视品牌差异</li>
+    </ul>
+  </div>
+
+  <!-- 右侧：应用层 -->
+  <div v-click class="border border-purple-500/30 bg-purple-500/5 rounded-xl p-6 relative overflow-hidden">
+    <div class="absolute top-0 right-0 p-4 op10">
+      <div i-carbon-application text-8xl text-purple-400 />
+    </div>
+    <h3 class="text-2xl font-bold text-purple-300 mb-4 flex items-center gap-2">
+      <div i-carbon-notebook /> 应用层 (私有制)
+    </h3>
+    <p class="text-sm text-slate-400 mb-4 uppercase tracking-widest">Obsidian Mode</p>
+    <ul class="text-slate-300 space-y-2 text-sm">
+      <li>• 像<b>“日记本”</b>一样的本地工具</li>
+      <li>• <b>Local-First</b> (JSON/SQLite)</li>
+      <li>• 软件只是“播放器”或“编辑器”</li>
+      <li>• 用户拥有数据的绝对控制权</li>
+    </ul>
+  </div>
+</div>
+
+<!--
+目前的 IM 是大包大揽的：腾讯既负责修路，也负责造车，还拥有货物。
+我们提议的架构是：
+1. 传输层：像邮局一样，只负责送信，国家基建，互联互通。
+2. 应用层：像 Obsidian 笔记一样，数据在本地，软件只是个编辑器。
+-->
+
+---
+glowOpacity: 0.15
+glowSeed: 'business-model'
+---
+
+# 商业重构：从流量到服务
+
+<div class="text-slate-400 mb-8">
+  如果是 Local-First，巨头怎么赚钱？答案是：倒逼商业模式升级。
+</div>
+
+<div grid="~ cols-3 gap-6" class="mt-4">
+  <!-- 模式 1 -->
+  <div v-click class="flex flex-col items-center text-center p-4 rounded-lg bg-white/5 border border-white/10 hover:border-yellow-400/50 transition duration-300">
+    <div class="w-16 h-16 rounded-full bg-yellow-400/20 flex items-center justify-center mb-4 text-yellow-400">
+      <div i-carbon-paint-brush text-3xl />
+    </div>
+    <h3 class="text-lg font-bold text-slate-200 mb-2">卖“体验”与“皮肤”</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      既然数据通用，软件竞争回归 UI/UX。<br/>
+      极简版免费，二次元 3D 特效版收费。
+    </p>
+  </div>
+
+  <!-- 模式 2 -->
+  <div v-click class="flex flex-col items-center text-center p-4 rounded-lg bg-white/5 border border-white/10 hover:border-blue-400/50 transition duration-300">
+    <div class="w-16 h-16 rounded-full bg-blue-400/20 flex items-center justify-center mb-4 text-blue-400">
+      <div i-carbon-cloud-upload text-3xl />
+    </div>
+    <h3 class="text-lg font-bold text-slate-200 mb-2">卖“云同步服务”</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      数据在本地，多端同步是痛点。<br/>
+      提供<b>加密数据搬运</b>服务，赚取订阅费。
+    </p>
+  </div>
+
+  <!-- 模式 3 -->
+  <div v-click class="flex flex-col items-center text-center p-4 rounded-lg bg-white/5 border border-white/10 hover:border-green-400/50 transition duration-300">
+    <div class="w-16 h-16 rounded-full bg-green-400/20 flex items-center justify-center mb-4 text-green-400">
+      <div i-carbon-building text-3xl />
+    </div>
+    <h3 class="text-lg font-bold text-slate-200 mb-2">企业级服务</h3>
+    <p class="text-xs text-slate-400 leading-5">
+      为企业提供定制化的协作插件、<br/>
+      审批流集成及高级安全加密。
+    </p>
+  </div>
+</div>
+
+<div class="mt-10 mx-auto w-3/4 h-24 border border-slate-600/50 rounded-lg flex items-center justify-center bg-black/30">
+    <span class="text-slate-500 italic mr-4">Reference:</span>
+    <span class="text-xl font-bold text-purple-400 flex items-center gap-2">
+      <div i-carbon-idea /> Obsidian (黑曜石笔记) 模式
+    </span>
+</div>
+
+<!--
+这并非消灭商业。参考 Obsidian 的成功：
+厂商可以卖精美的 UI 皮肤，卖加密的云同步带宽，卖企业级插件。
+这比现在的广告变现和贩卖隐私要健康得多。
+-->
+
+---
 glowOpacity: 0.2
+glowSeed: 'ai-future'
 ---
 
-# 当前的困境：围墙花园
+# 杀手锏：AI 时代的必然选择
 
-<div grid="~ cols-2 gap-10" mt-16 items-center>
-  
-  <!-- 左侧：痛点描述 -->
-  <div class="space-y-6">
-    <div v-click class="flex items-start gap-4">
-      <div class="mt-1 p-2 bg-red-500/20 rounded-lg text-red-400">
-        <div i-carbon-data-error text-2xl />
-      </div>
-      <div>
-        <h3 class="text-red-200 text-lg font-bold">数据被绑架</h3>
-        <p class="text-slate-400 text-sm mt-1">
-          你的聊天记录属于腾讯或 Meta，不属于你。一旦封号，数字资产清零。
+<div grid="~ cols-2 gap-10" class="h-full items-center">
+  <div>
+    <h3 class="text-2xl text-slate-200 mb-6 font-light">
+      我们需要一个 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400 font-bold">个人 AI 助理</span>
+    </h3>
+    <div class="space-y-6">
+      <div class="bg-red-500/10 border-l-4 border-red-500 p-4 rounded-r-lg">
+        <h4 class="text-red-400 font-bold text-sm mb-1">现有模式 (SaaS)</h4>
+        <p class="text-slate-400 text-sm">
+          数据封闭。你无法训练属于自己的 AI。即便厂商推出 AI，你敢把十年隐私都交给它分析吗？
         </p>
       </div>
-    </div>
-    <div v-click class="flex items-start gap-4">
-      <div class="mt-1 p-2 bg-orange-500/20 rounded-lg text-orange-400">
-        <div i-carbon-ibm-cloud-direct-link-1-dedicated text-2xl />
+      <div class="flex justify-center">
+        <div i-carbon-arrow-down text-2xl text-slate-500 />
       </div>
-      <div>
-        <h3 class="text-orange-200 text-lg font-bold">互联不互通</h3>
-        <p class="text-slate-400 text-sm mt-1">
-          微信发的消息，钉钉收不到。商业壁垒导致了极大的社会资源浪费。
-        </p>
-      </div>
-    </div>
-    <div v-click class="flex items-start gap-4">
-      <div class="mt-1 p-2 bg-slate-500/20 rounded-lg text-slate-400">
-        <div i-carbon-locked text-2xl />
-      </div>
-      <div>
-        <h3 class="text-slate-200 text-lg font-bold">监管与隐私的矛盾</h3>
-        <p class="text-slate-400 text-sm mt-1">
-          完全私有化导致监管困难，完全中心化导致隐私裸奔。我们需要第三条路。
+      <div class="bg-teal-500/10 border-l-4 border-teal-500 p-4 rounded-r-lg">
+        <h4 class="text-teal-400 font-bold text-sm mb-1">本地化模式 (Local-First)</h4>
+        <p class="text-slate-400 text-sm">
+          数据在硬盘。下载开源大模型(LLM)到本地，读取你的聊天记录。<b>数据不出域，隐私零风险，却最懂你。</b>
         </p>
       </div>
     </div>
   </div>
-  <!-- 右侧：视觉隐喻 -->
-  <div class="relative h-60 flex items-center justify-center">
-    <!-- 封闭的环 -->
-    <div class="absolute w-48 h-48 rounded-full border-4 border-dashed border-slate-700 animate-spin-slow"></div>
-    <div class="z-10 text-center space-y-4">
-      <div class="bg-slate-800 p-4 rounded-xl border border-red-500/30 shadow-[0_0_30px_rgba(239,68,68,0.2)]">
-        <div i-carbon-app-connectivity text-5xl text-red-400 mb-2 />
-        <div class="text-xs text-red-300">Walled Garden</div>
-      </div>
+
+  <div class="h-90 w-full relative">
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black/80 z-10"></div>
+      <!-- 找到原本右侧的 div (h-90 w-full relative)，替换为以下代码 -->
+    <div class="h-90 w-full relative group">
+        <!-- 背景光晕动画 -->
+        <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+        <!-- 图片容器 -->
+        <div class="relative w-full h-full rounded-2xl overflow-hidden border border-purple-500/30 bg-black">
+          <img src="/3.jpg" class="w-full h-full object-cover opacity-90" />
+          <!-- 科技感网格覆盖层 -->
+          <div class="absolute inset-0 bg-[url(https://grainy-gradients.vercel.app/noise.svg)] opacity-20 mix-blend-overlay"></div>
+        </div>
     </div>
   </div>
 </div>
 
 <!--
-现在的通讯软件是“围墙花园”。
-我们的数据被锁定在商业公司的服务器里。
-这带来了三个问题：数据主权丧失、平台互通性差、以及监管与隐私的二元对立。
+为什么现在提这个？因为 AI 来了。
+未来的社交是人与 AI 的共生。你需要一个最懂你的 AI，它需要读取你过去十年的聊天记录。
+只有数据在本地，你才能安全地训练这个属于你自己的数字分身。
 -->
 
 ---
-layout: intro
+layout: end
+glowOpacity: 0.3
 ---
 
-# 核心构想：邮局与信箱
-## The "Post Office" Model
+<!-- 背景图片层 -->
+<div class="absolute inset-0 z-0">
+  <img src="/4.jpg" class="w-full h-full object-cover opacity-50" />
+  <div class="absolute inset-0 bg-black/60"></div> <!-- 压暗背景 -->
+</div>
 
-<div class="mt-10 grid grid-cols-[1fr_auto_1fr] gap-4 items-center">
-  
-  <!-- 传输层 -->
-  <div class="bg-blue-900/20 border border-blue-500/30 p-6 rounded-xl text-center relative group">
-    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-500 text-white text-xs px-2 py-0.5 rounded">Gov / Public</div>
-    <div i-carbon-network-public text-6xl text-blue-400 mx-auto mb-4 group-hover:scale-110 transition />
-    <h3 class="text-xl font-bold text-blue-200">传输层 (通道)</h3>
-    <p class="text-sm text-slate-400 mt-2">
-      国家数字基建 / 协议<br/>
-      负责路由、鉴权、反诈<br/>
-      <b>数据暂存，即送即焚</b>
+<!-- 内容层 -->
+<div class="z-10 relative h-full flex flex-col justify-center items-center text-center">
+  <h1 class="mb-8 text-5xl font-bold text-white drop-shadow-lg">致未来的创造者</h1>
+
+  <div class="text-xl text-slate-200 mt-6 max-w-2xl leading-relaxed font-serif italic">
+    <p class="mb-8">
+      "上一代互联网人解决了<span class="text-yellow-300 font-sans not-italic">连接</span>的问题。<br>
+      你们的使命，是解决<span class="text-teal-300 font-sans not-italic">主权</span>的问题。"
+    </p>
+    <p class="font-bold text-white text-2xl not-italic font-sans mt-12">
+      不要再去造下一个微信了。<br>
+      去创造属于未来的<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">数字水管</span>和<span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">数字水杯</span>。
     </p>
   </div>
 
-  <!-- 连接符 -->
-  <div class="flex flex-col items-center gap-2 opacity-50">
-    <div i-carbon-arrows-horizontal text-4xl text-slate-400 />
-    <span class="text-xs font-mono">Separation</span>
-  </div>
-
-  <!-- 应用层 -->
-  <div class="bg-emerald-900/20 border border-emerald-500/30 p-6 rounded-xl text-center relative group">
-    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-emerald-500 text-white text-xs px-2 py-0.5 rounded">Commercial / User</div>
-    <div i-carbon-data-blob text-6xl text-emerald-400 mx-auto mb-4 group-hover:scale-110 transition />
-    <h3 class="text-xl font-bold text-emerald-200">应用/存储层</h3>
-    <p class="text-sm text-slate-400 mt-2">
-      本地优先 (Local-First)<br/>
-      Obsidian 模式<br/>
-      <b>数据私有，永久保存</b>
-    </p>
-  </div>
-
-</div>
-
-<div class="mt-12 text-center text-slate-400 text-sm max-w-2xl mx-auto border-t border-slate-700 pt-6">
-  "政府负责修路（保障安全与联通），企业负责造车（提供体验与服务），用户拥有货物（数据）。"
-</div>
-
-<!--
-为了解决这个问题，我们提出“协议与应用分离”的架构。
-左边是传输层，由国家或社团主导，像邮局一样，只负责送信，确保安全和反诈，但不扣留信件。
-右边是应用层，由商业公司开发，像信箱或日记本，信件送达后落地为本地文件，完全属于用户。
--->
-
----
-glowSeed: 5
----
-
-# 商业模式：Obsidian 通讯版
-## Local-First Architecture
-
-<div grid="~ cols-3 gap-6" mt-12>
-
-  <div v-click class="group relative bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-all">
-    <div class="absolute right-2 top-2 opacity-20 group-hover:opacity-40 transition">
-      <div i-carbon-code text-5xl text-teal-400 />
-    </div>
-    <h3 class="text-teal-300 font-bold text-lg mb-2">社区版 (开源)</h3>
-    <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4">
-      <li>标准协议解析器</li>
-      <li>极简 UI，无广告</li>
-      <li>数据存储为 SQLite/JSON</li>
-      <li><b>盈利点：</b> 无 (作为基础设施)</li>
-    </ul>
-  </div>
-
-  <div v-click class="group relative bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-all">
-    <div class="absolute right-2 top-2 opacity-20 group-hover:opacity-40 transition">
-      <div i-carbon-paint-brush text-5xl text-purple-400 />
-    </div>
-    <h3 class="text-purple-300 font-bold text-lg mb-2">商业客户端</h3>
-    <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4">
-      <li>极致的 UI/UX 体验</li>
-      <li>游戏化社交 / 虚拟形象</li>
-      <li>企业级协作功能集成</li>
-      <li><b>盈利点：</b> 皮肤、订阅、功能买断</li>
-    </ul>
-  </div>
-
-  <div v-click class="group relative bg-white/5 border border-white/10 rounded-xl p-5 hover:bg-white/10 transition-all">
-    <div class="absolute right-2 top-2 opacity-20 group-hover:opacity-40 transition">
-      <div i-carbon-cloud-upload text-5xl text-blue-400 />
-    </div>
-    <h3 class="text-blue-300 font-bold text-lg mb-2">增值服务 (Sync)</h3>
-    <ul class="text-xs text-slate-400 space-y-2 list-disc pl-4">
-      <li>端到端加密云备份</li>
-      <li>多设备实时同步加速</li>
-      <li>大文件高速中转</li>
-      <li><b>盈利点：</b> 类似 iCloud/Obsidian Sync</li>
-    </ul>
-  </div>
-
-</div>
-
-<!--
-很多人会问，数据在本地，商业公司怎么赚钱？
-参考 Obsidian 的模式：
-1. 卖体验：开发更好看的皮肤、更流畅的客户端。
-2. 卖服务：提供加密的云同步服务，解决多端问题。
-这让商业竞争回归到“服务质量”，而不是“流量垄断”。
--->
-
----
-layout: statement
----
-
-# 杀手锏：AI 本地化
-## Chat with YOUR Data
-
-<div class="mt-8 flex flex-col items-center gap-6">
-  <div class="text-center max-w-3xl text-slate-300 leading-relaxed">
-    在当前模式下，你无法训练一个真正懂你的 AI，因为数据在腾讯的服务器里。
-    <br/>
-    <span class="text-yellow-400 font-bold">但在本地化通讯模式下：</span>
-  </div>
-
-  <div class="grid grid-cols-2 gap-8 w-full max-w-4xl">
-    <div class="bg-slate-800 p-6 rounded-xl border border-yellow-500/30 flex items-center gap-4">
-      <div i-carbon-machine-learning-model text-4xl text-yellow-400 />
-      <div>
-        <div class="font-bold text-white">个人数字分身</div>
-        <div class="text-xs text-slate-400 mt-1">LLM 读取本地十年聊天记录，复刻你的语气与记忆。</div>
-      </div>
-    </div>
-    <div class="bg-slate-800 p-6 rounded-xl border border-yellow-500/30 flex items-center gap-4">
-      <div i-carbon-security text-4xl text-yellow-400 />
-      <div>
-        <div class="font-bold text-white">隐私零风险</div>
-        <div class="text-xs text-slate-400 mt-1">所有训练与推理在本地/私有云完成，数据不出域。</div>
-      </div>
-    </div>
+  <div class="mt-16 flex justify-center gap-6 text-sm text-slate-400">
+    <div class="flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-black/40"><div i-carbon-code /> Data Sovereignty</div>
+    <div class="flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-black/40"><div i-carbon-security /> Privacy</div>
+    <div class="flex items-center gap-2 px-4 py-1 rounded-full border border-white/10 bg-black/40"><div i-carbon-connect /> Open Protocol</div>
   </div>
 </div>
 
 <!--
-这个模式最大的爆发点在于 AI。
-未来的社交不只是聊天，是训练自己的数字分身。
-只有当聊天记录变成了你硬盘里的文件，你才敢让 AI 去读取它、分析它，从而得到一个真正属于你的智能助理。
--->
-
----
-layout: intro
-glowX: 50
-glowY: 120
----
-
-# 致未来的 10 后开发者
-
-<div class="mt-8 space-y-6 text-lg text-slate-300">
-  <p>
-    我们这一代解决了<span class="text-teal-400 font-bold">“连接”</span>的问题。<br/>
-    你们的使命，是解决<span class="text-purple-400 font-bold">“主权”</span>的问题。
-  </p>
-  
-  <p>
-    不要再造下一个微信。<br/>
-    去造<span class="text-white border-b-2 border-blue-500">数字世界的“水管”与“水杯”</span>。
-  </p>
-
-  <div class="flex gap-4 mt-12 text-sm text-slate-500 font-mono">
-    <div class="flex items-center gap-2">
-      <div i-carbon-code /> Open Protocol
-    </div>
-    <div class="flex items-center gap-2">
-      <div i-carbon-data-base /> Local Storage
-    </div>
-    <div class="flex items-center gap-2">
-      <div i-carbon-user-role /> User Sovereign
-    </div>
-  </div>
-</div>
-
-<!--
-最后，这是给未来创业者的寄语。
-不要试图去建立新的围墙，要去打破它。
-通过“协议与应用分离”，把互联网还给用户。
-谢谢大家。
+未来的开发者们，请不要再造围墙了。
+让通讯回归沟通，让数据回归个人。
+这才是互联网原本该有的样子。谢谢大家。
 -->
