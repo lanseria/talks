@@ -106,6 +106,9 @@ catalogs:
       specifier: ^3.3.1
       version: 3.3.1
 
+overrides:
+  fuse.js: 7.2.0
+
 importers:
 
   .:
@@ -3234,8 +3237,8 @@ packages:
     resolution: {integrity: sha512-0NVVC0TaP7dSTvn1yMiy6d6Q8gifzbvQafO46RtLG/kHJUBNd+pVRGOBoK44wNBvtSPUJRfdVvkFdD3p0xvyZg==}
     engines: {node: '>=14.16'}
 
-  fuse.js@7.3.0:
-    resolution: {integrity: sha512-plz8RVjfcDedTGfVngWH1jmJvBvAwi1v2jecfDerbEnMcmOYUEEwKFTHbNoCiYyzaK2Ws8lABkTCcRSqCY1q4w==}
+  fuse.js@7.2.0:
+    resolution: {integrity: sha512-zf4vdcIGpjNKTuXwug33Hm2okqX6a0t2ZEbez+o9oBJQSNhVJ5AqERfeiRD3r8HcLqP66MrjdkmzxrncbAOTUQ==}
     engines: {node: '>=10'}
 
   fzf@0.5.2:
@@ -6440,7 +6443,7 @@ snapshots:
       drauu: 0.4.3
       file-saver: 2.0.5
       floating-vue: 5.2.2(@nuxt/kit@3.17.7)(vue@3.5.34(typescript@6.0.3))
-      fuse.js: 7.3.0
+      fuse.js: 7.2.0
       katex: 0.16.47
       lz-string: 1.5.0
       mermaid: 11.15.0
@@ -6495,7 +6498,7 @@ snapshots:
       drauu: 0.4.3
       file-saver: 2.0.5
       floating-vue: 5.2.2(@nuxt/kit@3.17.7)(vue@3.5.34(typescript@6.0.3))
-      fuse.js: 7.3.0
+      fuse.js: 7.2.0
       katex: 0.16.47
       lz-string: 1.5.0
       mermaid: 11.15.0
@@ -8541,7 +8544,7 @@ snapshots:
 
   function-timeout@0.1.1: {}
 
-  fuse.js@7.3.0: {}
+  fuse.js@7.2.0: {}
 
   fzf@0.5.2: {}
 
