@@ -1,7 +1,3 @@
-# CLAUDE.md
-
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
-
 ## Project Overview
 
 This is a **Slidev**-based presentation repository containing multiple talks organized by date. Each talk is a self-contained package with its own slides and dependencies, managed via pnpm workspaces.
