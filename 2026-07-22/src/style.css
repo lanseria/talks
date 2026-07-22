@@ -1,0 +1,273 @@
+/* ===========================================================
+ * 大学讲座风主题
+ * 白底 / 深藏青主色 / 暖红 + 琥珀强调 / 衬线标题
+ * =========================================================== */
+
+:root {
+  --lecture-navy: #14274e;
+  --lecture-red: #c0392b;
+  --lecture-amber: #d97706;
+  --lecture-emerald: #047857;
+  --lecture-ink: #333;
+}
+
+/* ---------- 基础排版 ---------- */
+.slidev-layout {
+  color: var(--lecture-ink);
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  color: var(--lecture-navy);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* 标题下方统一加一条短分隔线，强化「讲座板书」感 */
+.slidev-layout h1 {
+  position: relative;
+  padding-bottom: 0.35em;
+}
+.slidev-layout h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 2.5em;
+  height: 4px;
+  background: var(--lecture-amber);
+  border-radius: 2px;
+}
+
+/* ---------- 封面（带图片背景，文字改白） ---------- */
+.slidev-layout.cover,
+.slidev-layout.intro {
+  color: #f5f5f0;
+}
+.slidev-layout.cover h1 {
+  color: #ffffff;
+}
+/* 封面标题用白底琥珀分隔线更醒目 */
+.slidev-layout.cover h1::after {
+  background: #fbbf24;
+}
+/* 封面副标题用浅色，避免在暗化背景上看不见 */
+.slidev-layout.cover .lecture-subtitle {
+  color: #f5f5f0;
+}
+
+/* ---------- 主题色工具类（供 slides.md 使用） ---------- */
+.text-navy { color: var(--lecture-navy) !important; }
+.bg-navy { background-color: var(--lecture-navy) !important; }
+.border-navy { border-color: var(--lecture-navy) !important; }
+
+/* 数字：等宽 + 略带字重，强调金额/百分比 */
+.font-num {
+  font-family: 'DM Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 衬线（标题/结论性短句用） */
+.font-serif {
+  font-family: 'Noto Serif SC', 'Songti SC', 'Source Han Serif SC', serif;
+}
+
+/* 副标题（封面） */
+.lecture-subtitle {
+  color: var(--lecture-navy);
+}
+
+/* 小标签条 */
+.lecture-tag {
+  display: inline-block;
+  padding: 0.2em 0.8em;
+  border: 1px solid var(--lecture-navy);
+  border-radius: 999px;
+  color: var(--lecture-navy);
+  font-size: 0.875rem;
+  background: #f5f7fa;
+}
+
+/* 提示框 / 老师补充 */
+.lecture-note {
+  padding: 0.9rem 1.1rem;
+  border-left: 4px solid var(--lecture-amber);
+  background: #fffaf0;
+  border-radius: 0 6px 6px 0;
+  color: var(--lecture-ink);
+}
+
+/* 总结卡片 */
+.summary-card {
+  text-align: center;
+  padding: 1.2rem 1.6rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #fbfcfe;
+  min-width: 8rem;
+}
+
+/* 默认勾选胶囊 */
+.default-checked {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.35em 0.9em;
+  border-radius: 999px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: var(--lecture-red);
+  font-weight: 600;
+}
+
+/* ---------- 表格：对比表专用 ---------- */
+.slidev-layout table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.slidev-layout table thead {
+  background: var(--lecture-navy);
+  color: #fff;
+}
+.slidev-layout table th {
+  font-weight: 600;
+  padding: 0.7em 1em;
+  text-align: left;
+  border: none;
+}
+.slidev-layout table td {
+  padding: 0.7em 1em;
+  border-bottom: 1px solid #e5e7eb;
+  color: var(--lecture-ink);
+}
+.slidev-layout table tbody tr:nth-child(odd) {
+  background: #f9fafb;
+}
+.slidev-layout table tbody tr:last-child td {
+  border-bottom: none;
+}
+/* 第一列（维度名）加粗强调 */
+.slidev-layout table td:first-child {
+  font-weight: 600;
+  color: var(--lecture-navy);
+}
+
+/* ---------- 行内代码 ---------- */
+.slidev-layout :not(pre) > code {
+  color: var(--lecture-navy);
+  background: #eef2f7;
+}
+
+/* ---------- 链接 ---------- */
+.slidev-layout a {
+  border-color: #14274e55;
+  color: var(--lecture-navy);
+}
+a:has(> code) {
+  underline: none;
+  border: 0px !important;
+}
+
+h6 {
+  text-transform: initial !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+}
+
+/* ===========================================================
+ * 以下沿用模板原有的过渡 / 交互样式
+ * =========================================================== */
+
+.slidev-monaco-container-inner {
+  border: 1px solid #eee1;
+  border-radius: 5px;
+}
+
+/* Transitions */
+.slidev-vclick-target {
+  transition:
+    opacity 500ms ease,
+    filter 200ms ease,
+    color 300ms ease;
+}
+
+.slidev-vclick-hidden {
+  opacity: 0;
+  pointer-events: none;
+  filter: blur(3px);
+}
+
+.fade-out-leave-active {
+  transition:
+    opacity calc(var(--slidev-transition-duration) * 0.6) ease-out,
+    filter 200ms ease;
+}
+
+.fade-out-enter-active {
+  transition:
+    opacity calc(var(--slidev-transition-duration) * 0.8) ease-in,
+    filter 200ms ease;
+  transition-delay: calc(var(--slidev-transition-duration) * 0.6);
+}
+
+.fade-out-enter-from,
+.fade-out-leave-to {
+  opacity: 0;
+  filter: blur(5px);
+}
+
+.slidev-code .line {
+  transition: opacity 200ms ease;
+}
+
+/* Magic Links */
+.markdown-magic-link {
+  display: inline-flex;
+  align-items: center;
+  transform: translateY(5px);
+  line-height: 100%;
+  color: #000b;
+  --uno: gap-1 transition rounded px1 py1 mx--0.5 important-border-0 font-condensed;
+}
+
+.dark .markdown-magic-link {
+  color: #fffc;
+}
+
+.markdown-magic-link:hover {
+  background: #8883;
+}
+
+.markdown-magic-link-image {
+  display: inline-block;
+  height: 1.2em;
+  width: 1.2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
+}
+
+.markdown-magic-link.markdown-magic-link-github-at {
+  transform: translateY(6px);
+  --uno: pl-0 py-0 pr2 uppercase text-sm gap-1.2 rounded-full;
+}
+
+.markdown-magic-link.markdown-magic-link-github-at .markdown-magic-link-image {
+  height: 1.6em;
+  width: 1.6em;
+  border-radius: 50%;
+}
+
+.slidev-code {
+  backdrop-filter: blur(10px);
+  border: 1px solid #eee1;
+}
+
+.rough-annotation > path[stroke-width='2'] {
+  stroke-width: calc(2px * var(--slidev-slide-scale));
+}

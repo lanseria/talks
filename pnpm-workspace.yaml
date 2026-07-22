@@ -46,4 +46,4 @@ overrides:
 
 allowBuilds:
   esbuild: true
-  playwright-chromium: true
+  playwright-chromium: false
