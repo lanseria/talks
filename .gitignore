@@ -8,3 +8,7 @@ dist
 ai/project_context.txt
 **.pptx
 .claude
+# slidev 导出产物 (见各演讲 src/package.json 的 export 脚本)
+**/*-work-report-*.pdf
+**/*work-report*.pdf
+.zcode/
