@@ -71,7 +71,7 @@ UP主 爱吃包子的超
 
 ---
 layout: image-right
-image: /zoom.jpg
+image: /zoom.webp
 ---
 
 # Zoom Earth
@@ -119,7 +119,7 @@ url: https://typhoon.slt.zj.gov.cn/
 
 ---
 layout: image-right
-image: /rsapp.jpg
+image: /rsapp.webp
 ---
 
 # 中国卫星气象中心
@@ -130,7 +130,7 @@ image: /rsapp.jpg
 
 ---
 layout: image-right
-image: /rammb.png
+image: /rammb.webp
 ---
 
 # R站 RAMMB/CIRA SLIDER
@@ -142,7 +142,7 @@ image: /rammb.png
 
 ---
 layout: image-right
-image: /japan.png
+image: /japan.webp
 ---
 
 # 日本向日葵8

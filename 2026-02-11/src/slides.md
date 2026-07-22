@@ -8,7 +8,7 @@ css: unocss
 
 <!-- 背景图片层：放在最底层 -->
 <div class="absolute inset-0 z-0">
-  <img src="/1.jpg" class="w-full h-full object-cover opacity-60" />
+  <img src="/1.webp" class="w-full h-full object-cover opacity-60" />
   <!-- 渐变遮罩，确保文字可读 -->
   <div class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
 </div>
@@ -74,7 +74,7 @@ glow: 'right'
   <!-- 找到原本右侧的 div，替换为以下代码 -->
   <div class="relative w-full h-80 rounded-xl overflow-hidden border border-white/20 shadow-[0_0_20px_rgba(0,0,0,0.5)] group">
     <!-- 图片 -->
-    <img src="/2.jpg" class="absolute inset-0 w-full h-full object-cover transition duration-700 group-hover:scale-105" />
+    <img src="/2.webp" class="absolute inset-0 w-full h-full object-cover transition duration-700 group-hover:scale-105" />
     
     <!-- 内部光效叠加（可选，增加科技感） -->
     <div class="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-transparent pointer-events-none"></div>
@@ -243,7 +243,7 @@ glowSeed: 'ai-future'
         <div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
         <!-- 图片容器 -->
         <div class="relative w-full h-full rounded-2xl overflow-hidden border border-purple-500/30 bg-black">
-          <img src="/3.jpg" class="w-full h-full object-cover opacity-90" />
+          <img src="/3.webp" class="w-full h-full object-cover opacity-90" />
           <!-- 科技感网格覆盖层 -->
           <div class="absolute inset-0 bg-[url(https://grainy-gradients.vercel.app/noise.svg)] opacity-20 mix-blend-overlay"></div>
         </div>
@@ -264,7 +264,7 @@ glowOpacity: 0.3
 
 <!-- 背景图片层 -->
 <div class="absolute inset-0 z-0">
-  <img src="/4.jpg" class="w-full h-full object-cover opacity-50" />
+  <img src="/4.webp" class="w-full h-full object-cover opacity-50" />
   <div class="absolute inset-0 bg-black/60"></div> <!-- 压暗背景 -->
 </div>
 

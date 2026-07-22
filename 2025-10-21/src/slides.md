@@ -78,7 +78,7 @@ glow: 'left'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full object-cover" src="/demo/1.jpg">
+    <img class="rounded-lg w-full h-full object-cover" src="/demo/1.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: cyberpunk art style, a person is chained to a giant, monolithic server tower with a social media logo on it, their personal data glowing and flowing from them into the tower, surrounding them are other isolated towers representing different apps, dark, oppressive, neon blue and red highlights -->
   </div>
@@ -97,7 +97,7 @@ glow: 'right'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/2.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/2.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: editorial cartoon style, a Swiss Army knife that is comically oversized and bloated, with dozens of useless and confusing gadgets sticking out, such as a tiny video screen, a social media button, and a food delivery icon, on the main blade is written "Payment App", satirical, colorful, cluttered -->
   </div>
@@ -153,7 +153,7 @@ glow: 'left'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/3.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/3.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: digital art, a vast, barren desert representing 'Niche & Public Value Tools', with a few small, struggling oases. In the distance, a massive, walled city overflowing with neon signs for 'Social Media' and 'Short Videos' has giant vacuum tubes sucking all the water and resources (representing talent and investment) from the desert. Symbolic, high contrast, cinematic lighting. -->
   </div>
@@ -181,7 +181,7 @@ glow: 'top'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/4.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/4.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: futuristic infographic, a central, glowing digital ID card with a fingerprint icon, from which clean, secure data streams connect to various service icons (bank, hospital, government, utility), everything is orderly and encrypted, minimalist, holographic blue and white on a dark background -->
   </div>
@@ -238,7 +238,7 @@ glow: 'bottom'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/5.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/5.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: minimalist illustration, a wide, shared river representing the 'Open Protocol', various beautifully designed boats with different brand logos (representing apps) are sailing on it, a person can easily jump from one boat to another, carrying their luggage (data) with them, clean, bright, vector style -->
   </div>
@@ -276,7 +276,7 @@ glow: 'left'
 
   <!-- 右侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/6.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/6.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: fantasy art, a well-tended magical garden, where many unique, glowing plants of different shapes and sizes ('small & beautiful' apps) grow freely, a gentle gardener (representing regulation) is trimming away thorny, invasive weeds (ads and bloatware), serene, beautiful, golden hour lighting -->
   </div>
@@ -295,7 +295,7 @@ glow: 'right'
 <div grid="~ cols-2 gap-12" class="w-full h-full items-center">
   <!-- 左侧图片占位符 -->
   <div v-after class="w-full h-80% bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/7.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/7.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: 3D illustration, a clean, modern digital vending machine interface, users can select individual items like '1 Song', '10 Mins of Video', '1 Article', and pay with small, glowing tokens, emphasizes precision and fairness, user-friendly, soft pastel colors -->
   </div>
@@ -338,7 +338,7 @@ glow: 'center'
     来释放更大的<b class="text-lime-300">创新自由</b>。
   </p>
   <div v-click class="w-2/3 h-60% mt-8 bg-slate-500/10 rounded-lg flex items-center justify-center border border-slate-500/30">
-    <img class="rounded-lg w-full h-full" src="/demo/8.jpg">
+    <img class="rounded-lg w-full h-full" src="/demo/8.webp">
     <!-- <div i-carbon-image-search text-4xl op30></div> -->
     <!-- IMAGE PROMPT: epic wide shot, a vast, clean, glowing digital highway at night representing a solid infrastructure, on which thousands of unique, creative, and diverse vehicles (apps) are driving smoothly and fast, symbolizing unleashed innovation, futuristic, cinematic, blue and orange tones -->
   </div>

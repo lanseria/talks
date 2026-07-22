@@ -23,7 +23,7 @@ UP主 爱吃包子的超
 
 
 <div class="flex gap-20px w-full h-full">
-  <img class="w-full h-full" src="/p0.png"/>
+  <img class="w-full h-full" src="/p0.webp"/>
 </div>
 
 ---
@@ -32,7 +32,7 @@ UP主 爱吃包子的超
 
 
 <div class="flex gap-20px w-full h-full">
-  <img class="w-full h-full" src="/p0.png"/>
+  <img class="w-full h-full" src="/p0.webp"/>
 </div>
 
 ---

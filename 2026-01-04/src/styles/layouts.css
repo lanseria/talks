@@ -61,7 +61,7 @@
     @apply text-4xl font-700 flex items-center ml-2px;
       &::before {
         content: '';
-        background-image: url('/h1.png');
+        background-image: url('/h1.webp');
         @apply absolute block w-50px h-40px left--0px bg-no-repeat bg-contain;
       }
   }

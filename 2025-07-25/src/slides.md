@@ -171,7 +171,7 @@ glow: top
 
 # 核心仪表盘
 
-<img src="/demo/dashboard.png" class="rounded-lg shadow-lg mt-4" />
+<img src="/demo/dashboard.webp" class="rounded-lg shadow-lg mt-4" />
 
 <div v-click class="absolute top-100 left-30 p-2 bg-black/60 rounded text-white text-sm">清晰的表格布局</div>
 <div v-click class="absolute top-45 right-30 p-2 bg-black/60 rounded text-white text-sm">SSE 实时估值更新 🟢</div>
@@ -197,7 +197,7 @@ layout: default
 
 # 深度策略分析
 
-<img src="/demo/fund-detail.png" class="rounded-lg shadow-lg mt-4" />
+<img src="/demo/fund-detail.webp" class="rounded-lg shadow-lg mt-4" />
 
 
 <div v-click class="absolute top-60 left-30 p-2 bg-black/60 rounded text-white text-sm">ECharts 驱动</div>
@@ -226,11 +226,11 @@ layout: default
 <div class="grid grid-cols-2 gap-8 mt-4">
   <div v-click>
     <h3 class="text-center mb-2">亮色模式 ☀️</h3>
-    <img src="/demo/light-mode.png" class="rounded-lg shadow-lg" />
+    <img src="/demo/light-mode.webp" class="rounded-lg shadow-lg" />
   </div>
   <div v-click>
     <h3 class="text-center mb-2">暗色模式 🌙</h3>
-    <img src="/demo/dark-mode.png" class="rounded-lg shadow-lg" />
+    <img src="/demo/dark-mode.webp" class="rounded-lg shadow-lg" />
   </div>
 </div>
 

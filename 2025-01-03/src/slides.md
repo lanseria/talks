@@ -177,8 +177,8 @@ layout: statement
       class="text-purple-500 flex items-center justify-center">鼎实大榭</div>
 </div>
 <div class="flex-1 relative w-full flex gap-40px items-center justify-center">
-  <img src="/qpaas.jpg" class="shadow w-300px">
-  <img src="/qpaas1.jpg" class="shadow w-300px">
+  <img src="/qpaas.webp" class="shadow w-300px">
+  <img src="/qpaas1.webp" class="shadow w-300px">
 </div>
 </div>
 
@@ -240,10 +240,10 @@ layout: statement
   <div text-2xl class="text-purple-500 flex items-center justify-center" v-click>海上清舱/受限空间</div>
 </div>
 <div class="flex-1 relative w-full flex gap-40px items-center justify-center">
-  <img src="/tp.jpg" class="shadow w-200px">
-  <img src="/zhdf.jpg" class="shadow w-200px">
-  <img src="/vqc.jpg" class="shadow w-200px">
-  <img src="/pcs.jpg" class="shadow w-200px">
+  <img src="/tp.webp" class="shadow w-200px">
+  <img src="/zhdf.webp" class="shadow w-200px">
+  <img src="/vqc.webp" class="shadow w-200px">
+  <img src="/pcs.webp" class="shadow w-200px">
 </div>
 </div>
 
@@ -331,8 +331,8 @@ glow: left
 <div mt-6 />
 
 <div flex items-center gap-2>
-<img w-300px src="/csafety.jpg">
-<img w-300px src="/csafety2.png">
+<img w-300px src="/csafety.webp">
+<img w-300px src="/csafety2.webp">
 </div>
 
 <div mt-6 />
@@ -386,8 +386,8 @@ glow: left
 <div mt-6 />
 
 <div flex items-center gap-2>
-<img w-300px src="/zhdf.jpg">
-<img w-300px src="/zhdf1.jpg">
+<img w-300px src="/zhdf.webp">
+<img w-300px src="/zhdf1.webp">
 </div>
 
 <div mt-6 />
@@ -509,12 +509,12 @@ AI 用于资料搜索
 
 <div>
 <div op50 font-serif italic mb--1>需求/Bug</div>
-<img src="/lark.png" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+<img src="/lark.webp" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
 </div>
 
 <div>
 <div op50 font-serif italic mb--1>仪表盘</div>
-<img src="/lark1.png" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+<img src="/lark1.webp" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
 </div>
 
 </div>
@@ -541,7 +541,7 @@ AI 用于资料搜索
   transition duration-500
   :class="$clicks < 2 ? 'scale-130 translate-x-55' : ''"
 >
-  <img src="/cursor.jpg" w-90 rounded-lg shadow border="~ main" />
+  <img src="/cursor.webp" w-90 rounded-lg shadow border="~ main" />
   <a href="https://www.cursor.com/" text-sm>www.cursor.com</a>
 </div>
 
@@ -659,13 +659,13 @@ layout: intro
 <div>
 <div op50 font-serif italic mb--1>Part I</div>
 <h2><span op75>Port Clean System</span><br>港航清舱系统</h2>
-<img src="/pcs.jpg" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+<img src="/pcs.webp" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
 </div>
 
 <div>
 <div op50 font-serif italic mb--1>Part II</div>
 <h2><span op75>Develop Others</span><br>开发、协助其他项目的开发</h2>
-<img src="/tcssm.jpg" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
+<img src="/tcssm.webp" rounded-lg shadow-xl w-120 border="~ gray/25" mt-6 />
 </div>
 
 </div>

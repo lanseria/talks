@@ -40,9 +40,9 @@ UP主 爱吃包子的超
 # APP上获取电表信息
 
 <div class="flex gap-20px w-full">
-  <img class="flex-1 w-100px" src="/IMG_0168.jpg"/>
-  <img class="flex-1 w-100px" src="/IMG_0169.jpg"/>
-  <img class="flex-1 w-100px" src="/IMG_0170.jpg"/>
+  <img class="flex-1 w-100px" src="/IMG_0168.webp"/>
+  <img class="flex-1 w-100px" src="/IMG_0169.webp"/>
+  <img class="flex-1 w-100px" src="/IMG_0170.webp"/>
 </div>
 
 ---
@@ -51,7 +51,7 @@ UP主 爱吃包子的超
 https://www.95598.cn/osgweb/electricityCharge
 
 <div class="flex gap-20px w-full">
-  <img class="flex-1 w-100px" src="/1.png"/>
+  <img class="flex-1 w-100px" src="/1.webp"/>
 </div>
 
 ---
@@ -60,7 +60,7 @@ https://www.95598.cn/osgweb/electricityCharge
 https://enjqkboeqf.feishu.cn/base/OVMdbZExOao4dfs5p1Uc8E1CnIb?from=from_copylink
 
 <div class="flex gap-20px w-full">
-  <img class="flex-1 w-100px" src="/2.png"/>
+  <img class="flex-1 w-100px" src="/2.webp"/>
 </div>
 
 ---
@@ -68,5 +68,5 @@ https://enjqkboeqf.feishu.cn/base/OVMdbZExOao4dfs5p1Uc8E1CnIb?from=from_copylink
 # 得到可视化的电表电费数据
 
 <div class="flex gap-20px w-full">
-  <img class="flex-1 w-100px" src="/3.png"/>
+  <img class="flex-1 w-100px" src="/3.webp"/>
 </div>

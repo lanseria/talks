@@ -23,7 +23,7 @@ UP主 爱吃包子的超
 
 ---
 layout: image
-image: /0.png
+image: /0.webp
 ---
 
 #
@@ -34,7 +34,7 @@ image: /0.png
 
 ---
 layout: image
-image: /1.png
+image: /1.webp
 ---
 
 #
@@ -45,7 +45,7 @@ image: /1.png
 
 ---
 layout: image
-image: /2.png
+image: /2.webp
 ---
 
 #
@@ -67,7 +67,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="https://www.orienspace.com/img/product/number_0.jpg"/>
+<img class="h-500px" src="https://www.orienspace.com/img/product/number_0.webp"/>
 </div>
 
 ::right::
@@ -107,7 +107,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/3.jpg"/>
+<img class="h-500px" src="/3.webp"/>
 </div>
 
 ::right::
@@ -148,7 +148,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/4.jpg"/>
+<img class="h-500px" src="/4.webp"/>
 </div>
 
 ::right::
@@ -189,7 +189,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="http://www.cas-space.com/static/modules/cms/images/PR-1.png"/>
+<img class="h-500px" src="http://www.cas-space.com/static/modules/cms/images/PR-1.webp"/>
 </div>
 
 ::right::
@@ -229,7 +229,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/5.jpg"/>
+<img class="h-500px" src="/5.webp"/>
 </div>
 
 ::right::
@@ -268,7 +268,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/12.jpg"/>
+<img class="h-500px" src="/12.webp"/>
 </div>
 
 ::right::
@@ -307,7 +307,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/13.jpg"/>
+<img class="h-500px" src="/13.webp"/>
 </div>
 
 ::right::
@@ -346,7 +346,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/6.png"/>
+<img class="h-500px" src="/6.webp"/>
 </div>
 
 ::right::
@@ -385,7 +385,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/7.jpg"/>
+<img class="h-500px" src="/7.webp"/>
 </div>
 
 ::right::
@@ -424,7 +424,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/8.jpg"/>
+<img class="h-500px" src="/8.webp"/>
 </div>
 
 ::right::
@@ -463,7 +463,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/9.jpg"/>
+<img class="h-500px" src="/9.webp"/>
 </div>
 
 ::right::
@@ -502,7 +502,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/10.png"/>
+<img class="h-500px" src="/10.webp"/>
 </div>
 
 ::right::
@@ -541,7 +541,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/11.jpg"/>
+<img class="h-500px" src="/11.webp"/>
 </div>
 
 ::right::
@@ -580,7 +580,7 @@ layout: two-cols
 ---
 
 <div>
-<img class="h-500px" src="/12.png"/>
+<img class="h-500px" src="/12.webp"/>
 </div>
 
 ::right::

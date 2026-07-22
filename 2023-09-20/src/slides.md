@@ -23,7 +23,7 @@ UP主 爱吃包子的超
 
 ---
 layout: image
-image: /0.png
+image: /0.webp
 ---
 
 
@@ -34,7 +34,7 @@ image: /0.png
 
 ---
 layout: image
-image: /1.png
+image: /1.webp
 ---
 
 
@@ -45,7 +45,7 @@ image: /1.png
 
 ---
 layout: image
-image: /2.png
+image: /2.webp
 ---
 
 
@@ -56,7 +56,7 @@ image: /2.png
 
 ---
 layout: image
-image: /3.png
+image: /3.webp
 ---
 
 
@@ -67,7 +67,7 @@ image: /3.png
 
 ---
 layout: image
-image: /4.png
+image: /4.webp
 ---
 
 
@@ -78,7 +78,7 @@ image: /4.png
 
 ---
 layout: image
-image: /5.png
+image: /5.webp
 ---
 
 
@@ -89,7 +89,7 @@ image: /5.png
 
 ---
 layout: image
-image: /6.png
+image: /6.webp
 ---
 
 
@@ -100,7 +100,7 @@ image: /6.png
 
 ---
 layout: image
-image: /7.png
+image: /7.webp
 ---
 
 
@@ -111,7 +111,7 @@ image: /7.png
 
 ---
 layout: image
-image: /8.png
+image: /8.webp
 ---
 
 
@@ -122,7 +122,7 @@ image: /8.png
 
 ---
 layout: image
-image: /9.png
+image: /9.webp
 ---
 
 

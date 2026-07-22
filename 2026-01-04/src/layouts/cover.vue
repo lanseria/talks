@@ -14,8 +14,8 @@ const style = computed(() => handleBackground(props.background, true))
 <template>
   <div class="slidev-layout cover" :style="style">
     <div class="absolute top-0 left-0 w-full h-full bg-[#4396CC]"></div>
-    <img  class="absolute top-0 left-0 h-full" src="/cover-1.png" alt="">
-    <img  class="absolute top-10px right-10px w-110px h-auto" src="/csafety-logo.png" alt="">
+    <img  class="absolute top-0 left-0 h-full" src="/cover-1.webp" alt="">
+    <img  class="absolute top-10px right-10px w-110px h-auto" src="/csafety-logo.webp" alt="">
     <div class="my-auto w-full z-1 text-white">
       <slot />
     </div>

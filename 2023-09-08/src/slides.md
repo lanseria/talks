@@ -23,7 +23,7 @@ UP主 爱吃包子的超
 
 ---
 layout: image-right
-image: /1.jpg
+image: /1.webp
 ---
 
 # 对比不公平
@@ -58,7 +58,7 @@ layout: center
 
 ---
 layout: image-right
-image: /2.png
+image: /2.webp
 ---
 
 # 实验台风
@@ -82,7 +82,7 @@ layout: center
 
 ---
 layout: image
-image: /3.png
+image: /3.webp
 ---
 
 
@@ -93,35 +93,35 @@ image: /3.png
 
 ---
 layout: image
-image: /4.png
+image: /4.webp
 ---
 ---
 layout: image
-image: /5.png
+image: /5.webp
 ---
 ---
 layout: image
-image: /6.png
+image: /6.webp
 ---
 ---
 layout: image
-image: /7.png
+image: /7.webp
 ---
 ---
 layout: image
-image: /8.png
+image: /8.webp
 ---
 ---
 layout: image
-image: /9.png
+image: /9.webp
 ---
 ---
 layout: image
-image: /10.png
+image: /10.webp
 ---
 ---
 layout: image
-image: /11.png
+image: /11.webp
 ---
 
 ---
@@ -133,38 +133,38 @@ layout: center
 
 ---
 layout: image
-image: /12.png
+image: /12.webp
 ---
 
 ---
 layout: image
-image: /13.png
+image: /13.webp
 ---
 ---
 layout: image
-image: /14.png
+image: /14.webp
 ---
 ---
 layout: image
-image: /15.png
+image: /15.webp
 ---
 ---
 layout: image
-image: /16.png
+image: /16.webp
 ---
 ---
 layout: image
-image: /17.png
+image: /17.webp
 ---
 ---
 layout: image
-image: /18.png
+image: /18.webp
 ---
 ---
 layout: image
-image: /19.png
+image: /19.webp
 ---
 ---
 layout: image
-image: /20.png
+image: /20.webp
 ---

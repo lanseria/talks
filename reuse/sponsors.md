@@ -5,10 +5,10 @@ layout: center
 
 <div class="grid grid-cols-2 gap-4 items-center h-100">
   <div class="object-contain h-full of-hidden">
-    <img class="max-h-full" src="https://github.com/antfu/static/blob/master/sponsors.part1.png?raw=true" />
+    <img class="max-h-full" src="https://github.com/antfu/static/blob/master/sponsors.part1.webp?raw=true" />
   </div>
   <div class="object-contain h-full of-hidden">
-    <img class="max-h-full" src="https://github.com/antfu/static/blob/master/sponsors.part2.png?raw=true" />
+    <img class="max-h-full" src="https://github.com/antfu/static/blob/master/sponsors.part2.webp?raw=true" />
   </div>
 </div>
 

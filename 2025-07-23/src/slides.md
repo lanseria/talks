@@ -120,7 +120,7 @@ layout: center
 
 <div>
 <h3 class="font-bold text-xl mb-2">📊 任务仪表盘</h3>
-<img src="https://raw.githubusercontent.com/lanseria/geoscraper/refs/heads/main/screenshots/geoscraper-dashboard.png" class="rounded-lg shadow-md border dark:border-gray-700" alt="Dashboard Screenshot" />
+<img src="https://raw.githubusercontent.com/lanseria/geoscraper/refs/heads/main/screenshots/geoscraper-dashboard.webp" class="rounded-lg shadow-md border dark:border-gray-700" alt="Dashboard Screenshot" />
 <ul class="text-sm list-disc pl-5 mt-2">
   <li>所有任务状态一目了然</li>
   <li>实时进度更新 (稍后揭秘)</li>

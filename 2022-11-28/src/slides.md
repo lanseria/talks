@@ -120,7 +120,7 @@ layout: quote
 ---
 layout: image
 image: >-
-  https://img.alicdn.com/imgextra/i4/2207690525542/O1CN01y0ZBv01qoHnBKKugv_!!2207690525542.jpg
+  https://img.alicdn.com/imgextra/i4/2207690525542/O1CN01y0ZBv01qoHnBKKugv_!!2207690525542.webp
 ---
 
 
@@ -139,7 +139,7 @@ layout: quote
 ---
 layout: image
 
-image: https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/region/china/leiniao/ar/content-3.png
+image: https://aws-obg-image-lb-2.tcl.com/content/dam/brandsite/region/china/leiniao/ar/content-3.webp
 ---
 
 
@@ -154,7 +154,7 @@ layout: quote
 ---
 layout: image
 image: >-
-  https://cdn.microsoftstore.com.cn/media/catalog/product/cache/7abce94ad89cfb8ca19b9f2425335e01/b/u/buybox_banner_0_pc_2.jpg
+  https://cdn.microsoftstore.com.cn/media/catalog/product/cache/7abce94ad89cfb8ca19b9f2425335e01/b/u/buybox_banner_0_pc_2.webp
 ---
 
 
