@@ -37,17 +37,17 @@ layout: default
 
 <div class="mt-6 text-slate-700 text-lg leading-8">
 
-同一班次的大巴票，票面都是 <span class="font-num font-bold text-amber-700">50 元</span>。
+同一班次的大巴票，票面都是 <span class="font-num font-bold text-amber-700">59 元</span>。
 
 <div class="mt-4 flex gap-8 items-center justify-center">
   <div class="text-center">
     <div class="text-slate-400 text-sm mb-1">官方小程序</div>
-    <div class="font-num font-bold text-4xl text-emerald-700">付 50</div>
+    <div class="font-num font-bold text-4xl text-emerald-700">付 59</div>
   </div>
   <div class="text-3xl text-slate-300">→</div>
   <div class="text-center">
     <div class="text-slate-400 text-sm mb-1">第三方平台</div>
-    <div class="font-num font-bold text-4xl text-red-700">付 58<span class="text-lg">+</span></div>
+    <div class="font-num font-bold text-4xl text-red-700">付 64<span class="text-lg">+</span></div>
   </div>
 </div>
 
@@ -131,20 +131,31 @@ layout: default
 
 # 维度一：购票服务费
 
-<div class="mt-10 text-center">
-  <div class="text-slate-500 text-base mb-2">官方小程序 · 购票服务费</div>
-  <div class="font-num font-bold text-8xl text-emerald-700">0 元</div>
-  <div class="mt-3 text-slate-400 text-lg">零加价 · 与车站窗口完全一致</div>
+<div class="mt-8 grid grid-cols-[1fr_auto] gap-10 items-center">
+
+<div>
+  <div class="text-center">
+    <div class="text-slate-500 text-base mb-2">官方小程序 · 购票服务费</div>
+    <div class="font-num font-bold text-8xl text-emerald-700">0 元</div>
+    <div class="mt-3 text-slate-400 text-lg">零加价 · 与车站窗口完全一致</div>
+  </div>
+
+  <div class="mt-8 text-slate-600 leading-7">
+  <div class="flex items-start gap-2 mb-1"><span class="text-emerald-600 font-bold">✓</span> 没有技术服务费</div>
+  <div class="flex items-start gap-2 mb-1"><span class="text-emerald-600 font-bold">✓</span> 没有出票费</div>
+  <div class="flex items-start gap-2"><span class="text-emerald-600 font-bold">✓</span> 不会偷偷帮你勾选保险等增值服务</div>
+  </div>
 </div>
 
-<div class="mt-10 text-slate-600 leading-7">
-<div class="flex items-start gap-2 mb-1"><span class="text-emerald-600 font-bold">✓</span> 没有技术服务费</div>
-<div class="flex items-start gap-2 mb-1"><span class="text-emerald-600 font-bold">✓</span> 没有出票费</div>
-<div class="flex items-start gap-2"><span class="text-emerald-600 font-bold">✓</span> 不会偷偷帮你勾选保险等增值服务</div>
+<figure class="proof-shot">
+  <img src="/舟山汽运无手续费展示（从舟山出发）.webp" alt="舟山汽运小程序支付页金额明细">
+  <figcaption>舟山汽运小程序 · 金额明细无服务费</figcaption>
+</figure>
+
 </div>
 
 <!--
-第一个维度，购票服务费。答案是——0 元。没有技术服务费，没有出票费，也不会偷偷帮你勾选保险之类的增值服务。你付多少钱，就等于票面上写多少钱，跟车站窗口完全一致。这一点非常干净。
+第一个维度，购票服务费。答案是——0 元。没有技术服务费，没有出票费，也不会偷偷帮你勾选保险之类的增值服务。你付多少钱，就等于票面上写多少钱，跟车站窗口完全一致。这一点非常干净。（右侧截图是官方支付页实拍，金额明细里确实没有任何服务费。）
 -->
 
 ---
@@ -153,29 +164,40 @@ layout: default
 
 # 维度二：退票手续费（按出发地分档）
 
-<div class="mt-6 text-slate-600 text-base">退票费不是一刀切，而是 <b class="text-navy">按出发地分档</b>：</div>
+<div class="mt-6 grid grid-cols-[1fr_auto] gap-10 items-start">
 
-<div class="mt-5">
+<div>
+  <div class="text-slate-600 text-base">退票费不是一刀切，而是 <b class="text-navy">按出发地分档</b>：</div>
 
-| 出发地 | 发车前 2h 以前退 | 2h 以内退 |
-| :--- | :---: | :---: |
-| **舟山本地出发** | 扣票面 **10%** | 扣 **20%** |
-| 浙江(其他)/上海出发 | 扣 20% | 扣 25% |
+  <div class="mt-4">
 
-</div>
+  | 出发地 | 发车前 2h 以前退 | 2h 以内退 |
+  | :--- | :---: | :---: |
+  | **舟山本地出发** | 扣票面 **10%** | 扣 **20%** |
+  | 浙江(其他)/上海出发 | 扣 20% | 扣 25% |
 
-<div class="mt-8 lecture-note">
-<div class="flex items-start gap-2">
-  <div i-mdi-lightbulb-on class="text-amber-600 text-xl mt-0.5 shrink-0" />
-  <div>
-    同样是官方小程序，<b class="text-navy">舟山本地出发</b>的退票费明显更低——
-    说明 <b>本地渠道对本地居民是有优惠倾斜的</b>。
+  </div>
+
+  <div class="mt-6 lecture-note">
+  <div class="flex items-start gap-2">
+    <div i-mdi-lightbulb-on class="text-amber-600 text-xl mt-0.5 shrink-0" />
+    <div>
+      同样是官方小程序，<b class="text-navy">舟山本地出发</b>的退票费明显更低——
+      说明 <b>本地渠道对本地居民是有优惠倾斜的</b>。
+    </div>
+  </div>
   </div>
 </div>
+
+<figure class="proof-shot">
+  <img src="/舟山汽运退票手续费低展示（从舟山出发）.webp" alt="舟山汽运小程序退改规则">
+  <figcaption>舟山汽运小程序 · 退改规则（舟山出发 10%/20%）</figcaption>
+</figure>
+
 </div>
 
 <!--
-这里有个细节，它的退票费是按出发地分档的。如果是舟山本地出发：发车前 2 小时以前退，扣票面的 10%；2 小时以内退，扣 20%。如果是浙江其他城市或上海出发：2 小时以前扣 20%，2 小时以内扣 25%。同学们注意，同样是官方小程序，舟山本地出发的退票费明显更低。这说明本地渠道对本地居民是有优惠倾斜的。
+这里有个细节，它的退票费是按出发地分档的。如果是舟山本地出发：发车前 2 小时以前退，扣票面的 10%；2 小时以内退，扣 20%。如果是浙江其他城市或上海出发：2 小时以前扣 20%，2 小时以内扣 25%。同学们注意，同样是官方小程序，舟山本地出发的退票费明显更低。这说明本地渠道对本地居民是有优惠倾斜的。（右侧截图是官方退改规则实拍，舟山出发确实是 10%/20%。）
 -->
 
 ---
@@ -250,24 +272,35 @@ layout: default
 
 # 隐藏成本 ① 技术服务费
 
-<div class="mt-6 flex items-center gap-4">
-  <div class="text-slate-500 text-base">普遍每单收</div>
-  <div class="font-num font-bold text-5xl text-red-700">3 ~ 10 <span class="text-2xl">元</span></div>
-</div>
-<div class="mt-2 text-slate-500 text-base">用于覆盖出票和系统接入。</div>
+<div class="mt-6 grid grid-cols-[1fr_auto] gap-10 items-start">
 
-<div class="mt-8 p-5 rounded border-l-4 border-red-700 bg-red-50">
-  <div class="flex items-start gap-3">
-    <div i-mdi-alert-circle class="text-2xl text-red-700 mt-0.5 shrink-0" />
-    <div class="text-slate-700 leading-7">
-      <b class="text-red-700">重点来了——</b>
-      这笔钱 <b>一旦出票成功，不管你退不退票，都不退</b>。
+<div>
+  <div class="flex items-center gap-4">
+    <div class="text-slate-500 text-base">普遍每单收</div>
+    <div class="font-num font-bold text-5xl text-red-700">3 ~ 10 <span class="text-2xl">元</span></div>
+  </div>
+  <div class="mt-2 text-slate-500 text-base">用于覆盖出票和系统接入。</div>
+
+  <div class="mt-6 p-5 rounded border-l-4 border-red-700 bg-red-50">
+    <div class="flex items-start gap-3">
+      <div i-mdi-alert-circle class="text-2xl text-red-700 mt-0.5 shrink-0" />
+      <div class="text-slate-700 leading-7">
+        <b class="text-red-700">重点来了——</b>
+        这笔钱 <b>一旦出票成功，不管你退不退票，都不退</b>。
+      </div>
     </div>
   </div>
 </div>
 
+<figure class="proof-shot">
+  <img src="/飞猪有手续费展示，每个人5元的服务费，比一般巴巴快巴3元还要高.webp" alt="飞猪支付页每人5元服务费">
+  <figcaption>飞猪 · 每人 5 元服务费（比巴巴快巴 3 元还高）</figcaption>
+</figure>
+
+</div>
+
 <!--
-第一笔，技术服务费。普遍每单收 3 到 10 块钱，用于覆盖出票和系统接入。重点来了——这笔钱一旦出票成功，不管你退不退票，都不退。记住这一点，它后面会放大你的损失。
+第一笔，技术服务费。普遍每单收 3 到 10 块钱，用于覆盖出票和系统接入。重点来了——这笔钱一旦出票成功，不管你退不退票，都不退。记住这一点，它后面会放大你的损失。（右侧截图是飞猪实拍，每人收 5 元服务费，连官方联网的巴巴快巴也才 3 元。）
 -->
 
 ---
@@ -276,32 +309,49 @@ layout: default
 
 # 隐藏成本 ② 默认搭售
 
-<div class="mt-6 text-slate-700 leading-8">
-你到 <b>支付页</b> 时，它会 <b class="text-red-700">默认帮你勾选</b>：
-</div>
+<div class="mt-6 grid grid-cols-[1fr_auto] gap-10 items-start">
 
-<div class="mt-5 flex flex-wrap gap-3">
-  <span class="default-checked">☑ 交通意外险</span>
-  <span class="default-checked">☑ 退改无忧</span>
-  <span class="default-checked">☑ 快速出票</span>
-</div>
+<div>
+  <div class="text-slate-700 leading-8">
+  你到 <b>支付页</b> 时，它会 <b class="text-red-700">默认帮你勾选</b>：
+  </div>
 
-<div class="mt-6 flex items-center gap-4">
-  <div class="text-slate-500 text-base">保险一般</div>
-  <div class="font-num font-bold text-4xl text-red-700">10 ~ 30 <span class="text-xl">元</span></div>
-</div>
+  <div class="mt-4 flex flex-wrap gap-3">
+    <span class="default-checked">☑ 交通意外险</span>
+    <span class="default-checked">☑ 退改无忧</span>
+    <span class="default-checked">☑ 快速出票</span>
+  </div>
 
-<div class="mt-8 p-5 rounded border-l-4 border-amber-600 bg-amber-50">
-  <div class="flex items-start gap-3">
-    <div i-mdi-hand-coin class="text-2xl text-amber-700 mt-0.5 shrink-0" />
-    <div class="text-slate-700 leading-7">
-      如果你不 <b>手动取消</b>，就会 <b class="text-red-700">默默多花钱</b>。
+  <div class="mt-5 flex items-center gap-4">
+    <div class="text-slate-500 text-base">保险一般</div>
+    <div class="font-num font-bold text-4xl text-red-700">10 ~ 30 <span class="text-xl">元</span></div>
+  </div>
+
+  <div class="mt-6 p-5 rounded border-l-4 border-amber-600 bg-amber-50">
+    <div class="flex items-start gap-3">
+      <div i-mdi-hand-coin class="text-2xl text-amber-700 mt-0.5 shrink-0" />
+      <div class="text-slate-700 leading-7">
+        如果你不 <b>手动取消</b>，就会 <b class="text-red-700">默默多花钱</b>。
+      </div>
     </div>
   </div>
 </div>
 
+<div class="flex gap-2">
+  <figure class="proof-shot">
+    <img src="/飞猪有默认+9元的退票套餐，+6元的安心套餐，第三个才正常.webp" alt="飞猪默认勾选退票套餐与安心套餐" style="max-height:17rem">
+    <figcaption>飞猪 · 默认 +9 元退票套餐、+6 元安心套餐</figcaption>
+  </figure>
+  <figure class="proof-shot">
+    <img src="/飞猪有手续费展示，并且虚晃+5元极速出票，实际上就是智商税.webp" alt="飞猪极速出票加5元" style="max-height:17rem">
+    <figcaption>飞猪 · +5 元「极速出票」（本质是搭售）</figcaption>
+  </figure>
+</div>
+
+</div>
+
 <!--
-第二笔，默认搭售。你到支付页的时候，它会默认帮你勾选交通意外险、退改无忧、快速出票这些增值服务，保险一般 10 到 30 块。如果你不手动取消，就会默默多花钱。所以下单前，一定要逐项检查。
+第二笔，默认搭售。你到支付页的时候，它会默认帮你勾选交通意外险、退改无忧、快速出票这些增值服务，保险一般 10 到 30 块。如果你不手动取消，就会默默多花钱。所以下单前，一定要逐项检查。（右侧两张飞猪实拍：上面默认勾了 +9 元退票套餐、+6 元安心套餐；下面还虚晃一招 +5 元「极速出票」，其实就是搭售、智商税。）
 -->
 
 ---
@@ -310,18 +360,29 @@ layout: default
 
 # 第三方的退票：实际损失更高
 
-<div class="mt-6 text-slate-600 text-base">再说退票环节（以舟山出发班次为例）：</div>
+<div class="mt-5 text-slate-600 text-base">再说退票环节（以舟山出发班次为例）：</div>
 
-<div class="mt-4 text-slate-700 leading-8">
-<div class="mb-2">基础退票费同样是 <span class="font-num font-bold text-red-700">20% / 25%</span>，<b>并没有同步舟山本地的 10%/20% 优惠</b>。</div>
-<div>而且 <b class="text-red-700">服务费、保险费一分不退</b>。</div>
+<div class="mt-4 grid grid-cols-[1fr_auto] gap-10 items-start">
+
+<div>
+  <div class="text-slate-700 leading-8">
+  <div class="mb-2">基础退票费同样是 <span class="font-num font-bold text-red-700">20% / 25%</span>，<b>并没有同步舟山本地的 10%/20% 优惠</b>。</div>
+  <div>而且 <b class="text-red-700">服务费、保险费一分不退</b>。</div>
+  </div>
+
+  <div class="mt-5 p-4 rounded bg-slate-50 border border-slate-200 text-slate-700 leading-7">
+    <span class="text-slate-400 text-sm">实际损失 =</span><br/>
+    基础退票费 <span class="text-slate-400">+</span>
+    <span class="text-red-700 font-bold">不退的服务费</span> <span class="text-slate-400">+</span>
+    <span class="text-red-700 font-bold">不退的保险</span>
+  </div>
 </div>
 
-<div class="mt-6 p-4 rounded bg-slate-50 border border-slate-200 text-slate-700 leading-7">
-  <span class="text-slate-400 text-sm">实际损失 =</span><br/>
-  基础退票费 <span class="text-slate-400">+</span>
-  <span class="text-red-700 font-bold">不退的服务费</span> <span class="text-slate-400">+</span>
-  <span class="text-red-700 font-bold">不退的保险</span>
+<figure class="proof-shot">
+  <img src="/飞猪退票手续费高展示.webp" alt="飞猪退票实际扣除">
+  <figcaption>飞猪 · 退票实际扣除（服务费/保险不退）</figcaption>
+</figure>
+
 </div>
 
 <div class="mt-5 flex justify-center gap-12">
@@ -336,7 +397,7 @@ layout: default
 </div>
 
 <!--
-再说退票环节。舟山出发班次，第三方的基础退票费同样是 20% / 25%，并没有同步舟山本地的优惠。而且服务费、保险费一分不退。我们把两边的实际损失算一算：官方小程序舟山出发是 10%/20%；第三方是 20%/25%，还要叠加不退的服务费和保险。同样是退票，你通过第三方可能要多损失 3 到 40 块。
+再说退票环节。舟山出发班次，第三方的基础退票费同样是 20% / 25%，并没有同步舟山本地的优惠。而且服务费、保险费一分不退。我们把两边的实际损失算一算：官方小程序舟山出发是 10%/20%；第三方是 20%/25%，还要叠加不退的服务费和保险。同样是退票，你通过第三方可能要多损失 3 到 40 块。（右侧截图是飞猪退票实拍，服务费和保险确实一分不退。）
 -->
 
 ---
@@ -463,6 +524,51 @@ layout: default
 
 <!--
 （语气温和有力）最后，老师给你两条可以直接照着做的建议。第一，舟山出发，首选舟山汽运小程序，零加价、退票费最低，闭眼买都不会错。第二，第三方平台，只有在大额新客券、而且行程几乎不会退票的时候，才考虑用，而且付款前务必手动取消所有默认勾选。
+-->
+
+---
+layout: default
+---
+
+# 说句公道话：看你图什么
+
+<div class="mt-8 grid grid-cols-2 gap-8">
+
+<div class="p-5 rounded border-l-4 border-amber-600 bg-amber-50">
+  <div class="flex items-center gap-2 mb-2">
+    <div i-mdi-clock-fast class="text-2xl text-amber-700" />
+    <div class="font-serif text-xl text-navy">图省事</div>
+  </div>
+  <div class="text-slate-600 text-base leading-7">
+    不介意多花几块钱、不想费脑子——<br/>
+    直接用 <b class="text-amber-700">飞猪 / 携程</b> 这类第三方，<b>省心，但要为方便买单</b>。
+  </div>
+</div>
+
+<div class="p-5 rounded border-l-4 border-emerald-600 bg-emerald-50">
+  <div class="flex items-center gap-2 mb-2">
+    <div i-mdi-calculator-variant class="text-2xl text-emerald-700" />
+    <div class="font-serif text-xl text-navy">爱精打细算</div>
+  </div>
+  <div class="text-slate-600 text-base leading-7">
+    找<b class="text-emerald-700">当地大巴的官方平台</b>——<br/>
+    <b>从该地出发的，通常都不收服务费</b>。
+  </div>
+</div>
+
+</div>
+
+<div class="mt-8 lecture-note">
+<div class="flex items-start gap-2">
+  <div i-mdi-lightbulb-on class="text-amber-600 text-xl mt-0.5 shrink-0" />
+  <div>
+    一句话：<b class="text-navy">花钱买方便，没毛病；想省钱，就认准「出发地的官方渠道」</b>。
+  </div>
+</div>
+</div>
+
+<!--
+（语气平和、客观）当然，老师也说句公道话。如果你就是图省事，不介意多花几块钱，不想费这个脑子，那直接用飞猪、携程这类第三方完全没问题，方便是要花钱买的。但如果你是爱精打细算的人，不妨找一找当地大巴的官方平台——一般规律是：从该地出发的，通常都不收服务费。舟山是这样，别的地方也大多如此。所以一句话：花钱买方便没毛病，想省钱就认准出发地的官方渠道。
 -->
 
 ---

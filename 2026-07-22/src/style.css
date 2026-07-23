@@ -156,6 +156,31 @@
   color: var(--lecture-navy);
 }
 
+/* 证据截图相框（手机截图嵌入结论页） */
+.proof-shot {
+  margin: 0;
+  border: 1px solid #e5e7eb;
+  border-top: 3px solid var(--lecture-amber);
+  border-radius: 10px;
+  background: #fbfcfe;
+  box-shadow: 0 6px 20px -10px rgba(20, 39, 78, 0.25);
+  overflow: hidden;
+}
+.proof-shot img {
+  display: block;
+  max-height: 22rem;
+  width: auto;
+  margin: 0 auto;
+}
+.proof-shot figcaption {
+  padding: 0.4em 0.8em;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--lecture-navy);
+  background: #f5f7fa;
+  border-top: 1px solid #e5e7eb;
+}
+
 /* ---------- 行内代码 ---------- */
 .slidev-layout :not(pre) > code {
   color: var(--lecture-navy);
