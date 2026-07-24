@@ -12,5 +12,8 @@
     "@slidev/client": "catalog:",
     "@slidev/theme-default": "catalog:",
     "vue": "catalog:"
+  },
+  "dependencies": {
+    "@slidev/theme-seriph": "^0.25.0"
   }
 }

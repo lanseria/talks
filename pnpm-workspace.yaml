@@ -1,45 +1,44 @@
 packages:
   - '*/src'
 
-# 原 .npmrc 迁移过来的配置（注意改为小驼峰）
-shamefullyHoist: true
 strictPeerDependencies: false
 shellEmulator: true
 
 catalog:
-  '@antfu/eslint-config': ^9.0.0
-  '@eslint/config-inspector': ^3.0.2
-  '@iconify/collections': ^1.0.688
-  '@iconify/json': ^2.2.478
-  '@slidev/cli': ^51.8.2
-  '@slidev/client': ^51.8.2
-  '@slidev/theme-default': ^0.24.0
-  '@types/node': ^25.9.1
+  '@antfu/eslint-config': ^9.2.0
+  '@eslint/config-inspector': ^3.1.0
+  '@iconify/collections': ^1.0.713
+  '@iconify/json': ^2.2.504
+  '@slidev/cli': ^52.18.0
+  '@slidev/client': ^52.18.0
+  '@slidev/theme-default': ^0.25.0
+  '@types/node': ^26.1.1
   '@types/prompts': ^2.4.9
   '@types/seedrandom': ^3.0.8
   chroma-js: ^3.2.0
-  eslint: ^10.4.0
+  eslint: ^10.7.0
   eslint-plugin-format: ^2.0.1
   esno: ^4.8.0
-  execa: ^9.6.1
+  execa: ^10.0.0
   fast-glob: ^3.3.3
   markdown-it-magic-link: ^0.1.4
-  playwright-chromium: ^1.60.0
-  pnpm: ^11.2.2
+  playwright-chromium: ^1.61.1
+  pnpm: ^11.16.0
   prettier-plugin-slidev: ^1.0.5
   prompts: ^2.4.2
   rimraf: ^6.1.3
   seedrandom: ^3.0.5
   slidev-addon-graph: ^1.0.0
-  taze: ^19.13.0
-  typescript: ^6.0.3
-  unocss: ^66.7.0
-  vis-data: ^8.0.3
+  taze: ^19.16.0
+  typescript: ^7.0.2
+  unocss: ^66.7.5
+  vis-data: ^8.0.4
   vis-network: ^10.1.0
-  vis-timeline: ^8.5.1
-  vue-router: ^5.0.7
-  vue-tsc: ^3.3.1
-  vue: ^3.5.34
+  vis-timeline: ^8.5.2
+  vite: ^8.1.5
+  vue-router: ^5.2.0
+  vue-tsc: ^3.3.8
+  vue: ^3.5.40
 
 overrides:
   fuse.js: 7.2.0
