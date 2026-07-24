@@ -6,6 +6,8 @@ Slides &amp; code for my talks
 
 ###### 2026
 
+- [zh] [舟山汽车票：官方小程序 VS 第三方平台](./2026-07-22) - 舟山汽车票：官方小程序 VS 第三方平台 https://lanseria-talks.netlify.app/2026/zhoushan-bus
+
 - [zh] [2025年工作报告](./2026-01-04) - 2025年工作报告 https://lanseria-talks.netlify.app/2026/work-end
 
 

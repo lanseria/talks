@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /2026-07-22/ --out ../../dist/2026-07-22",
+    "build": "slidev build --base /2026/zhoushan-bus/ --out ../../dist/2026/zhoushan-bus",
     "export": "slidev export --per-slide --output ../2026-07-22-zhoushan-bus.pdf"
   },
   "devDependencies": {

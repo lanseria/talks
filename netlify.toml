@@ -89,3 +89,8 @@ status = 200
 from = "/2026/work-end/*"
 to = "/2026/work-end/index.html"
 status = 200
+
+[[redirects]]
+from = "/2026/zhoushan-bus/*"
+to = "/2026/zhoushan-bus/index.html"
+status = 200
