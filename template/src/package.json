@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /YYYY/template/ --out ../../dist/YYYY/template",
-    "export": "slidev export --per-slide --output ../YYYY-MM-DD-template.pdf"
+    "build": "slidev build --base /YYYY/slug/ --out ../../dist/YYYY/slug",
+    "export": "slidev export --per-slide --output ../YYYY-MM-DD-slug.pdf"
   },
   "devDependencies": {
     "@slidev/cli": "catalog:",

@@ -9,6 +9,16 @@ glowSeed: 20260817
 glowOpacity: 0.4
 lang: zh-CN
 title: 便宜的 AI，难流动的数据
+head:
+  - - link
+    - rel: stylesheet
+      href: "https://fonts.googleapis.com/css2?family=Avenir+Next:wght@200;400;600&family=Nunito+Sans:wght@200;400;600&family=Fira+Code:wght@200;400;600&display=swap"
+  - - link
+    - rel: icon
+      href: "https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png"
+  - - meta
+    - property: og:title
+      content: 便宜的 AI，难流动的数据
 ---
 
 # 便宜的 AI，难流动的数据
@@ -161,75 +171,112 @@ layout: default
 glow: top
 ---
 
-# 六个真实场景，同一声叹息
+# 人生九域，同一声叹息
 
-<div class="mt-8 grid grid-cols-3 gap-5">
+<div class="mt-6 grid grid-cols-3 gap-4">
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-partly-cloudy text-2xl text-sky-400 />
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-partly-cloudy text-xl text-sky-400 />
     <span class="text-white font-bold">天气</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
-    普通预报随手可得；但卫星云图、气压图这些专业数据，要 AI 读文档、注册账号、手动下载……一套流程走完，兴致全无
+  <div class="text-white/70 text-xs leading-5">
+    普通预报随手可得；卫星云图、气压图却要读文档、注册、下载，一路门槛
   </div>
 </div>
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-chart-line text-2xl text-amber-400 />
-    <span class="text-white font-bold">金融</span>
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-hospital text-xl text-red-400 />
+    <span class="text-white font-bold">医疗</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
-    炒股、基金的数据限制都比较大，红线密布，没人敢做第一个
+  <div class="text-white/70 text-xs leading-5">
+    病历与检查报告散落各家医院，换个医院全部重做，健康档案无法安全调阅
   </div>
 </div>
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-shopping-cart text-2xl text-rose-400 />
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-sprout text-xl text-lime-400 />
+    <span class="text-white font-bold">食品</span>
+  </div>
+  <div class="text-white/70 text-xs leading-5">
+    一颗葱从哪块地来、检过什么，无从知晓——入口的东西，来路成谜
+  </div>
+</div>
+
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-shopping-cart text-xl text-rose-400 />
     <span class="text-white font-bold">购物</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
-    支付、比价还是人眼一个个比对；商品质量好不好，只能翻评论碰运气
+  <div class="text-white/70 text-xs leading-5">
+    支付、比价还是人眼一个个对；商品质量好不好，只能翻评论碰运气
   </div>
 </div>
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-building text-2xl text-emerald-400 />
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-house text-xl text-orange-400 />
+    <span class="text-white font-bold">房产</span>
+  </div>
+  <div class="text-white/70 text-xs leading-5">
+    真实成交价不公开、房源真假难辨、租金历史无处可查——最大宗消费全靠一张嘴
+  </div>
+</div>
+
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-chart-line text-xl text-amber-400 />
+    <span class="text-white font-bold">金融</span>
+  </div>
+  <div class="text-white/70 text-xs leading-5">
+    炒股、基金限制都比较大，红线密布，没人敢做第一个
+  </div>
+</div>
+
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-building text-xl text-emerald-400 />
     <span class="text-white font-bold">政务</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
-    政策获取、报表填报、公民信息统一存储，这些都还处于初级阶段
+  <div class="text-white/70 text-xs leading-5">
+    政策获取、报表填报、公民信息统一存储，都还处于初级阶段
   </div>
 </div>
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-car text-2xl text-orange-400 />
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-car text-xl text-teal-400 />
     <span class="text-white font-bold">出行</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
+  <div class="text-white/70 text-xs leading-5">
     酒店 + 交通信息散落各家平台，口径不一，拼不出全貌
   </div>
 </div>
 
-<div class="p-4 rounded-lg bg-white/5 border border-white/10">
-  <div class="flex items-center gap-2 mb-2">
-    <div i-carbon-chat text-2xl text-violet-400 />
+<div class="p-3 rounded-lg bg-white/5 border border-white/10">
+  <div class="flex items-center gap-2 mb-1.5">
+    <div i-carbon-chat text-xl text-violet-400 />
     <span class="text-white font-bold">社交</span>
   </div>
-  <div class="text-white/70 text-sm leading-6">
+  <div class="text-white/70 text-xs leading-5">
     甚至聊天场景、人际关系场景——数据都在围墙花园里各自沉睡
   </div>
 </div>
 
 </div>
 
+<div class="mt-5 text-center text-white/60 text-base">
+  生存 · 生活 · 社会 —— 九个领域，同一声叹息
+</div>
+
 <!--
-【痛点场景 · 约 1 分 30 秒】
-我们把场景摊开看。天气：我获取天气，就是非常普通的数据；但更专业的，比如卫星云图、气压图，这些数据没有非常公开，也能获取，但非常麻烦——让 AI 先读文档、注册账号、下载数据，等等。金融：炒股、基金，限制都比较大，没人敢做第一个。支付和购物：比价还是要人眼一个个对，商品质量只能看评论。政务：政策获取、报表填报、公民信息统一存储，都还在初级阶段。还有酒店加出行信息获取，甚至聊天场景、人际关系场景。六个场景，同一声叹息。
+【痛点场景 · 约 1 分 50 秒】
+我们把人生摊开看，九个领域，同一声叹息。
+先看生存这一行。天气：我获取天气，就是非常普通的数据；但更专业的，比如卫星云图、气压图，没有非常公开，也能获取，但非常麻烦——让 AI 先读文档、注册账号、下载数据，一套流程走完，兴致全无。医疗：病历和检查报告散落在各家医院，换个医院，全部重做；你的健康档案，AI 无法安全调阅。食品：一颗葱从哪块地来、检过什么，无从知晓。
+再看生活这一行。购物：比价还是人眼一个个对，商品质量只能翻评论碰运气。房产：真实成交价不公开、房源真假难辨，普通人最大的一笔消费，全靠中介一张嘴。金融：炒股、基金，限制都比较大，没人敢做第一个。
+最后是社会这一行。政务：政策获取、报表填报、公民信息统一存储，都还在初级阶段。出行：酒店加交通的信息，散落各家平台，口径不一，拼不出全貌。甚至——聊天场景、人际关系场景，数据都在围墙花园里各自沉睡。
 -->
 
 ---
@@ -515,7 +562,7 @@ glowY: 120
 </div>
 
 <div class="absolute left-1/2 translate-x--1/2 bottom-10 text-slate-500 text-sm">
-  幻灯片源码: <a href="https://github.com/username/talks" target="_blank" class="border-b border-slate-600 hover:text-white transition">github.com/username/talks</a>
+  幻灯片源码: <a href="https://github.com/lanseria/talks" target="_blank" class="border-b border-slate-600 hover:text-white transition">github.com/lanseria/talks</a>
 </div>
 
 <!--

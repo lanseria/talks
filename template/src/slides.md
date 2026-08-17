@@ -9,6 +9,19 @@ glowSeed: 2025
 glowOpacity: 0.4
 lang: zh-CN
 title: 演示标题
+# head 中的条目会被注入到构建产物 index.html 的 <head> 里
+# （不要再提供 src/index.html，Slidev 会自动生成并忽略自带的）
+head:
+  # 需要额外字体时，加一条 stylesheet link，例如：
+  # - - link
+  #   - rel: stylesheet
+  #     href: "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap"
+  - - link
+    - rel: icon
+      href: "https://cdn.jsdelivr.net/gh/slidevjs/slidev/assets/favicon.png"
+  - - meta
+    - property: og:title
+      content: 演示标题
 ---
 
 # 演示标题
