@@ -4,20 +4,49 @@ publish = "dist"
 command = "pnpm run build"
 
 [build.environment]
-NODE_VERSION = "24"
+NODE_VERSION = "20"
 PLAYWRIGHT_BROWSERS_PATH = "0"
 
-[[redirects]]
-from = "/2022/telecommuting/*"
-to = "/2022/telecommuting/index.html"
-status = 200
 
+[[redirects]]
+from = "/2022/virtual-reality-and-digital-twins/src"
+to = "https://github.com/antfu/talks/tree/main/2022-11-28"
+status = 302
+
+[[redirects]]
+from = "2022-11-28"
+to = "https://talks.antfu.me/2022/virtual-reality-and-digital-twins/"
+status = 301
 
 [[redirects]]
 from = "/2022/virtual-reality-and-digital-twins/*"
 to = "/2022/virtual-reality-and-digital-twins/index.html"
 status = 200
 
+[[redirects]]
+from = "/2022/telecommuting/src"
+to = "https://github.com/antfu/talks/tree/main/2022-12-17"
+status = 302
+
+[[redirects]]
+from = "2022-12-17"
+to = "https://talks.antfu.me/2022/telecommuting/"
+status = 301
+
+[[redirects]]
+from = "/2022/telecommuting/*"
+to = "/2022/telecommuting/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/work-report-half-year-2023/src"
+to = "https://github.com/antfu/talks/tree/main/2023-06-30"
+status = 302
+
+[[redirects]]
+from = "2023-06-30"
+to = "https://talks.antfu.me/2023/work-report-half-year-2023/"
+status = 301
 
 [[redirects]]
 from = "/2023/work-report-half-year-2023/*"
@@ -25,9 +54,44 @@ to = "/2023/work-report-half-year-2023/index.html"
 status = 200
 
 [[redirects]]
+from = "/2023/rocket-collection/src"
+to = "https://github.com/antfu/talks/tree/main/2023-08-23"
+status = 302
+
+[[redirects]]
+from = "2023-08-23"
+to = "https://talks.antfu.me/2023/rocket-collection/"
+status = 301
+
+[[redirects]]
+from = "/2023/rocket-collection/*"
+to = "/2023/rocket-collection/index.html"
+status = 200
+
+[[redirects]]
+from = "/2023/satellite-cloud-image/src"
+to = "https://github.com/antfu/talks/tree/main/2023-08-28"
+status = 302
+
+[[redirects]]
+from = "2023-08-28"
+to = "https://talks.antfu.me/2023/satellite-cloud-image/"
+status = 301
+
+[[redirects]]
 from = "/2023/satellite-cloud-image/*"
 to = "/2023/satellite-cloud-image/index.html"
 status = 200
+
+[[redirects]]
+from = "/2023/pangu-compare/src"
+to = "https://github.com/antfu/talks/tree/main/2023-09-08"
+status = 302
+
+[[redirects]]
+from = "2023-09-08"
+to = "https://talks.antfu.me/2023/pangu-compare/"
+status = 301
 
 [[redirects]]
 from = "/2023/pangu-compare/*"
@@ -35,9 +99,29 @@ to = "/2023/pangu-compare/index.html"
 status = 200
 
 [[redirects]]
+from = "/2023/solid-rocket-compare/src"
+to = "https://github.com/antfu/talks/tree/main/2023-09-18"
+status = 302
+
+[[redirects]]
+from = "2023-09-18"
+to = "https://talks.antfu.me/2023/solid-rocket-compare/"
+status = 301
+
+[[redirects]]
 from = "/2023/solid-rocket-compare/*"
 to = "/2023/solid-rocket-compare/index.html"
 status = 200
+
+[[redirects]]
+from = "/2023/technological-change/src"
+to = "https://github.com/antfu/talks/tree/main/2023-09-20"
+status = 302
+
+[[redirects]]
+from = "2023-09-20"
+to = "https://talks.antfu.me/2023/technological-change/"
+status = 301
 
 [[redirects]]
 from = "/2023/technological-change/*"
@@ -45,9 +129,29 @@ to = "/2023/technological-change/index.html"
 status = 200
 
 [[redirects]]
+from = "/2023/cold-wave-05/src"
+to = "https://github.com/antfu/talks/tree/main/2023-12-03"
+status = 302
+
+[[redirects]]
+from = "2023-12-03"
+to = "https://talks.antfu.me/2023/cold-wave-05/"
+status = 301
+
+[[redirects]]
 from = "/2023/cold-wave-05/*"
 to = "/2023/cold-wave-05/index.html"
 status = 200
+
+[[redirects]]
+from = "/2023/electricity-bill-stats/src"
+to = "https://github.com/antfu/talks/tree/main/2023-12-30"
+status = 302
+
+[[redirects]]
+from = "2023-12-30"
+to = "https://talks.antfu.me/2023/electricity-bill-stats/"
+status = 301
 
 [[redirects]]
 from = "/2023/electricity-bill-stats/*"
@@ -55,9 +159,29 @@ to = "/2023/electricity-bill-stats/index.html"
 status = 200
 
 [[redirects]]
+from = "/2024/VTVL/src"
+to = "https://github.com/antfu/talks/tree/main/2024-01-22"
+status = 302
+
+[[redirects]]
+from = "2024-01-22"
+to = "https://talks.antfu.me/2024/VTVL/"
+status = 301
+
+[[redirects]]
 from = "/2024/VTVL/*"
 to = "/2024/VTVL/index.html"
 status = 200
+
+[[redirects]]
+from = "/2024/work-middle/src"
+to = "https://github.com/antfu/talks/tree/main/2024-08-28"
+status = 302
+
+[[redirects]]
+from = "2024-08-28"
+to = "https://talks.antfu.me/2024/work-middle/"
+status = 301
 
 [[redirects]]
 from = "/2024/work-middle/*"
@@ -65,9 +189,29 @@ to = "/2024/work-middle/index.html"
 status = 200
 
 [[redirects]]
+from = "/2025/work-end/src"
+to = "https://github.com/antfu/talks/tree/main/2025-01-03"
+status = 302
+
+[[redirects]]
+from = "2025-01-03"
+to = "https://talks.antfu.me/2025/work-end/"
+status = 301
+
+[[redirects]]
 from = "/2025/work-end/*"
 to = "/2025/work-end/index.html"
 status = 200
+
+[[redirects]]
+from = "/2025/geoscraper/src"
+to = "https://github.com/antfu/talks/tree/main/2025-07-23"
+status = 302
+
+[[redirects]]
+from = "2025-07-23"
+to = "https://talks.antfu.me/2025/geoscraper/"
+status = 301
 
 [[redirects]]
 from = "/2025/geoscraper/*"
@@ -75,15 +219,44 @@ to = "/2025/geoscraper/index.html"
 status = 200
 
 [[redirects]]
+from = "/2025/fund-investment-assistant/src"
+to = "https://github.com/antfu/talks/tree/main/2025-07-25"
+status = 302
+
+[[redirects]]
+from = "2025-07-25"
+to = "https://talks.antfu.me/2025/fund-investment-assistant/"
+status = 301
+
+[[redirects]]
 from = "/2025/fund-investment-assistant/*"
 to = "/2025/fund-investment-assistant/index.html"
 status = 200
 
+[[redirects]]
+from = "/2025/our-digital-future/src"
+to = "https://github.com/antfu/talks/tree/main/2025-10-21"
+status = 302
+
+[[redirects]]
+from = "2025-10-21"
+to = "https://talks.antfu.me/2025/our-digital-future/"
+status = 301
 
 [[redirects]]
 from = "/2025/our-digital-future/*"
 to = "/2025/our-digital-future/index.html"
 status = 200
+
+[[redirects]]
+from = "/2026/work-end/src"
+to = "https://github.com/antfu/talks/tree/main/2026-01-04"
+status = 302
+
+[[redirects]]
+from = "2026-01-04"
+to = "https://talks.antfu.me/2026/work-end/"
+status = 301
 
 [[redirects]]
 from = "/2026/work-end/*"

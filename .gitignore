@@ -12,3 +12,4 @@ ai/project_context.txt
 **/*-work-report-*.pdf
 **/*work-report*.pdf
 .zcode/
+.pnpm-store
